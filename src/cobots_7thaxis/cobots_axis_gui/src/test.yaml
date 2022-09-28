@@ -1,0 +1,23 @@
+trajectory:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  joint_names:
+  - base_axis_joint
+  - elbow_joint
+  points:
+  - positions:
+    - 0.0
+    - 0.0
+  - velocities: []
+  - accelerations: []
+  - effort:
+    - 0.0
+    - 0.0
+path_tolerance: []
+goal_tolerance: []
+goal_time_tolerance:
+  sec: 1
+  nanosec: 0
