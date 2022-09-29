@@ -1,1 +1,0 @@
-Invoking command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control': /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control

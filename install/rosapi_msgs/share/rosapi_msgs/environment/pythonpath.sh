@@ -1,1 +1,0 @@
-/home/hunajpu/dev_tt_ws/build/rosapi_msgs/ament_cmake_environment_hooks/pythonpath.sh

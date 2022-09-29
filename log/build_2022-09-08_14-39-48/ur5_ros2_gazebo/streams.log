@@ -1,1 +1,0 @@
-[0.232s] Invoking command in '/home/hunajpu/dev_tt_ws/build/ur5_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/ur5_ros2_gazebo -- -j8 -l8

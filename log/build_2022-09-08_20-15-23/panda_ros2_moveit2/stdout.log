@@ -1,7 +1,0 @@
-[  7%] Building CXX object CMakeFiles/moveG_action.dir/scripts/moveG_action.cpp.o
-[ 14%] Building CXX object CMakeFiles/moveJ_action.dir/scripts/moveJ_action.cpp.o
-[ 21%] Building CXX object CMakeFiles/moveL_action.dir/scripts/moveL_action.cpp.o
-[ 28%] Building CXX object CMakeFiles/moveXYZW_action.dir/scripts/moveXYZW_action.cpp.o
-[ 35%] Building CXX object CMakeFiles/moveR_action.dir/scripts/moveR_action.cpp.o
-[ 42%] Building CXX object CMakeFiles/moveXYZ_action.dir/scripts/moveXYZ_action.cpp.o
-[ 50%] Building CXX object CMakeFiles/moveYPR_action.dir/scripts/moveYPR_action.cpp.o

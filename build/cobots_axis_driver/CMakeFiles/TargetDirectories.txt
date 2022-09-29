@@ -1,9 +1,0 @@
-/home/hunajpu/dev_tt_ws/build/cobots_axis_driver/CMakeFiles/install/strip.dir
-/home/hunajpu/dev_tt_ws/build/cobots_axis_driver/CMakeFiles/install/local.dir
-/home/hunajpu/dev_tt_ws/build/cobots_axis_driver/CMakeFiles/install.dir
-/home/hunajpu/dev_tt_ws/build/cobots_axis_driver/CMakeFiles/list_install_components.dir
-/home/hunajpu/dev_tt_ws/build/cobots_axis_driver/CMakeFiles/rebuild_cache.dir
-/home/hunajpu/dev_tt_ws/build/cobots_axis_driver/CMakeFiles/edit_cache.dir
-/home/hunajpu/dev_tt_ws/build/cobots_axis_driver/CMakeFiles/test.dir
-/home/hunajpu/dev_tt_ws/build/cobots_axis_driver/CMakeFiles/cobots_axis_driver_uninstall.dir
-/home/hunajpu/dev_tt_ws/build/cobots_axis_driver/CMakeFiles/uninstall.dir

@@ -1,1 +1,0 @@
-/home/hunajpu/dev_tt_ws/build/ros2_data/rosidl_typesupport_introspection_c/ros2_data/msg/detail/joint_pose_panda__rosidl_typesupport_introspection_c.h

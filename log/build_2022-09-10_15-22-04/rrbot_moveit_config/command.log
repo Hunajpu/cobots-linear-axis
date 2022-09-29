@@ -1,4 +1,0 @@
-Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config': /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rrbot_moveit_config -- -j8 -l8
-Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config' returned '0': /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rrbot_moveit_config -- -j8 -l8
-Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config': /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rrbot_moveit_config
-Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config' returned '0': /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rrbot_moveit_config

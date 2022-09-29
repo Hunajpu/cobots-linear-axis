@@ -1,1 +1,0 @@
-/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/lib/rrbot_moveit_demo_nodes/run_moveit_cpp

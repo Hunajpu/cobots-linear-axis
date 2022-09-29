@@ -1,4 +1,0 @@
--DROS_PACKAGE_NAME="cobots_axis_gui"
--o
-/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/include/cobots_axis_gui/moc_ros_launch_manager.cpp
-/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp

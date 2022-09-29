@@ -1,2 +1,0 @@
-Invoking command in '/home/hunajpu/dev_tt_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosbridge_test_msgs -- -j8 -l8
-Invoked command in '/home/hunajpu/dev_tt_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosbridge_test_msgs -- -j8 -l8

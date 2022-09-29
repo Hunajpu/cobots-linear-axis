@@ -1,8 +1,0 @@
-source;share/cobots_axis_gui/hook/cmake_prefix_path.ps1
-source;share/cobots_axis_gui/hook/cmake_prefix_path.dsv
-source;share/cobots_axis_gui/hook/cmake_prefix_path.sh
-source;share/cobots_axis_gui/local_setup.bash
-source;share/cobots_axis_gui/local_setup.dsv
-source;share/cobots_axis_gui/local_setup.ps1
-source;share/cobots_axis_gui/local_setup.sh
-source;share/cobots_axis_gui/local_setup.zsh

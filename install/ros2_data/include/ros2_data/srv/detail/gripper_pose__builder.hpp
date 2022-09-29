@@ -1,1 +1,0 @@
-/home/hunajpu/dev_tt_ws/build/ros2_data/rosidl_generator_cpp/ros2_data/srv/detail/gripper_pose__builder.hpp

@@ -1,1 +1,0 @@
-/home/hunajpu/dev_tt_ws/build/rosbridge_suite/ament_cmake_core/rosbridge_suiteConfig.cmake

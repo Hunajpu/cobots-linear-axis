@@ -1,4 +1,0 @@
-Invoking command in '/home/hunajpu/dev_tt_ws/build/irb120egp64_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/irb120egp64_ros2_gazebo -- -j8 -l8
-Invoked command in '/home/hunajpu/dev_tt_ws/build/irb120egp64_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/irb120egp64_ros2_gazebo -- -j8 -l8
-Invoking command in '/home/hunajpu/dev_tt_ws/build/irb120egp64_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/irb120egp64_ros2_gazebo
-Invoked command in '/home/hunajpu/dev_tt_ws/build/irb120egp64_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/irb120egp64_ros2_gazebo

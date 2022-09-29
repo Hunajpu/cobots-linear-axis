@@ -1,6 +1,0 @@
-Invoking command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/rosbridge_suite/rosbridge_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rosbridge_msgs
-Invoked command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/rosbridge_suite/rosbridge_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rosbridge_msgs
-Invoking command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosbridge_msgs -- -j8 -l8
-Invoked command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosbridge_msgs -- -j8 -l8
-Invoking command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosbridge_msgs
-Invoked command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosbridge_msgs
