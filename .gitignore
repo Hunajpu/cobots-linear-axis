@@ -51,6 +51,7 @@ qtcreator-*
 CATKIN_IGNORE
 
 .vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -63,6 +64,6 @@ CATKIN_IGNORE
 # Built Visual Studio Code Extensions
 *.vsix
 
-dev_tt_ws.workspace
+*.workspace
 
-dev_tt_ws.workspace.user
+*.workspace.user
