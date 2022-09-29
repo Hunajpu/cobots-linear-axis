@@ -1,0 +1,24 @@
+[0.214s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8
+[0.303s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.360s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.851s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.003s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.008s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.536s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.541s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.743s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.754s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.142s] -- Found rqt_gui_cpp: 1.1.2 (/opt/ros/foxy/share/rqt_gui_cpp/cmake)
+[2.256s] -- Configuring incomplete, errors occurred!
+[2.256s] See also "/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/CMakeFiles/CMakeOutput.log".
+[2.256s] See also "/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/CMakeFiles/CMakeError.log".
+[2.257s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[2.257s]   ament_target_dependencies() the passed package name 'rclcpp_action' was not
+[2.257s]   found before
+[2.257s] Call Stack (most recent call first):
+[2.258s]   CMakeLists.txt:80 (ament_target_dependencies)
+[2.258s] 
+[2.258s] 
+[2.270s] make: *** [Makefile:416: cmake_check_build_system] Error 1
+[2.271s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8

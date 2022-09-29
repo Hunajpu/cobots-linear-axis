@@ -1,0 +1,264 @@
+[0.142s] Invoking command in '/home/hunajpu/dev_tt_ws/build/ros2_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/ros2_data -- -j8 -l8
+[0.253s] [  1%] Built target ros2-data
+[0.309s] [ 12%] Built target ros2_data__rosidl_generator_c
+[0.318s] [ 13%] Built target ros2_data__cpp
+[0.429s] [ 25%] Built target ros2_data__rosidl_typesupport_c
+[0.457s] [ 37%] Built target ros2_data__rosidl_typesupport_introspection_cpp
+[0.506s] [ 48%] Built target ros2_data__rosidl_typesupport_introspection_c
+[0.515s] [ 60%] Built target ros2_data__rosidl_typesupport_fastrtps_cpp
+[0.519s] [ 72%] Built target ros2_data__rosidl_typesupport_cpp
+[0.605s] [ 83%] Built target ros2_data__rosidl_typesupport_fastrtps_c
+[0.643s] [ 83%] Built target ros2_data
+[0.706s] [ 84%] Built target ros2_data__py
+[0.764s] [ 95%] Built target ros2_data__python
+[0.843s] [ 96%] Built target ros2_data__rosidl_typesupport_c__pyext
+[0.849s] [ 98%] Built target ros2_data__rosidl_typesupport_fastrtps_c__pyext
+[0.866s] [100%] Built target ros2_data__rosidl_typesupport_introspection_c__pyext
+[0.943s] Invoked command in '/home/hunajpu/dev_tt_ws/build/ros2_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/ros2_data -- -j8 -l8
+[1.508s] Invoking command in '/home/hunajpu/dev_tt_ws/build/ros2_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/ros2_data
+[1.565s] -- Install configuration: "Debug"
+[1.567s] -- Execute custom install script
+[1.567s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ament_index/resource_index/rosidl_interfaces/ros2_data
+[1.568s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_g__functions.h
+[1.568s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_g__struct.h
+[1.569s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_g__type_support.h
+[1.569s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_j__functions.h
+[1.569s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_j__struct.h
+[1.569s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_j__type_support.h
+[1.569s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_jpanda__functions.h
+[1.569s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_jpanda__struct.h
+[1.569s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_jpanda__type_support.h
+[1.570s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_l__functions.h
+[1.570s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_l__struct.h
+[1.570s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_l__type_support.h
+[1.570s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_r__functions.h
+[1.570s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_r__struct.h
+[1.570s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_r__type_support.h
+[1.570s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyz__functions.h
+[1.570s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyz__struct.h
+[1.571s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyz__type_support.h
+[1.571s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyzw__functions.h
+[1.571s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyzw__struct.h
+[1.571s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyzw__type_support.h
+[1.571s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_ypr__functions.h
+[1.571s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_ypr__struct.h
+[1.572s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_ypr__type_support.h
+[1.572s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_g.h
+[1.572s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_j.h
+[1.572s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_jpanda.h
+[1.572s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_l.h
+[1.572s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_r.h
+[1.572s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_xyz.h
+[1.572s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_xyzw.h
+[1.573s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_ypr.h
+[1.573s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose__functions.h
+[1.573s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose__struct.h
+[1.573s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose__type_support.h
+[1.573s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose_panda__functions.h
+[1.573s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose_panda__struct.h
+[1.574s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose_panda__type_support.h
+[1.574s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/joint_pose.h
+[1.574s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/joint_pose_panda.h
+[1.574s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/rosidl_generator_c__visibility_control.h
+[1.574s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/gripper_pose__functions.h
+[1.574s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/gripper_pose__struct.h
+[1.574s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/gripper_pose__type_support.h
+[1.574s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/joint_pose__functions.h
+[1.575s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/joint_pose__struct.h
+[1.575s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/joint_pose__type_support.h
+[1.575s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/gripper_pose.h
+[1.575s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/joint_pose.h
+[1.575s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/environment/library_path.sh
+[1.575s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/environment/library_path.dsv
+[1.576s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_g__rosidl_typesupport_fastrtps_c.h
+[1.576s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_j__rosidl_typesupport_fastrtps_c.h
+[1.576s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_jpanda__rosidl_typesupport_fastrtps_c.h
+[1.576s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_l__rosidl_typesupport_fastrtps_c.h
+[1.576s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_r__rosidl_typesupport_fastrtps_c.h
+[1.576s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyz__rosidl_typesupport_fastrtps_c.h
+[1.576s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyzw__rosidl_typesupport_fastrtps_c.h
+[1.577s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_ypr__rosidl_typesupport_fastrtps_c.h
+[1.577s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose__rosidl_typesupport_fastrtps_c.h
+[1.577s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose_panda__rosidl_typesupport_fastrtps_c.h
+[1.577s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.577s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/gripper_pose__rosidl_typesupport_fastrtps_c.h
+[1.577s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/joint_pose__rosidl_typesupport_fastrtps_c.h
+[1.578s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_fastrtps_c.so
+[1.578s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_g__rosidl_typesupport_fastrtps_cpp.hpp
+[1.578s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_j__rosidl_typesupport_fastrtps_cpp.hpp
+[1.578s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_jpanda__rosidl_typesupport_fastrtps_cpp.hpp
+[1.578s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_l__rosidl_typesupport_fastrtps_cpp.hpp
+[1.578s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_r__rosidl_typesupport_fastrtps_cpp.hpp
+[1.578s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyz__rosidl_typesupport_fastrtps_cpp.hpp
+[1.579s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyzw__rosidl_typesupport_fastrtps_cpp.hpp
+[1.580s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_ypr__rosidl_typesupport_fastrtps_cpp.hpp
+[1.581s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.584s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose_panda__rosidl_typesupport_fastrtps_cpp.hpp
+[1.586s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.587s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/gripper_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.590s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/joint_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.591s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_fastrtps_cpp.so
+[1.591s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_g__rosidl_typesupport_introspection_c.h
+[1.592s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_j__rosidl_typesupport_introspection_c.h
+[1.594s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_jpanda__rosidl_typesupport_introspection_c.h
+[1.594s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_l__rosidl_typesupport_introspection_c.h
+[1.596s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_r__rosidl_typesupport_introspection_c.h
+[1.596s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyz__rosidl_typesupport_introspection_c.h
+[1.597s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyzw__rosidl_typesupport_introspection_c.h
+[1.598s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_ypr__rosidl_typesupport_introspection_c.h
+[1.599s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose__rosidl_typesupport_introspection_c.h
+[1.600s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose_panda__rosidl_typesupport_introspection_c.h
+[1.600s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.600s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/gripper_pose__rosidl_typesupport_introspection_c.h
+[1.601s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/joint_pose__rosidl_typesupport_introspection_c.h
+[1.601s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_g__builder.hpp
+[1.601s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_g__struct.hpp
+[1.601s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_g__traits.hpp
+[1.601s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_j__builder.hpp
+[1.601s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_j__struct.hpp
+[1.601s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_j__traits.hpp
+[1.602s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_jpanda__builder.hpp
+[1.602s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_jpanda__struct.hpp
+[1.602s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_jpanda__traits.hpp
+[1.602s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_l__builder.hpp
+[1.602s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_l__struct.hpp
+[1.602s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_l__traits.hpp
+[1.602s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_r__builder.hpp
+[1.603s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_r__struct.hpp
+[1.603s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_r__traits.hpp
+[1.603s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyz__builder.hpp
+[1.603s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyz__struct.hpp
+[1.603s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyz__traits.hpp
+[1.603s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyzw__builder.hpp
+[1.604s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyzw__struct.hpp
+[1.604s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyzw__traits.hpp
+[1.604s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_ypr__builder.hpp
+[1.604s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_ypr__struct.hpp
+[1.604s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_ypr__traits.hpp
+[1.604s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_g.hpp
+[1.604s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_j.hpp
+[1.604s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_jpanda.hpp
+[1.605s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_l.hpp
+[1.605s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_r.hpp
+[1.605s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_xyz.hpp
+[1.605s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_xyzw.hpp
+[1.605s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/move_ypr.hpp
+[1.605s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose__builder.hpp
+[1.608s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose__struct.hpp
+[1.608s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose__traits.hpp
+[1.609s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose_panda__builder.hpp
+[1.609s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose_panda__struct.hpp
+[1.609s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose_panda__traits.hpp
+[1.609s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/joint_pose.hpp
+[1.609s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/joint_pose_panda.hpp
+[1.609s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/gripper_pose__builder.hpp
+[1.609s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/gripper_pose__struct.hpp
+[1.610s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/gripper_pose__traits.hpp
+[1.610s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/joint_pose__builder.hpp
+[1.610s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/joint_pose__struct.hpp
+[1.611s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/joint_pose__traits.hpp
+[1.619s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/gripper_pose.hpp
+[1.620s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/joint_pose.hpp
+[1.620s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_g__rosidl_typesupport_introspection_cpp.hpp
+[1.620s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_j__rosidl_typesupport_introspection_cpp.hpp
+[1.620s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_jpanda__rosidl_typesupport_introspection_cpp.hpp
+[1.620s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_l__rosidl_typesupport_introspection_cpp.hpp
+[1.620s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_r__rosidl_typesupport_introspection_cpp.hpp
+[1.620s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyz__rosidl_typesupport_introspection_cpp.hpp
+[1.621s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_xyzw__rosidl_typesupport_introspection_cpp.hpp
+[1.621s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/action/detail/move_ypr__rosidl_typesupport_introspection_cpp.hpp
+[1.621s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.621s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/msg/detail/joint_pose_panda__rosidl_typesupport_introspection_cpp.hpp
+[1.621s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/gripper_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.621s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/include/ros2_data/srv/detail/joint_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.621s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/environment/pythonpath.sh
+[1.622s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/environment/pythonpath.dsv
+[1.622s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/__init__.py
+[1.622s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/msg/__init__.py
+[1.622s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/msg/_joint_pose.py
+[1.622s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/msg/_joint_pose_panda.py
+[1.622s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/srv/__init__.py
+[1.622s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/srv/_gripper_pose.py
+[1.623s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/srv/_joint_pose.py
+[1.623s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/action/__init__.py
+[1.623s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/action/_move_g.py
+[1.623s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/action/_move_j.py
+[1.623s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/action/_move_jpanda.py
+[1.624s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/action/_move_l.py
+[1.624s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/action/_move_r.py
+[1.624s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/action/_move_xyz.py
+[1.624s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/action/_move_xyzw.py
+[1.624s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/action/_move_ypr.py
+[1.625s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/ros2_data_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.625s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/ros2_data_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.625s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages/ros2_data/ros2_data_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.625s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/libros2_data__python.so
+[1.625s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/msg/JointPose.idl
+[1.626s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/msg/JointPosePanda.idl
+[1.626s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/srv/JointPose.idl
+[1.626s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/srv/GripperPose.idl
+[1.626s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveJ.idl
+[1.626s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveJpanda.idl
+[1.626s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveG.idl
+[1.626s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveXYZW.idl
+[1.627s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveL.idl
+[1.627s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveR.idl
+[1.627s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveXYZ.idl
+[1.627s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveYPR.idl
+[1.627s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/msg/JointPose.msg
+[1.629s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/msg/JointPosePanda.msg
+[1.629s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/srv/JointPose.srv
+[1.629s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/srv/JointPose_Request.msg
+[1.629s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/srv/JointPose_Response.msg
+[1.629s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/srv/GripperPose.srv
+[1.629s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/srv/GripperPose_Request.msg
+[1.630s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/srv/GripperPose_Response.msg
+[1.630s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveJ.action
+[1.630s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveJpanda.action
+[1.630s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveG.action
+[1.630s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveXYZW.action
+[1.630s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveL.action
+[1.630s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveR.action
+[1.638s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveXYZ.action
+[1.639s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/action/MoveYPR.action
+[1.639s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/ros2_data/ros2-data
+[1.640s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data//launch/ros2_data.launch.py
+[1.640s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ament_index/resource_index/package_run_dependencies/ros2_data
+[1.640s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ament_index/resource_index/parent_prefix_path/ros2_data
+[1.640s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/environment/ament_prefix_path.sh
+[1.640s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/environment/ament_prefix_path.dsv
+[1.640s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/environment/path.sh
+[1.641s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/environment/path.dsv
+[1.641s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/local_setup.bash
+[1.641s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/local_setup.sh
+[1.641s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/local_setup.zsh
+[1.641s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/local_setup.dsv
+[1.641s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/package.dsv
+[1.659s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ament_index/resource_index/packages/ros2_data
+[1.666s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/rosidl_cmake-extras.cmake
+[1.667s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.667s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_libraries-extras.cmake
+[1.667s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_targets-extras.cmake
+[1.668s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.668s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.671s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.671s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_dataConfig.cmake
+[1.671s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_dataConfig-version.cmake
+[1.671s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/package.xml
+[1.672s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/libros2_data__rosidl_generator_c.so
+[1.672s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_introspection_c.so
+[1.672s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_c.so
+[1.672s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_introspection_cpp.so
+[1.672s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_cpp.so
+[1.750s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_generator_cExport.cmake
+[1.751s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_generator_cExport-debug.cmake
+[1.751s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cExport.cmake
+[1.751s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cExport-debug.cmake
+[1.752s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cExport.cmake
+[1.752s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cExport-debug.cmake
+[1.752s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_generator_cppExport.cmake
+[1.752s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cppExport.cmake
+[1.753s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cppExport-debug.cmake
+[1.753s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cppExport.cmake
+[1.754s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cppExport-debug.cmake
+[1.765s] Invoked command in '/home/hunajpu/dev_tt_ws/build/ros2_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/ros2_data

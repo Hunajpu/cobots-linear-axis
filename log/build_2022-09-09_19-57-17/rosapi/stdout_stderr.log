@@ -1,0 +1,34 @@
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hunajpu/dev_tt_ws/build/rosapi
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/pythonpath.sh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/__init__.py
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/glob_helper.py
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/objectutils.py
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/params.py
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/proxy.py
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/stringify_field_types.py
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/ament_index/resource_index/package_run_dependencies/rosapi
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/ament_index/resource_index/parent_prefix_path/rosapi
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/path.sh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/path.dsv
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/local_setup.bash
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/local_setup.sh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/local_setup.zsh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/local_setup.dsv
+-- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/package.dsv
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/ament_index/resource_index/packages/rosapi
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/cmake/rosapiConfig.cmake
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/cmake/rosapiConfig-version.cmake
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/package.xml
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/rosapi/rosapi_node
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/mapping_rules.yaml
+Listing '/home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi'...

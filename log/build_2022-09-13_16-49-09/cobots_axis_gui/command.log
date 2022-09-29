@@ -1,0 +1,2 @@
+Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8
+Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8

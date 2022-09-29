@@ -1,0 +1,3 @@
+source;share/cobots_axis_gui/environment/ament_prefix_path.sh
+source;share/cobots_axis_gui/environment/library_path.sh
+source;share/cobots_axis_gui/environment/path.sh

@@ -1,0 +1,13 @@
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvoid rqt_plugin::Cobot7thAxis::clickRunButton()[m[K’:
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:62:30:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   62 |     char *argument_list[] = {[01;35m[K"ros2"[m[K, "launch", "ur3_ros2_moveit2", "ur3.launch.py", NULL};
+      |                              [01;35m[K^~~~~~[m[K
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:62:38:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   62 |     char *argument_list[] = {"ros2", [01;35m[K"launch"[m[K, "ur3_ros2_moveit2", "ur3.launch.py", NULL};
+      |                                      [01;35m[K^~~~~~~~[m[K
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:62:48:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   62 |     char *argument_list[] = {"ros2", "launch", [01;35m[K"ur3_ros2_moveit2"[m[K, "ur3.launch.py", NULL};
+      |                                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:62:68:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   62 |     char *argument_list[] = {"ros2", "launch", "ur3_ros2_moveit2", [01;35m[K"ur3.launch.py"[m[K, NULL};
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~~[m[K

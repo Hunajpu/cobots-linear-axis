@@ -1,0 +1,25 @@
+[0.080s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rrbot_moveit_config -- -j8 -l8
+[0.237s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rrbot_moveit_config -- -j8 -l8
+[0.431s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rrbot_moveit_config
+[0.470s] -- Install configuration: "Debug"
+[0.472s] -- Execute custom install script
+[0.473s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/ament_index/resource_index/package_run_dependencies/rrbot_moveit_config
+[0.473s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/ament_index/resource_index/parent_prefix_path/rrbot_moveit_config
+[0.474s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/environment/ament_prefix_path.sh
+[0.474s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/environment/ament_prefix_path.dsv
+[0.475s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/environment/path.sh
+[0.476s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/environment/path.dsv
+[0.476s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/local_setup.bash
+[0.476s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/local_setup.sh
+[0.477s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/local_setup.zsh
+[0.478s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/local_setup.dsv
+[0.479s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/package.dsv
+[0.499s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/ament_index/resource_index/packages/rrbot_moveit_config
+[0.500s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/cmake/rrbot_moveit_configConfig.cmake
+[0.500s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/cmake/rrbot_moveit_configConfig-version.cmake
+[0.500s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/package.xml
+[0.503s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/config/kinematics.yaml
+[0.503s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/config/ompl_planning.yaml
+[0.503s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/config/rrbot.srdf
+[0.503s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_config/share/rrbot_moveit_config/config/rviz_rrbot.rviz
+[0.574s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rrbot_moveit_config

@@ -1,0 +1,1 @@
+/home/hunajpu/dev_tt_ws/build/ros2_data/ament_cmake_environment_hooks/local_setup.zsh

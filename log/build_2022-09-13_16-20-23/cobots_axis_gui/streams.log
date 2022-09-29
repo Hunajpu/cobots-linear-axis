@@ -1,0 +1,74 @@
+[0.199s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8
+[0.302s] [ 10%] [34m[1mGenerating include/cobots_axis_gui/moc_ros_launch_manager.cpp[0m
+[0.309s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp:0: Note: No relevant classes found. No output generated.
+[0.323s] [35m[1mScanning dependencies of target cobot_7thaxis[0m
+[0.425s] [ 20%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o[0m
+[0.427s] [ 30%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/include/cobots_axis_gui/moc_ros_launch_manager.cpp.o[0m
+[13.449s] In file included from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:3[m[K:
+[13.450s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp:[m[K In member function ‘[01m[Kpid_t ROSLaunchManager::start(Args ...)[m[K’:
+[13.451s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp:53:30:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[13.451s]    53 |         std::vector<std::char[01;31m[K>[m[K &argument_list = { args... };
+[13.451s]       |                              [01;31m[K^[m[K
+[13.451s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp:53:30:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[13.493s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvirtual void rqt_plugin::Cobot7thAxis::saveSettings(qt_gui_cpp::Settings&, qt_gui_cpp::Settings&) const[m[K’:
+[13.494s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:81:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplugin_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.495s]    81 |   void Cobot7thAxis::saveSettings([01;35m[Kqt_gui_cpp::Settings& plugin_settings[m[K, qt_gui_cpp::Settings& instance_settings) const
+[13.495s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[13.496s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:81:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinstance_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.496s]    81 |   void Cobot7thAxis::saveSettings(qt_gui_cpp::Settings& plugin_settings, [01;35m[Kqt_gui_cpp::Settings& instance_settings[m[K) const
+[13.496s]       |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[13.497s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvirtual void rqt_plugin::Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings&, const qt_gui_cpp::Settings&)[m[K’:
+[13.497s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:86:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplugin_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.498s]    86 |   void Cobot7thAxis::restoreSettings([01;35m[Kconst qt_gui_cpp::Settings& plugin_settings[m[K, const qt_gui_cpp::Settings& instance_settings)
+[13.498s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[13.499s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:86:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinstance_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[13.499s]    86 |   void Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings& plugin_settings, [01;35m[Kconst qt_gui_cpp::Settings& instance_settings[m[K)
+[13.500s]       |                                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[13.689s] In file included from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:3[m[K:
+[13.689s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp: In instantiation of ‘[01m[Kpid_t ROSLaunchManager::start(Args ...) [with Args = {const char*, const char*}; pid_t = int][m[K’:
+[13.690s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:68:48:[m[K   required from here
+[13.691s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp:53:33:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kint&[m[K’ from an rvalue of type ‘[01m[K<brace-enclosed initializer list>[m[K’
+[13.691s]    53 |         std::vector<std::char> &[01;31m[Kargument_list[m[K = { args... };
+[13.691s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[13.693s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp:54:25:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[13.694s]    54 |         char* command = [01;35m[K"ros2"[m[K;
+[13.694s]       |                         [01;35m[K^~~~~~[m[K
+[13.695s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp:68:35:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kchar*[m[K’ to ‘[01m[Kchar* const*[m[K’
+[13.695s]    68 |                 ::execvp(command, [01;31m[Kcommand[m[K, args..., nullptr);
+[13.696s]       |                                   [01;31m[K^~~~~~~[m[K
+[13.696s]       |                                   [01;31m[K|[m[K
+[13.697s]       |                                   [01;31m[Kchar*[m[K
+[13.697s] In file included from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp:3[m[K,
+[13.698s]                  from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:3[m[K:
+[13.698s] [01m[K/usr/include/unistd.h:578:52:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kint execvp(const char*, char* const*)[m[K’
+[13.699s]   578 | extern int execvp (const char *__file, [01;36m[Kchar *const __argv[][m[K)
+[13.699s]       |                                        [01;36m[K~~~~~~~~~~~~^~~~~~~~[m[K
+[13.700s] In file included from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:3[m[K:
+[13.701s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp:53:33:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kargument_list[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[13.701s]    53 |         std::vector<std::char> &[01;35m[Kargument_list[m[K = { args... };
+[13.701s]       |                                 [01;35m[K^~~~~~~~~~~~~[m[K
+[14.218s] In file included from [01m[K/usr/include/c++/9/numeric:62[m[K,
+[14.218s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/moving_average.hpp:23[m[K,
+[14.218s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/collector.hpp:22[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:24[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:26[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[14.219s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[14.220s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[14.220s]                  from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h:5[m[K,
+[14.220s]                  from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:1[m[K:
+[14.220s] [01m[K/usr/include/c++/9/bits/stl_numeric.h:[m[K At global scope:
+[14.220s] [01m[K/usr/include/c++/9/bits/stl_numeric.h:158:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_Tp std::accumulate(_InputIterator, _InputIterator, _Tp, _BinaryOperation) [with _InputIterator = __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char>*, std::vector<std::__cxx11::basic_string<char> > >; _Tp = std::__cxx11::basic_string<char>; _BinaryOperation = ROSLaunchManager::start(Args ...) [with Args = {const char*, const char*}; pid_t = int]::<lambda(std::string, std::string)>][m[K’, declared using local type ‘[01m[KROSLaunchManager::start(Args ...) [with Args = {const char*, const char*}; pid_t = int]::<lambda(std::string, std::string)>[m[K’, is used but never defined [[01;31m[K-fpermissive[m[K]
+[14.220s]   158 |     [01;31m[Kaccumulate[m[K(_InputIterator __first, _InputIterator __last, _Tp __init,
+[14.220s]       |     [01;31m[K^~~~~~~~~~[m[K
+[14.332s] make[2]: *** [CMakeFiles/cobot_7thaxis.dir/build.make:79: CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o] Error 1
+[14.332s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cobot_7thaxis.dir/all] Error 2
+[14.333s] make: *** [Makefile:141: all] Error 2
+[14.335s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8

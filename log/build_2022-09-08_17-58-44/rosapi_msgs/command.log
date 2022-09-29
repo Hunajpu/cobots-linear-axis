@@ -1,0 +1,1 @@
+Invoking command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosapi_msgs -- -j8 -l8

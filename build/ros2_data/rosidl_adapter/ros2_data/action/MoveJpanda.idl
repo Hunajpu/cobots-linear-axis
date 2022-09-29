@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ros2_data/action/MoveJpanda.action
+// generated code does not contain a copyright notice
+
+#include "ros2_data/msg/JointPosePanda.idl"
+
+module ros2_data {
+  module action {
+    struct MoveJpanda_Goal {
+      ros2_data::msg::JointPosePanda goal;
+    };
+    struct MoveJpanda_Result {
+      string result;
+    };
+    struct MoveJpanda_Feedback {
+      string feedback;
+    };
+  };
+};

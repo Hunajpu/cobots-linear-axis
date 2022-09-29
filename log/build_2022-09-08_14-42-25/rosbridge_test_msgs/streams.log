@@ -1,0 +1,16 @@
+[0.135s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosbridge_test_msgs -- -j8 -l8
+[0.323s] [  0%] Built target rosbridge_test_msgs__cpp
+[0.341s] [ 12%] Built target rosbridge_test_msgs__rosidl_generator_c
+[0.474s] [ 24%] Built target rosbridge_test_msgs__rosidl_typesupport_introspection_c
+[0.474s] [ 36%] Built target rosbridge_test_msgs__rosidl_typesupport_fastrtps_cpp
+[0.491s] [ 49%] Built target rosbridge_test_msgs__rosidl_typesupport_introspection_cpp
+[0.507s] [ 61%] Built target rosbridge_test_msgs__rosidl_typesupport_cpp
+[0.515s] [ 73%] Built target rosbridge_test_msgs__rosidl_typesupport_c
+[0.567s] [ 85%] Built target rosbridge_test_msgs__rosidl_typesupport_fastrtps_c
+[0.611s] [ 85%] Built target rosbridge_test_msgs
+[0.654s] [ 86%] Built target rosbridge_test_msgs__py
+[0.750s] [ 97%] Built target rosbridge_test_msgs__python
+[0.848s] [ 98%] Built target rosbridge_test_msgs__rosidl_typesupport_c__pyext
+[0.848s] [ 99%] Built target rosbridge_test_msgs__rosidl_typesupport_introspection_c__pyext
+[0.856s] [100%] Built target rosbridge_test_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.966s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosbridge_test_msgs -- -j8 -l8

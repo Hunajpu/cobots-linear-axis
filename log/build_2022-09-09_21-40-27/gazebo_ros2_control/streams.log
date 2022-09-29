@@ -1,0 +1,22 @@
+[0.082s] Invoking command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control': /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control
+[0.215s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.215s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.634s] Traceback (most recent call last):
+[0.635s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.635s]     from ament_package.templates import get_environment_hook_template_path
+[0.635s] ModuleNotFoundError: No module named 'ament_package'
+[0.697s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.698s]   execute_process(/usr/bin/python3
+[0.698s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.699s]   /home/hunajpu/dev_tt_ws/build/gazebo_ros2_control/ament_cmake_package_templates/templates.cmake)
+[0.699s]   returned error code 1
+[0.699s] Call Stack (most recent call first):
+[0.699s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.699s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.699s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.700s]   CMakeLists.txt:4 (find_package)
+[0.700s] 
+[0.700s] 
+[0.700s] -- Configuring incomplete, errors occurred!
+[0.700s] See also "/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control/CMakeFiles/CMakeOutput.log".
+[0.701s] See also "/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control/CMakeFiles/CMakeError.log".

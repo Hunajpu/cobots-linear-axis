@@ -1,0 +1,122 @@
+[0.309s] Invoking command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control
+[0.561s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.561s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.856s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.937s] -- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)
+[1.943s] -- Found controller_manager: 0.10.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[2.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.110s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.307s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.328s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.282s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[7.583s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.893s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[7.893s] -- Looking for ignition-math6 -- found version 6.13.0
+[7.923s] -- Searching for dependencies of ignition-math6
+[7.986s] -- Looking for OGRE...
+[8.020s] -- Found Ogre Ghadamon (1.9.0)
+[8.020s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.071s] -- Looking for OGRE_Paging...
+[8.071s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.071s] -- Looking for OGRE_Terrain...
+[8.072s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[8.076s] -- Looking for OGRE_Property...
+[8.077s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[8.077s] -- Looking for OGRE_RTShaderSystem...
+[8.078s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[8.079s] -- Looking for OGRE_Volume...
+[8.080s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[8.082s] -- Looking for OGRE_Overlay...
+[8.084s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.787s] -- Looking for ignition-math6 -- found version 6.13.0
+[8.790s] -- Looking for ignition-transport8 -- found version 8.3.0
+[8.791s] -- Searching for dependencies of ignition-transport8
+[8.850s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[8.894s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[8.909s] -- Checking for module 'libzmq >= 4'
+[8.977s] --   Found libzmq , version 4.3.2
+[9.135s] -- Checking for module 'uuid'
+[9.194s] --   Found uuid, version 2.34.0
+[9.331s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[9.335s] -- Searching for dependencies of ignition-msgs5
+[9.404s] -- Looking for ignition-math6 -- found version 6.13.0
+[9.462s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[9.462s] -- Looking for ignition-common3 -- found version 3.14.2
+[9.475s] -- Searching for dependencies of ignition-common3
+[9.475s] -- Looking for dlfcn.h - found
+[9.475s] -- Looking for libdl - found
+[9.520s] -- Searching for <ignition-common3> component [graphics]
+[9.522s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[9.531s] -- Searching for dependencies of ignition-common3-graphics
+[9.531s] -- Looking for ignition-math6 -- found version 6.13.0
+[9.534s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[9.534s] -- Searching for dependencies of ignition-fuel_tools4
+[9.625s] -- Checking for module 'jsoncpp'
+[9.674s] --   Found jsoncpp, version 1.7.4
+[9.791s] -- Checking for module 'libzip'
+[9.841s] --   Found libzip, version 1.5.1
+[9.949s] -- Looking for ignition-common3 -- found version 3.14.2
+[9.950s] -- Looking for ignition-math6 -- found version 6.13.0
+[9.952s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[9.955s] -- Gazebo version: 11.11
+[9.957s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[9.987s] -- Found yaml_cpp_vendor: 7.0.2 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[9.987s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[10.653s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[10.653s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.971s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.974s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.982s] -- Configured cppcheck include dirs: /home/hunajpu/dev_tt_ws/src/gazebo_ros2_control/gazebo_ros2_control/include
+[10.983s] -- Configured cppcheck exclude dirs and/or files: 
+[10.984s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.984s] -- Configured cpplint exclude dirs and/or files: 
+[10.986s] -- Added test 'lint_cmake' to check CMake code style
+[10.986s] -- Added test 'uncrustify' to check C / C++ code style
+[10.987s] -- Configured uncrustify additional arguments: 
+[10.987s] -- Added test 'xmllint' to check XML markup files
+[11.063s] -- Configuring done
+[11.582s] -- Generating done
+[11.582s] -- Build files have been written to: /home/hunajpu/dev_tt_ws/build/gazebo_ros2_control
+[11.631s] Invoked command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control
+[11.632s] Invoking command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/gazebo_ros2_control -- -j8 -l8
+[11.899s] [35m[1mScanning dependencies of target gazebo_hardware_plugins[0m
+[11.941s] [35m[1mScanning dependencies of target gazebo_ros2_control[0m
+[12.330s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[12.438s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[51.686s] [ 75%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[53.482s] [ 75%] Built target gazebo_hardware_plugins
+[56.887s] [100%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[58.542s] [100%] Built target gazebo_ros2_control
+[58.570s] Invoked command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/gazebo_ros2_control -- -j8 -l8
+[58.618s] Invoking command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/gazebo_ros2_control
+[58.633s] -- Install configuration: ""
+[58.634s] -- Execute custom install script
+[58.634s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[58.635s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[58.635s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[58.636s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[58.637s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[58.637s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[58.637s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[58.638s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[58.638s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[58.639s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[58.639s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[58.640s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[58.640s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[58.641s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[58.641s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[58.642s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[58.642s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[58.642s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[58.643s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[58.666s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[58.666s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[58.667s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[58.667s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[58.667s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[58.668s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[58.668s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[58.669s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[58.682s] Invoked command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/gazebo_ros2_control

@@ -1,0 +1,37 @@
+[0.196s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8
+[0.281s] [ 12%] [34m[1mGenerating ui_cobot_7thaxis.h[0m
+[0.313s] [35m[1mScanning dependencies of target cobot_7thaxis[0m
+[0.407s] [ 25%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o[0m
+[0.419s] [ 37%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/include/cobots_axis_gui/moc_cobot_7thaxis.cpp.o[0m
+[6.635s] In file included from [01m[K/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/include/cobots_axis_gui/moc_cobot_7thaxis.cpp:9[m[K:
+[6.635s] [01m[K/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/include/cobots_axis_gui/../../../../src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[KForm[m[K’ in namespace ‘[01m[KUi[m[K’ does not name a type
+[6.635s]    40 |         Ui::[01;31m[KForm[m[K ui_;
+[6.635s]       |             [01;31m[K^~~~[m[K
+[6.723s] In file included from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:1[m[K:
+[6.724s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[KForm[m[K’ in namespace ‘[01m[KUi[m[K’ does not name a type
+[6.728s]    40 |         Ui::[01;31m[KForm[m[K ui_;
+[6.729s]       |             [01;31m[K^~~~[m[K
+[6.760s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvirtual void rqt_plugin::Cobot7thAxis::initPlugin(qt_gui_cpp::PluginContext&)[m[K’:
+[6.760s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kui_[m[K’ was not declared in this scope
+[6.760s]    24 |     [01;31m[Kui_[m[K.setupUi(widget_);
+[6.760s]       |     [01;31m[K^~~[m[K
+[6.761s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvirtual void rqt_plugin::Cobot7thAxis::saveSettings(qt_gui_cpp::Settings&, qt_gui_cpp::Settings&) const[m[K’:
+[6.761s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:44:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplugin_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.761s]    44 |   void Cobot7thAxis::saveSettings([01;35m[Kqt_gui_cpp::Settings& plugin_settings[m[K, qt_gui_cpp::Settings& instance_settings) const
+[6.761s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[6.761s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:44:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinstance_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.762s]    44 |   void Cobot7thAxis::saveSettings(qt_gui_cpp::Settings& plugin_settings, [01;35m[Kqt_gui_cpp::Settings& instance_settings[m[K) const
+[6.762s]       |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[6.762s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvirtual void rqt_plugin::Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings&, const qt_gui_cpp::Settings&)[m[K’:
+[6.762s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:49:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplugin_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.763s]    49 |   void Cobot7thAxis::restoreSettings([01;35m[Kconst qt_gui_cpp::Settings& plugin_settings[m[K, const qt_gui_cpp::Settings& instance_settings)
+[6.763s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[6.763s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:49:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinstance_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.763s]    49 |   void Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings& plugin_settings, [01;35m[Kconst qt_gui_cpp::Settings& instance_settings[m[K)
+[6.763s]       |                                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[7.463s] make[2]: *** [CMakeFiles/cobot_7thaxis.dir/build.make:101: CMakeFiles/cobot_7thaxis.dir/include/cobots_axis_gui/moc_cobot_7thaxis.cpp.o] Error 1
+[7.463s] make[2]: *** Waiting for unfinished jobs....
+[7.775s] make[2]: *** [CMakeFiles/cobot_7thaxis.dir/build.make:75: CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o] Error 1
+[7.775s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cobot_7thaxis.dir/all] Error 2
+[7.775s] make: *** [Makefile:141: all] Error 2
+[7.779s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8

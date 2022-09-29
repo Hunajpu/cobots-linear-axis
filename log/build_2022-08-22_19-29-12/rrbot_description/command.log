@@ -1,0 +1,6 @@
+Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/gazebo_ros_demos/rrbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rrbot_description
+Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/gazebo_ros_demos/rrbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rrbot_description
+Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rrbot_description -- -j8 -l8
+Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rrbot_description -- -j8 -l8
+Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rrbot_description
+Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rrbot_description

@@ -1,0 +1,46 @@
+-- Found moveit_common: 2.2.3 (/opt/ros/foxy/share/moveit_common/cmake)
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+rrbot_moveit_demo_nodes: You did not request a specific build type: Choosing 'Release' for maximum performance
+-- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hunajpu/dev_tt_ws/build/rrbot_moveit_demo_nodes
+[100%] Built target run_moveit_cpp
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/launch/rrbot_demo.launch.py
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/config/controllers.yaml
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/config/gazebo_controllers.yaml
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/config/moveit_cpp.yaml
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/ament_index/resource_index/package_run_dependencies/rrbot_moveit_demo_nodes
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/ament_index/resource_index/parent_prefix_path/rrbot_moveit_demo_nodes
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/environment/path.sh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/environment/path.dsv
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/local_setup.bash
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/local_setup.sh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/local_setup.zsh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/local_setup.dsv
+-- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/package.dsv
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/ament_index/resource_index/packages/rrbot_moveit_demo_nodes
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/cmake/rrbot_moveit_demo_nodesConfig.cmake
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/cmake/rrbot_moveit_demo_nodesConfig-version.cmake
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/share/rrbot_moveit_demo_nodes/package.xml
+-- Up-to-date: /home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes/lib/rrbot_moveit_demo_nodes/run_moveit_cpp

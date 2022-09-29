@@ -1,0 +1,32 @@
+[0.322s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosapi': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib PYTHONPATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages:/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosapi -- -j8 -l8
+[0.406s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib PYTHONPATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages:/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosapi -- -j8 -l8
+[0.436s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosapi': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib PYTHONPATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages:/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosapi
+[0.462s] -- Install configuration: "Debug"
+[0.463s] -- Execute custom install script
+[0.463s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/pythonpath.sh
+[0.464s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/pythonpath.dsv
+[0.465s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/__init__.py
+[0.466s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/glob_helper.py
+[0.466s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/objectutils.py
+[0.467s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/params.py
+[0.467s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/proxy.py
+[0.467s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi/stringify_field_types.py
+[0.468s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/ament_index/resource_index/package_run_dependencies/rosapi
+[0.468s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/ament_index/resource_index/parent_prefix_path/rosapi
+[0.468s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/ament_prefix_path.sh
+[0.469s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/ament_prefix_path.dsv
+[0.469s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/path.sh
+[0.469s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/environment/path.dsv
+[0.469s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/local_setup.bash
+[0.469s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/local_setup.sh
+[0.470s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/local_setup.zsh
+[0.470s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/local_setup.dsv
+[0.470s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/package.dsv
+[0.487s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/ament_index/resource_index/packages/rosapi
+[0.488s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/cmake/rosapiConfig.cmake
+[0.488s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/cmake/rosapiConfig-version.cmake
+[0.488s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/package.xml
+[0.488s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/lib/rosapi/rosapi_node
+[0.488s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi/share/rosapi/mapping_rules.yaml
+[0.617s] Listing '/home/hunajpu/dev_tt_ws/install/rosapi/lib/python3.8/site-packages/rosapi'...
+[0.630s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib PYTHONPATH=/home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages:/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosapi

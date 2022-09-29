@@ -1,0 +1,26 @@
+[0.157s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rrbot_description -- -j8 -l8
+[0.318s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rrbot_description -- -j8 -l8
+[0.705s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rrbot_description
+[0.724s] -- Install configuration: "Debug"
+[0.726s] -- Execute custom install script
+[0.726s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/ament_index/resource_index/package_run_dependencies/rrbot_description
+[0.727s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/ament_index/resource_index/parent_prefix_path/rrbot_description
+[0.727s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.sh
+[0.740s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.dsv
+[0.740s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/environment/path.sh
+[0.740s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/environment/path.dsv
+[0.740s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/local_setup.bash
+[0.740s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/local_setup.sh
+[0.740s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/local_setup.zsh
+[0.740s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/local_setup.dsv
+[0.741s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/package.dsv
+[0.793s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/ament_index/resource_index/packages/rrbot_description
+[0.793s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake
+[0.803s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake
+[0.804s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/package.xml
+[0.811s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/urdf/materials.xacro
+[0.812s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.gazebo
+[0.812s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.xacro
+[0.812s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.xml
+[0.812s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rrbot_description/share/rrbot_description/meshes/hokuyo.dae
+[0.917s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rrbot_description

@@ -1,0 +1,48 @@
+[0.112s] Invoking command in '/home/hunajpu/dev_tt_ws/build/irb6640_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/irb6640_ros2_gazebo -- -j8 -l8
+[0.228s] Invoked command in '/home/hunajpu/dev_tt_ws/build/irb6640_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/irb6640_ros2_gazebo -- -j8 -l8
+[0.756s] Invoking command in '/home/hunajpu/dev_tt_ws/build/irb6640_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/irb6640_ros2_gazebo
+[0.918s] -- Install configuration: "Debug"
+[0.919s] -- Execute custom install script
+[0.920s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/config/irb6640_controller.yaml
+[0.922s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/launch/irb6640_simulation.launch.py
+[0.923s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/urdf/abb_resources/common_colours.xacro
+[0.926s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/urdf/abb_resources/common_materials.xacro
+[0.927s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/urdf/irb6640.urdf.xacro
+[0.952s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/urdf/irb6640_gazebo.xacro
+[0.953s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/urdf/irb6640_macro.urdf.xacro
+[0.954s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/urdf/irb6640_transmission.xacro
+[0.955s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/worlds/irb6640.world
+[0.956s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/collision/base_link.stl
+[0.957s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/collision/cylinder_link.stl
+[0.957s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/collision/link_1.stl
+[0.958s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/collision/link_2.stl
+[0.964s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/collision/link_3.stl
+[0.965s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/collision/link_4.stl
+[0.967s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/collision/link_5.stl
+[0.968s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/collision/link_6.stl
+[0.969s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/collision/piston_link.stl
+[0.976s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/visual/base_link.dae
+[0.977s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/visual/cylinder_link.dae
+[0.978s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/visual/link_1.dae
+[0.980s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/visual/link_2.dae
+[0.981s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/visual/link_3.dae
+[0.982s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/visual/link_4.dae
+[0.983s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/visual/link_5.dae
+[1.094s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/visual/link_6.dae
+[1.133s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/meshes/visual/piston_link.dae
+[1.189s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/irb6640_ros2_gazebo
+[1.190s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/irb6640_ros2_gazebo
+[1.200s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/environment/ament_prefix_path.sh
+[1.201s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/environment/ament_prefix_path.dsv
+[1.202s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/environment/path.sh
+[1.204s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/environment/path.dsv
+[1.223s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/local_setup.bash
+[1.224s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/local_setup.sh
+[1.225s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/local_setup.zsh
+[1.226s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/local_setup.dsv
+[1.227s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/package.dsv
+[1.347s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/ament_index/resource_index/packages/irb6640_ros2_gazebo
+[1.348s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/cmake/irb6640_ros2_gazeboConfig.cmake
+[1.383s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/cmake/irb6640_ros2_gazeboConfig-version.cmake
+[1.384s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb6640_ros2_gazebo/share/irb6640_ros2_gazebo/package.xml
+[1.401s] Invoked command in '/home/hunajpu/dev_tt_ws/build/irb6640_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/irb6640_ros2_gazebo

@@ -1,0 +1,48 @@
+[0.182s] Invoking command in '/home/hunajpu/dev_tt_ws/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/panda_ros2_gazebo -- -j8 -l8
+[0.223s] Invoked command in '/home/hunajpu/dev_tt_ws/build/panda_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/panda_ros2_gazebo -- -j8 -l8
+[0.760s] Invoking command in '/home/hunajpu/dev_tt_ws/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/panda_ros2_gazebo
+[0.941s] -- Install configuration: "Debug"
+[0.944s] -- Execute custom install script
+[1.001s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/config/panda_controller.yaml
+[1.088s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/launch/panda_simulation.launch.py
+[1.089s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda.urdf.xacro
+[1.131s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda_gazebo.xacro
+[1.134s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda_macro.urdf.xacro
+[1.138s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda_transmission.xacro
+[1.140s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/worlds/panda.world
+[1.242s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/finger.stl
+[1.243s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/hand.stl
+[1.246s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link0.stl
+[1.255s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link1.stl
+[1.257s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link2.stl
+[1.259s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link3.stl
+[1.260s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link4.stl
+[1.261s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link5.stl
+[1.263s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link6.stl
+[1.267s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link7.stl
+[1.270s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/finger.dae
+[1.272s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/hand.dae
+[1.362s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link0.dae
+[1.365s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link1.dae
+[1.369s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link2.dae
+[1.372s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link3.dae
+[1.380s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link4.dae
+[1.391s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link5.dae
+[1.393s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link6.dae
+[1.397s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link7.dae
+[1.430s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/panda_ros2_gazebo
+[1.459s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/panda_ros2_gazebo
+[1.470s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/ament_prefix_path.sh
+[1.525s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/ament_prefix_path.dsv
+[1.545s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/path.sh
+[1.555s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/path.dsv
+[1.558s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.bash
+[1.563s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.sh
+[1.565s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.zsh
+[1.572s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.dsv
+[1.574s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/package.dsv
+[2.061s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/ament_index/resource_index/packages/panda_ros2_gazebo
+[2.062s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/cmake/panda_ros2_gazeboConfig.cmake
+[2.064s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/cmake/panda_ros2_gazeboConfig-version.cmake
+[2.112s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo/share/panda_ros2_gazebo/package.xml
+[3.855s] Invoked command in '/home/hunajpu/dev_tt_ws/build/panda_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/panda_ros2_gazebo

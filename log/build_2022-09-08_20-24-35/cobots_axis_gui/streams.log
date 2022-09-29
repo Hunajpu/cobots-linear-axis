@@ -1,0 +1,10 @@
+[0.154s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8
+[1.194s] [ 20%] Building CXX object CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o
+[1.205s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:1:10: fatal error: cobot_7thaxis.h: No such file or directory
+[1.207s]     1 | #include "cobot_7thaxis.h"
+[1.207s]       |          ^~~~~~~~~~~~~~~~~
+[1.207s] compilation terminated.
+[1.207s] make[2]: *** [CMakeFiles/cobot_7thaxis.dir/build.make:71: CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o] Error 1
+[1.208s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cobot_7thaxis.dir/all] Error 2
+[1.208s] make: *** [Makefile:141: all] Error 2
+[1.222s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8

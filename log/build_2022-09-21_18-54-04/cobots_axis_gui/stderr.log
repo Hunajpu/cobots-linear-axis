@@ -1,0 +1,11 @@
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/ros_launch_manager.cpp:[m[K In member function ‘[01m[Kpid_t ROSLaunchManager::start(char**)[m[K’:
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/ros_launch_manager.cpp:29:21:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   29 |     char* command = [01;35m[K"ros2"[m[K;
+      |                     [01;35m[K^~~~~~[m[K
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/ros_launch_manager.cpp:[m[K In member function ‘[01m[Kvoid ROSLaunchManager::stop(const pid_t&, const int32_t&)[m[K’:
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/ros_launch_manager.cpp:70:34:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   70 |     char *gazebo_proc_names[] = {[01;35m[K"gzserver"[m[K, "gzclient"};
+      |                                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/ros_launch_manager.cpp:70:46:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+   70 |     char *gazebo_proc_names[] = {"gzserver", [01;35m[K"gzclient"[m[K};
+      |                                              [01;35m[K^~~~~~~~~~[m[K

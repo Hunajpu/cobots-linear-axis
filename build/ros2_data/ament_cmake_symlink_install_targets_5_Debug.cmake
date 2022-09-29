@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hunajpu/dev_tt_ws/build/ros2_data/rosidl_generator_py/ros2_data/libros2_data__python.so" "TARGETS" "ros2_data__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

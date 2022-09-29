@@ -1,0 +1,1 @@
+Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config': /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/gazebo_ros_demos/rrbot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rrbot_moveit_config

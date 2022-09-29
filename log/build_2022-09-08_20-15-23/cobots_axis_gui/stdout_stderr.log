@@ -1,0 +1,12 @@
+[ 20%] Generating include/cobots_axis_gui/moc_cobot_7thaxis.cpp
+Scanning dependencies of target cobot_7thaxis
+[ 40%] Building CXX object CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o
+[ 60%] Building CXX object CMakeFiles/cobot_7thaxis.dir/include/cobots_axis_gui/moc_cobot_7thaxis.cpp.o
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:1:10: fatal error: cobot_7thaxis.h: No such file or directory
+    1 | #include "cobot_7thaxis.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cobot_7thaxis.dir/build.make:71: CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cobot_7thaxis.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

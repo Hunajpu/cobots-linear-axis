@@ -1,0 +1,21 @@
+[0.142s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config': /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/gazebo_ros_demos/rrbot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rrbot_moveit_config
+[0.581s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.581s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.651s] Traceback (most recent call last):
+[0.652s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.652s]     from ament_package.templates import get_environment_hook_template_path
+[0.652s] ModuleNotFoundError: No module named 'ament_package'
+[0.726s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.726s]   execute_process(/usr/bin/python3
+[0.727s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.727s]   /home/hunajpu/dev_tt_ws/build/rrbot_moveit_config/ament_cmake_package_templates/templates.cmake)
+[0.727s]   returned error code 1
+[0.727s] Call Stack (most recent call first):
+[0.728s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.728s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.728s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.728s]   CMakeLists.txt:3 (find_package)
+[0.728s] 
+[0.729s] 
+[0.729s] -- Configuring incomplete, errors occurred!
+[0.729s] See also "/home/hunajpu/dev_tt_ws/build/rrbot_moveit_config/CMakeFiles/CMakeOutput.log".

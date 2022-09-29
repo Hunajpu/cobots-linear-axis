@@ -1,0 +1,38 @@
+[0.199s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/cobots_axis_gui
+[0.359s] -- The C compiler identification is GNU 9.4.0
+[0.508s] -- The CXX compiler identification is GNU 9.4.0
+[0.533s] -- Check for working C compiler: /usr/bin/cc
+[0.687s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.689s] -- Detecting C compiler ABI info
+[0.795s] -- Detecting C compiler ABI info - done
+[0.848s] -- Detecting C compile features
+[0.849s] -- Detecting C compile features - done
+[0.859s] -- Check for working CXX compiler: /usr/bin/c++
+[1.034s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.034s] -- Detecting CXX compiler ABI info
+[1.209s] -- Detecting CXX compiler ABI info - done
+[1.239s] -- Detecting CXX compile features
+[1.242s] -- Detecting CXX compile features - done
+[1.249s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.352s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.352s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.142s] CMake Error at CMakeLists.txt:22 (find_package):
+[2.142s]   By not providing "Findroscpp.cmake" in CMAKE_MODULE_PATH this project has
+[2.143s]   asked CMake to find a package configuration file provided by "roscpp", but
+[2.143s]   CMake did not find one.
+[2.143s] 
+[2.143s]   Could not find a package configuration file provided by "roscpp" with any
+[2.143s]   of the following names:
+[2.143s] 
+[2.144s]     roscppConfig.cmake
+[2.144s]     roscpp-config.cmake
+[2.144s] 
+[2.144s]   Add the installation prefix of "roscpp" to CMAKE_PREFIX_PATH or set
+[2.144s]   "roscpp_DIR" to a directory containing one of the above files.  If "roscpp"
+[2.144s]   provides a separate development package or SDK, be sure it has been
+[2.145s]   installed.
+[2.145s] 
+[2.145s] 
+[2.145s] -- Configuring incomplete, errors occurred!
+[2.146s] See also "/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/CMakeFiles/CMakeOutput.log".
+[2.155s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/cobots_axis_gui

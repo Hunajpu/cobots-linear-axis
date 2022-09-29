@@ -1,0 +1,4 @@
+Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver': /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_driver -- -j8 -l8
+Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver' returned '0': /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_driver -- -j8 -l8
+Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver': /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/cobots_axis_driver
+Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver' returned '0': /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/cobots_axis_driver

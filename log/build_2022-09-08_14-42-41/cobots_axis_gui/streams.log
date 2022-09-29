@@ -1,0 +1,23 @@
+[0.172s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/cobots_axis_gui
+[0.216s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.275s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.733s] CMake Error at CMakeLists.txt:24 (find_package):
+[0.733s]   By not providing "Findrqt_gui_py.cmake" in CMAKE_MODULE_PATH this project
+[0.733s]   has asked CMake to find a package configuration file provided by
+[0.734s]   "rqt_gui_py", but CMake did not find one.
+[0.734s] 
+[0.734s]   Could not find a package configuration file provided by "rqt_gui_py" with
+[0.734s]   any of the following names:
+[0.734s] 
+[0.734s]     rqt_gui_pyConfig.cmake
+[0.734s]     rqt_gui_py-config.cmake
+[0.734s] 
+[0.735s]   Add the installation prefix of "rqt_gui_py" to CMAKE_PREFIX_PATH or set
+[0.735s]   "rqt_gui_py_DIR" to a directory containing one of the above files.  If
+[0.735s]   "rqt_gui_py" provides a separate development package or SDK, be sure it has
+[0.735s]   been installed.
+[0.735s] 
+[0.736s] 
+[0.736s] -- Configuring incomplete, errors occurred!
+[0.736s] See also "/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/CMakeFiles/CMakeOutput.log".
+[0.881s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/cobots_axis_gui

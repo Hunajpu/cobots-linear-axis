@@ -1,0 +1,36 @@
+[0.115s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8
+[0.183s] [ 20%] Generating include/cobots_axis_gui/moc_cobot_7thaxis.cpp
+[0.260s] Scanning dependencies of target cobot_7thaxis
+[0.316s] [ 40%] Building CXX object CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o
+[0.317s] [ 60%] Building CXX object CMakeFiles/cobot_7thaxis.dir/include/cobots_axis_gui/moc_cobot_7thaxis.cpp.o
+[1.762s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp: In constructor 'Cobot7thAxis::Cobot7thAxis(QWidget*)':
+[1.763s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:6:16: error: invalid use of incomplete type 'class Ui::Cobot7thAxis'
+[1.765s]     6 |     ui(new Ui::Cobot7thAxis)
+[1.765s]       |                ^~~~~~~~~~~~
+[1.766s] In file included from /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:1:
+[1.766s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h:7:7: note: forward declaration of 'class Ui::Cobot7thAxis'
+[1.766s]     7 | class Cobot7thAxis;
+[1.767s]       |       ^~~~~~~~~~~~
+[1.767s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:8:7: error: invalid use of incomplete type 'class Ui::Cobot7thAxis'
+[1.767s]     8 |     ui->setupUi(this);
+[1.767s]       |       ^~
+[1.768s] In file included from /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:1:
+[1.768s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h:7:7: note: forward declaration of 'class Ui::Cobot7thAxis'
+[1.768s]     7 | class Cobot7thAxis;
+[1.769s]       |       ^~~~~~~~~~~~
+[1.769s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp: In destructor 'virtual Cobot7thAxis::~Cobot7thAxis()':
+[1.770s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:13:12: warning: possible problem detected in invocation of delete operator: [-Wdelete-incomplete]
+[1.770s]    13 |     delete ui;
+[1.770s]       |            ^~
+[1.770s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:13:12: warning: invalid use of incomplete type 'class Ui::Cobot7thAxis'
+[1.770s] In file included from /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:1:
+[1.770s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h:7:7: note: forward declaration of 'class Ui::Cobot7thAxis'
+[1.770s]     7 | class Cobot7thAxis;
+[1.770s]       |       ^~~~~~~~~~~~
+[1.770s] /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:13:12: note: neither the destructor nor the class-specific operator delete will be called, even if they are declared when the class is defined
+[1.771s]    13 |     delete ui;
+[1.771s]       |            ^~
+[1.930s] make[2]: *** [CMakeFiles/cobot_7thaxis.dir/build.make:71: CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o] Error 1
+[1.931s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cobot_7thaxis.dir/all] Error 2
+[1.932s] make: *** [Makefile:141: all] Error 2
+[1.933s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8

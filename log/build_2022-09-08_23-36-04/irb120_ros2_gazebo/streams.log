@@ -1,0 +1,59 @@
+[0.111s] Invoking command in '/home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/ABBRobots/IRB120/irb120_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo
+[0.575s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.575s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.680s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.718s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.880s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.889s] -- Added test 'lint_cmake' to check CMake code style
+[0.890s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.894s] -- Added test 'xmllint' to check XML markup files
+[0.908s] -- Configuring done
+[0.955s] -- Generating done
+[0.957s] -- Build files have been written to: /home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo
+[0.968s] Invoked command in '/home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/ABBRobots/IRB120/irb120_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo
+[0.970s] Invoking command in '/home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo -- -j8 -l8
+[1.241s] Invoked command in '/home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo -- -j8 -l8
+[1.284s] Invoking command in '/home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo
+[1.305s] -- Install configuration: "Debug"
+[1.309s] -- Execute custom install script
+[1.309s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/config/irb120_controller.yaml
+[1.311s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/launch/irb120_simulation.launch.py
+[1.311s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/abb_resources/common_colours.xacro
+[1.311s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/abb_resources/common_materials.xacro
+[1.311s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/irb120.urdf.xacro
+[1.312s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/irb120_gazebo.xacro
+[1.312s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/irb120_macro.urdf.xacro
+[1.312s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/irb120_transmission.xacro
+[1.312s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/worlds/irb120.world
+[1.312s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/base_link.stl
+[1.312s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_1.stl
+[1.312s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_2.stl
+[1.312s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_3.stl
+[1.313s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_4.stl
+[1.313s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_5.stl
+[1.313s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_6.stl
+[1.313s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/irb120_cell.dae
+[1.313s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/base_link.stl
+[1.314s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_1.stl
+[1.314s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_2.stl
+[1.314s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_3.stl
+[1.314s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_4.stl
+[1.314s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_5.stl
+[1.314s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_6.stl
+[1.315s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/irb120_ros2_gazebo
+[1.315s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/irb120_ros2_gazebo
+[1.315s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/environment/ament_prefix_path.sh
+[1.316s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/environment/ament_prefix_path.dsv
+[1.316s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/environment/path.sh
+[1.317s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/environment/path.dsv
+[1.318s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/local_setup.bash
+[1.318s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/local_setup.sh
+[1.319s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/local_setup.zsh
+[1.320s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/local_setup.dsv
+[1.320s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/package.dsv
+[1.333s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/ament_index/resource_index/packages/irb120_ros2_gazebo
+[1.334s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/cmake/irb120_ros2_gazeboConfig.cmake
+[1.334s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/cmake/irb120_ros2_gazeboConfig-version.cmake
+[1.336s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/package.xml
+[1.358s] Invoked command in '/home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/irb120_ros2_gazebo

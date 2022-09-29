@@ -1,0 +1,127 @@
+[0.228s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8
+[0.331s] [  9%] [34m[1mGenerating include/cobots_axis_gui/moc_cobot_7thaxis.cpp[0m
+[0.338s] [ 18%] [34m[1mGenerating ui_cobot_7thaxis.h[0m
+[0.407s] [35m[1mScanning dependencies of target cobot_7thaxis[0m
+[0.515s] [ 27%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/include/cobots_axis_gui/moc_cobot_7thaxis.cpp.o[0m
+[0.515s] [ 36%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o[0m
+[5.370s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvoid rqt_plugin::Cobot7thAxis::clickRunButton()[m[K’:
+[5.371s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:81:30:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[5.371s]    81 |     char *argument_list[] = {[01;35m[K"ros2"[m[K, "launch", "ur3_ros2_moveit2", "ur3.launch.py", NULL};
+[5.371s]       |                              [01;35m[K^~~~~~[m[K
+[5.371s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:81:38:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[5.371s]    81 |     char *argument_list[] = {"ros2", [01;35m[K"launch"[m[K, "ur3_ros2_moveit2", "ur3.launch.py", NULL};
+[5.371s]       |                                      [01;35m[K^~~~~~~~[m[K
+[5.371s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:81:48:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[5.372s]    81 |     char *argument_list[] = {"ros2", "launch", [01;35m[K"ur3_ros2_moveit2"[m[K, "ur3.launch.py", NULL};
+[5.372s]       |                                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.372s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:81:68:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[5.372s]    81 |     char *argument_list[] = {"ros2", "launch", "ur3_ros2_moveit2", [01;35m[K"ur3.launch.py"[m[K, NULL};
+[5.372s]       |                                                                    [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.372s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:88:26:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[5.372s]    88 |       argument_list[2] = [01;35m[K"ur3_ros2_moveit2"[m[K;
+[5.372s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.372s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:91:26:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[5.372s]    91 |       argument_list[2] = [01;35m[K"panda_ros2_moveit2"[m[K;
+[5.373s]       |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.373s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:102:26:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[5.373s]   102 |       argument_list[3] = [01;35m[K"sim.launch.py"[m[K;
+[5.373s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.378s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvirtual void rqt_plugin::Cobot7thAxis::saveSettings(qt_gui_cpp::Settings&, qt_gui_cpp::Settings&) const[m[K’:
+[5.378s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:177:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplugin_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.378s]   177 |   void Cobot7thAxis::saveSettings([01;35m[Kqt_gui_cpp::Settings& plugin_settings[m[K, qt_gui_cpp::Settings& instance_settings) const
+[5.378s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[5.378s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:177:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinstance_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.378s]   177 |   void Cobot7thAxis::saveSettings(qt_gui_cpp::Settings& plugin_settings, [01;35m[Kqt_gui_cpp::Settings& instance_settings[m[K) const
+[5.378s]       |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[5.379s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvirtual void rqt_plugin::Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings&, const qt_gui_cpp::Settings&)[m[K’:
+[5.379s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:182:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplugin_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.379s]   182 |   void Cobot7thAxis::restoreSettings([01;35m[Kconst qt_gui_cpp::Settings& plugin_settings[m[K, const qt_gui_cpp::Settings& instance_settings)
+[5.379s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[5.379s] [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:182:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinstance_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.379s]   182 |   void Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings& plugin_settings, [01;35m[Kconst qt_gui_cpp::Settings& instance_settings[m[K)
+[5.379s]       |                                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[10.644s] [ 45%] [32m[1mLinking CXX shared library libcobot_7thaxis.so[0m
+[11.497s] [100%] Built target cobot_7thaxis
+[11.508s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8
+[11.545s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/cobots_axis_gui
+[11.554s] -- Install configuration: "Debug"
+[11.554s] -- Installing: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/lib/cobots_axis_gui/libcobot_7thaxis.so
+[11.563s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/cobots_axis_gui/lib/cobots_axis_gui/libcobot_7thaxis.so" to ""
+[11.563s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/lib/cobots_axis_gui/cobot_7thaxis
+[11.563s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include
+[11.563s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui
+[11.564s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/mytoolbutton.h
+[11.564s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/ros_launch_manager.hpp
+[11.564s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git
+[11.564s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/refs
+[11.564s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/refs/tags
+[11.564s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/refs/heads
+[11.564s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/info
+[11.564s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/info/exclude
+[11.565s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/HEAD
+[11.565s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/description
+[11.565s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects
+[11.565s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/info
+[11.565s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/32
+[11.565s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/32/5b31b591e3b438cbfdc92726aaae05353d0342
+[11.565s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/pack
+[11.565s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/06
+[11.565s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/06/4abb06ea0e84d51ecbbd3bb9595c729300c13b
+[11.565s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/1c
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/1c/54dc6324c8e1c7e302b32ce67fcbec485f0a83
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/be
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/be/5d563b20cb66ad39c95a2d62cbf294a8aaccd7
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/86
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/86/e5761b4716c26905eb3cb6d747f70f7c78f89b
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/14
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/14/6d235a8472c7c09c8908a0da4353cef453ad19
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/6b
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/objects/6b/7575fc8f3f86136b8ef409181d7cce60f63de6
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/config
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks
+[11.566s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/pre-applypatch.sample
+[11.567s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/pre-merge-commit.sample
+[11.567s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/applypatch-msg.sample
+[11.567s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/pre-commit.sample
+[11.567s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/pre-push.sample
+[11.567s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/post-update.sample
+[11.567s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/pre-rebase.sample
+[11.568s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/commit-msg.sample
+[11.571s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/pre-receive.sample
+[11.571s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/fsmonitor-watchman.sample
+[11.571s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/update.sample
+[11.571s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/hooks/prepare-commit-msg.sample
+[11.571s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/branches
+[11.571s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/.git/index
+[11.572s] -- Installing: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h
+[11.572s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/plugin.xml
+[11.572s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/resource
+[11.572s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/resource/home.jpeg
+[11.574s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/resource/reload.png
+[11.574s] -- Installing: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/resource/cobot_7thaxis.ui
+[11.575s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/resource/cobot_7thaxis.ui.autosave
+[11.575s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/resource/stop.png
+[11.575s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/launch
+[11.576s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/launch/start.py
+[11.576s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/plugin.xml
+[11.576s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/environment/library_path.sh
+[11.579s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/environment/library_path.dsv
+[11.579s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/ament_index/resource_index/package_run_dependencies/cobots_axis_gui
+[11.579s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/ament_index/resource_index/parent_prefix_path/cobots_axis_gui
+[11.579s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/environment/ament_prefix_path.sh
+[11.580s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/environment/ament_prefix_path.dsv
+[11.580s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/environment/path.sh
+[11.580s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/environment/path.dsv
+[11.580s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/local_setup.bash
+[11.581s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/local_setup.sh
+[11.581s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/local_setup.zsh
+[11.581s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/local_setup.dsv
+[11.581s] -- Installing: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/package.dsv
+[11.582s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/ament_index/resource_index/packages/cobots_axis_gui
+[11.583s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/ament_index/resource_index/rqt_gui__pluginlib__plugin/cobots_axis_gui
+[11.583s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.583s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/cmake/ament_cmake_export_libraries-extras.cmake
+[11.584s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/cmake/cobots_axis_guiConfig.cmake
+[11.584s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/cmake/cobots_axis_guiConfig-version.cmake
+[11.584s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_gui/share/cobots_axis_gui/package.xml
+[11.584s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/cobots_axis_gui

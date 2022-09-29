@@ -1,0 +1,190 @@
+[0.037s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/rosbridge_suite/rosbridge_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rosbridge_msgs
+[0.066s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.114s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.363s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.401s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.448s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.545s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.578s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.677s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.719s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.761s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.089s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.123s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.125s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.162s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.163s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.163s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.163s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.190s] -- Found PythonExtra: .so  
+[1.268s] -- Configuring done
+[1.332s] -- Generating done
+[1.337s] -- Build files have been written to: /home/hunajpu/dev_tt_ws/build/rosbridge_msgs
+[1.355s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/rosbridge_suite/rosbridge_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rosbridge_msgs
+[1.358s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosbridge_msgs -- -j8 -l8
+[1.417s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.417s] [35m[1mScanning dependencies of target rosbridge_msgs__cpp[0m
+[1.430s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.811s] [  5%] Built target rosbridge_msgs__cpp
+[1.829s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.832s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.834s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.986s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_generator_c[0m
+[2.015s] [ 15%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_msgs/msg/detail/connected_client__functions.c.o[0m
+[2.016s] [ 17%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosbridge_msgs/msg/detail/connected_clients__functions.c.o[0m
+[2.099s] [ 20%] [32m[1mLinking C shared library librosbridge_msgs__rosidl_generator_c.so[0m
+[2.173s] [ 20%] Built target rosbridge_msgs__rosidl_generator_c
+[2.199s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.230s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.401s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.441s] [ 28%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_msgs/msg/detail/connected_client__type_support.cpp.o[0m
+[2.446s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.454s] [ 30%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbridge_msgs/msg/detail/connected_clients__type_support.cpp.o[0m
+[2.490s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_cpp[0m
+[2.514s] [ 33%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_msgs/msg/detail/dds_fastrtps/connected_client__type_support.cpp.o[0m
+[2.550s] [ 35%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbridge_msgs/msg/detail/dds_fastrtps/connected_clients__type_support.cpp.o[0m
+[2.567s] [ 38%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_msgs/msg/connected_clients__type_support.cpp.o[0m
+[2.570s] [ 41%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbridge_msgs/msg/connected_client__type_support.cpp.o[0m
+[2.748s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_c[0m
+[2.829s] [ 43%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_msgs/msg/connected_client__type_support.cpp.o[0m
+[3.076s] [ 46%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbridge_msgs/msg/connected_clients__type_support.cpp.o[0m
+[3.238s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_introspection_c[0m
+[3.304s] [ 48%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_c.so[0m
+[3.340s] [ 51%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_msgs/msg/detail/connected_client__type_support.c.o[0m
+[3.448s] [ 53%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbridge_msgs/msg/detail/connected_clients__type_support.c.o[0m
+[3.582s] [ 53%] Built target rosbridge_msgs__rosidl_typesupport_c
+[3.622s] [ 56%] [32m[1mLinking C shared library librosbridge_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.743s] [ 58%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.755s] [ 58%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c
+[3.837s] [ 61%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_cpp.so[0m
+[3.949s] [ 61%] Built target rosbridge_msgs__rosidl_typesupport_cpp
+[3.950s] [ 61%] Built target rosbridge_msgs__rosidl_typesupport_introspection_cpp
+[4.103s] [ 64%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.284s] [ 64%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_cpp
+[4.308s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.868s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_fastrtps_c[0m
+[4.892s] [ 69%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_msgs/msg/detail/connected_clients__type_support_c.cpp.o[0m
+[4.899s] [ 71%] [32mBuilding CXX object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbridge_msgs/msg/detail/connected_client__type_support_c.cpp.o[0m
+[5.718s] [ 74%] [32m[1mLinking CXX shared library librosbridge_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.982s] [ 74%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c
+[6.019s] [35m[1mScanning dependencies of target rosbridge_msgs[0m
+[6.057s] [ 74%] Built target rosbridge_msgs
+[6.099s] [35m[1mScanning dependencies of target rosbridge_msgs__py[0m
+[6.128s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.694s] [ 76%] Built target rosbridge_msgs__py
+[7.718s] [35m[1mScanning dependencies of target rosbridge_msgs__python[0m
+[7.844s] [ 79%] [32mBuilding C object CMakeFiles/rosbridge_msgs__python.dir/rosidl_generator_py/rosbridge_msgs/msg/_connected_client_s.c.o[0m
+[7.867s] [ 82%] [32mBuilding C object CMakeFiles/rosbridge_msgs__python.dir/rosidl_generator_py/rosbridge_msgs/msg/_connected_clients_s.c.o[0m
+[8.446s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/librosbridge_msgs__python.so[0m
+[8.718s] [ 84%] Built target rosbridge_msgs__python
+[8.798s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_c__pyext[0m
+[8.830s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.837s] [35m[1mScanning dependencies of target rosbridge_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[8.896s] [ 87%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.023s] [ 89%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.058s] [ 92%] [32mBuilding C object CMakeFiles/rosbridge_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosbridge_msgs/_rosbridge_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.259s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.546s] [ 94%] Built target rosbridge_msgs__rosidl_typesupport_c__pyext
+[9.580s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.621s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.811s] [100%] Built target rosbridge_msgs__rosidl_typesupport_introspection_c__pyext
+[10.022s] [100%] Built target rosbridge_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.099s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosbridge_msgs -- -j8 -l8
+[11.496s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosbridge_msgs
+[11.522s] -- Install configuration: ""
+[11.524s] -- Execute custom install script
+[11.536s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/ament_index/resource_index/rosidl_interfaces/rosbridge_msgs
+[11.599s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client.h
+[11.668s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients.h
+[11.734s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__functions.h
+[11.757s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__struct.h
+[11.811s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__type_support.h
+[11.873s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__functions.h
+[11.925s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__struct.h
+[12.004s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__type_support.h
+[12.038s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.111s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.sh
+[12.175s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/library_path.dsv
+[12.242s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_c.h
+[12.295s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_c.h
+[12.379s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.454s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_c.so
+[12.531s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_fastrtps_cpp.hpp
+[12.561s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_fastrtps_cpp.hpp
+[12.592s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.615s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.635s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_c.h
+[12.690s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_c.h
+[12.735s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.779s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_client.hpp
+[12.807s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/connected_clients.hpp
+[12.887s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__builder.hpp
+[12.945s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__struct.hpp
+[13.028s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__traits.hpp
+[13.079s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__builder.hpp
+[13.151s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__struct.hpp
+[13.220s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__traits.hpp
+[13.304s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_client__rosidl_typesupport_introspection_cpp.hpp
+[13.365s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/include/rosbridge_msgs/msg/detail/connected_clients__rosidl_typesupport_introspection_cpp.hpp
+[13.423s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.sh
+[13.490s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/pythonpath.dsv
+[13.559s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/__init__.py
+[13.639s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/__init__.py
+[13.670s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/_connected_client.py
+[13.695s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/msg/_connected_clients.py
+[13.738s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[13.814s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[13.907s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/rosbridge_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[13.995s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__python.so
+[14.050s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.idl
+[14.155s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.idl
+[14.237s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClient.msg
+[14.315s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/msg/ConnectedClients.msg
+[14.394s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/ament_index/resource_index/package_run_dependencies/rosbridge_msgs
+[14.485s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/ament_index/resource_index/parent_prefix_path/rosbridge_msgs
+[14.546s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.sh
+[14.577s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/ament_prefix_path.dsv
+[14.599s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.sh
+[14.699s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/environment/path.dsv
+[14.734s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.bash
+[14.765s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.sh
+[14.807s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.zsh
+[14.873s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/local_setup.dsv
+[14.914s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv
+[14.931s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/ament_index/resource_index/packages/rosbridge_msgs
+[15.050s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake-extras.cmake
+[15.115s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.198s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.271s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.341s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.433s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.521s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.577s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig.cmake
+[15.633s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig-version.cmake
+[15.664s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.xml
+[15.718s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so
+[15.720s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_generator_c.so" to ""
+[15.721s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so
+[15.722s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.722s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so
+[15.723s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_c.so" to ""
+[15.724s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so
+[15.725s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.726s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so
+[15.727s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/librosbridge_msgs__rosidl_typesupport_cpp.so" to ""
+[16.041s] Compiling '/home/hunajpu/dev_tt_ws/install/rosbridge_msgs/lib/python3.8/site-packages/rosbridge_msgs/__init__.py'...
+[16.082s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_generator_cExport.cmake
+[16.082s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.083s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.083s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.083s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport.cmake
+[16.084s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.084s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_generator_cppExport.cmake
+[16.084s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.085s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.085s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport.cmake
+[16.085s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.094s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosbridge_msgs

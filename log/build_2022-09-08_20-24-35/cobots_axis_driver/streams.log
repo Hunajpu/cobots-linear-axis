@@ -1,0 +1,20 @@
+[0.820s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_driver -- -j8 -l8
+[1.513s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_driver -- -j8 -l8
+[1.537s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/cobots_axis_driver
+[1.574s] -- Install configuration: "Debug"
+[1.574s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/ament_index/resource_index/package_run_dependencies/cobots_axis_driver
+[1.620s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/ament_index/resource_index/parent_prefix_path/cobots_axis_driver
+[1.620s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/environment/ament_prefix_path.sh
+[1.621s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/environment/ament_prefix_path.dsv
+[1.621s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/environment/path.sh
+[1.621s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/environment/path.dsv
+[1.621s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/local_setup.bash
+[1.621s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/local_setup.sh
+[1.621s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/local_setup.zsh
+[1.621s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/local_setup.dsv
+[1.621s] -- Installing: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/package.dsv
+[1.664s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/ament_index/resource_index/packages/cobots_axis_driver
+[1.664s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/cmake/cobots_axis_driverConfig.cmake
+[1.664s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/cmake/cobots_axis_driverConfig-version.cmake
+[1.664s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/package.xml
+[1.669s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/cobots_axis_driver

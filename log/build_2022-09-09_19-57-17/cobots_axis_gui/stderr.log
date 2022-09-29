@@ -1,0 +1,14 @@
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp: In member function 'virtual void rqt_plugin::Cobot7thAxis::saveSettings(qt_gui_cpp::Settings&, qt_gui_cpp::Settings&) const':
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:34:57: warning: unused parameter 'plugin_settings' [-Wunused-parameter]
+   34 |   void Cobot7thAxis::saveSettings(qt_gui_cpp::Settings& plugin_settings, qt_gui_cpp::Settings& instance_settings) const
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:34:96: warning: unused parameter 'instance_settings' [-Wunused-parameter]
+   34 |   void Cobot7thAxis::saveSettings(qt_gui_cpp::Settings& plugin_settings, qt_gui_cpp::Settings& instance_settings) const
+      |                                                                          ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp: In member function 'virtual void rqt_plugin::Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings&, const qt_gui_cpp::Settings&)':
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:39:66: warning: unused parameter 'plugin_settings' [-Wunused-parameter]
+   39 |   void Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings& plugin_settings, const qt_gui_cpp::Settings& instance_settings)
+      |                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:39:111: warning: unused parameter 'instance_settings' [-Wunused-parameter]
+   39 |   void Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings& plugin_settings, const qt_gui_cpp::Settings& instance_settings)
+      |                                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~

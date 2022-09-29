@@ -1,0 +1,96 @@
+[35m[1mScanning dependencies of target cobot_7thaxis[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o[0m
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvirtual void rqt_plugin::Cobot7thAxis::initPlugin(qt_gui_cpp::PluginContext&)[m[K’:
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:44:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQString::QString(std::__cxx11::basic_string<char>)[m[K’
+   44 |                            [01;31m[K)[m[K;
+      |                            [01;31m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:1[m[K,
+                 from [01m[K/opt/ros/foxy/include/qt_gui_cpp/plugin_bridge.h:36[m[K,
+                 from [01m[K/opt/ros/foxy/include/qt_gui_cpp/plugin.h:36[m[K,
+                 from [01m[K/opt/ros/foxy/include/rqt_gui_cpp/plugin.h:36[m[K,
+                 from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h:11[m[K,
+                 from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:829:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr QString::QString(QStringDataPtr)[m[K’
+  829 |     Q_DECL_CONSTEXPR inline [01;36m[KQString[m[K(QStringDataPtr dd) : d(dd.ptr) {}
+      |                             [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:829:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[KQStringDataPtr[m[K’
+  829 |     Q_DECL_CONSTEXPR inline QString([01;36m[KQStringDataPtr dd[m[K) : d(dd.ptr) {}
+      |                                     [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:828:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString(int, Qt::Initialization)[m[K’
+  828 |     [01;36m[KQString[m[K(int size, Qt::Initialization);
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:828:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:819:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString(const QString::Null&)[m[K’
+  819 |     inline [01;36m[KQString[m[K(const Null &): d(Data::sharedNull()) {}
+      |            [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:819:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst QString::Null&[m[K’
+  819 |     inline QString([01;36m[Kconst Null &[m[K): d(Data::sharedNull()) {}
+      |                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:702:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString(const QByteArray&)[m[K’
+  702 |     inline QT_ASCII_CAST_WARN [01;36m[KQString[m[K(const QByteArray &a)
+      |                               [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:702:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst QByteArray&[m[K’
+  702 |     inline QT_ASCII_CAST_WARN QString([01;36m[Kconst QByteArray &a[m[K)
+      |                                       [01;36m[K~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:699:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString(const char*)[m[K’
+  699 |     inline QT_ASCII_CAST_WARN [01;36m[KQString[m[K(const char *ch)
+      |                               [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:699:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst char*[m[K’
+  699 |     inline QT_ASCII_CAST_WARN QString([01;36m[Kconst char *ch[m[K)
+      |                                       [01;36m[K~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:234:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString(QString&&)[m[K’
+  234 |     inline [01;36m[KQString[m[K(QString && other) Q_DECL_NOTHROW : d(other.d) { other.d = Data::sharedNull(); }
+      |            [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:234:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[KQString&&[m[K’
+  234 |     inline QString([01;36m[KQString && other[m[K) Q_DECL_NOTHROW : d(other.d) { other.d = Data::sharedNull(); }
+      |                    [01;36m[K~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:957:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString(const QString&)[m[K’
+  957 | inline [01;36m[KQString[m[K::QString(const QString &other) Q_DECL_NOTHROW : d(other.d)
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:957:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst QString&[m[K’
+  957 | inline QString::QString([01;36m[Kconst QString &other[m[K) Q_DECL_NOTHROW : d(other.d)
+      |                         [01;36m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:931:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString(QLatin1String)[m[K’
+  931 | inline [01;36m[KQString[m[K::QString(QLatin1String aLatin1) : d(fromLatin1_helper(aLatin1.latin1(), aLatin1.size()))
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:931:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[KQLatin1String[m[K’
+  931 | inline QString::QString([01;36m[KQLatin1String aLatin1[m[K) : d(fromLatin1_helper(aLatin1.latin1(), aLatin1.size()))
+      |                         [01;36m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:226:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString(int, QChar)[m[K’
+  226 |     [01;36m[KQString[m[K(int size, QChar c);
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:226:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:225:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString(QChar)[m[K’
+  225 |     [01;36m[KQString[m[K(QChar c);
+      |     [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:225:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[KQChar[m[K’
+  225 |     QString([01;36m[KQChar c[m[K);
+      |             [01;36m[K~~~~~~^[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:224:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString(const QChar*, int)[m[K’
+  224 |     explicit [01;36m[KQString[m[K(const QChar *unicode, int size = -1);
+      |              [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:224:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kconst QChar*[m[K’
+  224 |     explicit QString([01;36m[Kconst QChar *unicode[m[K, int size = -1);
+      |                      [01;36m[K~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1134:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString::QString()[m[K’
+ 1134 | inline [01;36m[KQString[m[K::QString() Q_DECL_NOTHROW : d(Data::sharedNull()) {}
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:1134:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvirtual void rqt_plugin::Cobot7thAxis::saveSettings(qt_gui_cpp::Settings&, qt_gui_cpp::Settings&) const[m[K’:
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:53:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplugin_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   53 |   void Cobot7thAxis::saveSettings([01;35m[Kqt_gui_cpp::Settings& plugin_settings[m[K, qt_gui_cpp::Settings& instance_settings) const
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:53:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinstance_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   53 |   void Cobot7thAxis::saveSettings(qt_gui_cpp::Settings& plugin_settings, [01;35m[Kqt_gui_cpp::Settings& instance_settings[m[K) const
+      |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:[m[K In member function ‘[01m[Kvirtual void rqt_plugin::Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings&, const qt_gui_cpp::Settings&)[m[K’:
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:58:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplugin_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   58 |   void Cobot7thAxis::restoreSettings([01;35m[Kconst qt_gui_cpp::Settings& plugin_settings[m[K, const qt_gui_cpp::Settings& instance_settings)
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:58:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinstance_settings[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   58 |   void Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings& plugin_settings, [01;35m[Kconst qt_gui_cpp::Settings& instance_settings[m[K)
+      |                                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cobot_7thaxis.dir/build.make:75: CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cobot_7thaxis.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

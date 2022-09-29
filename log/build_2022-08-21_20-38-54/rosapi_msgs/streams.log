@@ -1,0 +1,768 @@
+[0.041s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/rosbridge_suite/rosapi_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rosapi_msgs
+[0.068s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.117s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.117s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.377s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.411s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.554s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.598s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.742s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.792s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.392s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.420s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.467s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.470s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.511s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.512s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.512s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.513s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.555s] -- Found PythonExtra: .so  
+[1.693s] -- Configuring done
+[1.889s] -- Generating done
+[1.894s] -- Build files have been written to: /home/hunajpu/dev_tt_ws/build/rosapi_msgs
+[1.920s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/rosbridge_suite/rosapi_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rosapi_msgs
+[1.925s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosapi_msgs -- -j8 -l8
+[2.071s] [35m[1mScanning dependencies of target rosapi_msgs__cpp[0m
+[2.093s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.107s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.228s] [  1%] Built target rosapi_msgs__cpp
+[7.286s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.291s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.309s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.769s] [35m[1mScanning dependencies of target rosapi_msgs__rosidl_generator_c[0m
+[7.857s] [  4%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/msg/detail/type_def__functions.c.o[0m
+[7.891s] [  4%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/delete_param__functions.c.o[0m
+[7.910s] [  5%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_action_servers__functions.c.o[0m
+[7.949s] [  5%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_param__functions.c.o[0m
+[7.973s] [  6%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_param_names__functions.c.o[0m
+[8.076s] [  6%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_ros_version__functions.c.o[0m
+[8.186s] [  6%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/has_param__functions.c.o[0m
+[8.200s] [  7%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/get_time__functions.c.o[0m
+[8.231s] [  8%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/message_details__functions.c.o[0m
+[8.260s] [  8%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/nodes__functions.c.o[0m
+[8.364s] [  8%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/node_details__functions.c.o[0m
+[8.461s] [  9%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/publishers__functions.c.o[0m
+[8.485s] [  9%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_node__functions.c.o[0m
+[8.518s] [ 10%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_providers__functions.c.o[0m
+[8.543s] [ 11%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_response_details__functions.c.o[0m
+[8.550s] [ 11%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_request_details__functions.c.o[0m
+[8.651s] [ 11%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/services__functions.c.o[0m
+[8.672s] [ 12%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/services_for_type__functions.c.o[0m
+[8.794s] [ 12%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topics__functions.c.o[0m
+[8.819s] [ 12%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/set_param__functions.c.o[0m
+[8.826s] [ 13%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/subscribers__functions.c.o[0m
+[8.832s] [ 13%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/service_type__functions.c.o[0m
+[8.974s] [ 14%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topics_and_raw_types__functions.c.o[0m
+[9.039s] [ 14%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topics_for_type__functions.c.o[0m
+[9.152s] [ 15%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_generator_c.dir/rosidl_generator_c/rosapi_msgs/srv/detail/topic_type__functions.c.o[0m
+[9.402s] [ 15%] [32m[1mLinking C shared library librosapi_msgs__rosidl_generator_c.so[0m
+[9.591s] [ 15%] Built target rosapi_msgs__rosidl_generator_c
+[9.656s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.713s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.753s] [35m[1mScanning dependencies of target rosapi_msgs__rosidl_typesupport_cpp[0m
+[12.768s] [35m[1mScanning dependencies of target rosapi_msgs__rosidl_typesupport_introspection_cpp[0m
+[12.843s] [ 17%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/msg/type_def__type_support.cpp.o[0m
+[12.903s] [ 18%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/delete_param__type_support.cpp.o[0m
+[12.907s] [ 18%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_action_servers__type_support.cpp.o[0m
+[12.913s] [ 18%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/msg/detail/type_def__type_support.cpp.o[0m
+[12.963s] [ 18%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_param__type_support.cpp.o[0m
+[14.452s] [ 19%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/delete_param__type_support.cpp.o[0m
+[14.550s] [ 20%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_param_names__type_support.cpp.o[0m
+[14.565s] [ 20%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_ros_version__type_support.cpp.o[0m
+[15.016s] [ 20%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_action_servers__type_support.cpp.o[0m
+[15.518s] [ 21%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/get_time__type_support.cpp.o[0m
+[15.700s] [ 21%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/has_param__type_support.cpp.o[0m
+[15.824s] [35m[1mScanning dependencies of target rosapi_msgs__rosidl_typesupport_c[0m
+[15.903s] [ 21%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/msg/type_def__type_support.cpp.o[0m
+[15.963s] [ 22%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/delete_param__type_support.cpp.o[0m
+[16.064s] [ 22%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_action_servers__type_support.cpp.o[0m
+[16.086s] [ 22%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_param__type_support.cpp.o[0m
+[16.167s] [ 23%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_param__type_support.cpp.o[0m
+[16.218s] [ 24%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/message_details__type_support.cpp.o[0m
+[16.227s] [ 25%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_param_names__type_support.cpp.o[0m
+[16.340s] [ 25%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/nodes__type_support.cpp.o[0m
+[16.473s] [ 25%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_ros_version__type_support.cpp.o[0m
+[16.657s] [ 26%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/get_time__type_support.cpp.o[0m
+[16.859s] [ 26%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/has_param__type_support.cpp.o[0m
+[16.964s] [ 27%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/node_details__type_support.cpp.o[0m
+[17.051s] [ 27%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/publishers__type_support.cpp.o[0m
+[17.189s] [ 28%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/message_details__type_support.cpp.o[0m
+[17.212s] [ 28%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_param_names__type_support.cpp.o[0m
+[17.449s] [ 28%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/nodes__type_support.cpp.o[0m
+[17.651s] [35m[1mScanning dependencies of target rosapi_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[17.715s] [ 29%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/node_details__type_support.cpp.o[0m
+[17.824s] [ 29%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/publishers__type_support.cpp.o[0m
+[17.925s] [ 29%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_node__type_support.cpp.o[0m
+[17.991s] [ 29%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/msg/detail/dds_fastrtps/type_def__type_support.cpp.o[0m
+[18.014s] [ 30%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_providers__type_support.cpp.o[0m
+[18.054s] [ 30%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_node__type_support.cpp.o[0m
+[18.180s] [ 30%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_request_details__type_support.cpp.o[0m
+[18.236s] [ 31%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_response_details__type_support.cpp.o[0m
+[18.412s] [ 32%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_ros_version__type_support.cpp.o[0m
+[18.428s] [ 32%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/services__type_support.cpp.o[0m
+[18.500s] [ 33%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/services_for_type__type_support.cpp.o[0m
+[18.643s] [ 34%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_providers__type_support.cpp.o[0m
+[18.695s] [ 34%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/service_type__type_support.cpp.o[0m
+[18.964s] [ 35%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/set_param__type_support.cpp.o[0m
+[19.161s] [ 35%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/subscribers__type_support.cpp.o[0m
+[19.276s] [ 35%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topics__type_support.cpp.o[0m
+[19.360s] [ 36%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topics_and_raw_types__type_support.cpp.o[0m
+[19.420s] [ 36%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/has_param__type_support.cpp.o[0m
+[19.483s] [ 36%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topics_for_type__type_support.cpp.o[0m
+[19.602s] [ 37%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosapi_msgs/srv/topic_type__type_support.cpp.o[0m
+[19.660s] [ 37%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_request_details__type_support.cpp.o[0m
+[19.704s] [ 37%] [32m[1mLinking CXX shared library librosapi_msgs__rosidl_typesupport_c.so[0m
+[19.758s] [ 38%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/delete_param__type_support.cpp.o[0m
+[19.823s] [35m[1mScanning dependencies of target rosapi_msgs__rosidl_typesupport_introspection_c[0m
+[19.853s] [ 38%] Built target rosapi_msgs__rosidl_typesupport_c
+[19.885s] [ 38%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/msg/detail/type_def__type_support.c.o[0m
+[19.940s] [ 39%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/delete_param__type_support.c.o[0m
+[20.005s] [ 39%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_action_servers__type_support.c.o[0m
+[20.021s] [ 40%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/message_details__type_support.cpp.o[0m
+[20.063s] [ 41%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_param__type_support.c.o[0m
+[20.127s] [ 41%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_param_names__type_support.c.o[0m
+[20.177s] [ 42%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_ros_version__type_support.c.o[0m
+[20.249s] [ 42%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/get_time__type_support.c.o[0m
+[20.308s] [ 42%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/has_param__type_support.c.o[0m
+[20.330s] [ 43%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_response_details__type_support.cpp.o[0m
+[20.390s] [ 44%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/message_details__type_support.c.o[0m
+[20.474s] [ 44%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/nodes__type_support.c.o[0m
+[20.559s] [ 45%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/node_details__type_support.c.o[0m
+[20.640s] [ 45%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/publishers__type_support.c.o[0m
+[20.687s] [ 45%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_action_servers__type_support.cpp.o[0m
+[20.709s] [ 46%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_node__type_support.c.o[0m
+[20.765s] [ 46%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_providers__type_support.c.o[0m
+[20.834s] [ 47%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_request_details__type_support.c.o[0m
+[20.842s] [ 47%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/nodes__type_support.cpp.o[0m
+[20.894s] [ 47%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_response_details__type_support.c.o[0m
+[20.952s] [ 47%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/services__type_support.cpp.o[0m
+[20.969s] [ 47%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/services__type_support.c.o[0m
+[21.042s] [ 48%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/services_for_type__type_support.c.o[0m
+[21.140s] [ 48%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/service_type__type_support.c.o[0m
+[21.214s] [ 49%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/set_param__type_support.c.o[0m
+[21.285s] [ 49%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/subscribers__type_support.c.o[0m
+[21.371s] [ 50%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topics__type_support.c.o[0m
+[21.445s] [ 50%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.c.o[0m
+[21.518s] [ 51%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topics_for_type__type_support.c.o[0m
+[21.544s] [ 52%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_param__type_support.cpp.o[0m
+[21.587s] [ 52%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosapi_msgs/srv/detail/topic_type__type_support.c.o[0m
+[21.611s] [ 53%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/node_details__type_support.cpp.o[0m
+[21.617s] [ 53%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/service_type__type_support.cpp.o[0m
+[21.648s] [ 53%] [32m[1mLinking C shared library librosapi_msgs__rosidl_typesupport_introspection_c.so[0m
+[21.718s] [ 53%] Built target rosapi_msgs__rosidl_typesupport_introspection_c
+[22.092s] [ 54%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/set_param__type_support.cpp.o[0m
+[22.207s] [ 55%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_node__type_support.cpp.o[0m
+[22.451s] [ 55%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_param_names__type_support.cpp.o[0m
+[22.563s] [ 55%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/subscribers__type_support.cpp.o[0m
+[22.796s] [ 55%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_providers__type_support.cpp.o[0m
+[23.060s] [ 55%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topics__type_support.cpp.o[0m
+[23.243s] [ 55%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_ros_version__type_support.cpp.o[0m
+[23.462s] [ 56%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_request_details__type_support.cpp.o[0m
+[23.643s] [ 57%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topics_and_raw_types__type_support.cpp.o[0m
+[23.950s] [ 58%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/get_time__type_support.cpp.o[0m
+[24.076s] [ 58%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_response_details__type_support.cpp.o[0m
+[24.241s] [ 58%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topics_for_type__type_support.cpp.o[0m
+[24.661s] [ 58%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/has_param__type_support.cpp.o[0m
+[24.662s] [ 58%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/services__type_support.cpp.o[0m
+[24.835s] [ 59%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/topic_type__type_support.cpp.o[0m
+[25.199s] [ 60%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/services_for_type__type_support.cpp.o[0m
+[25.346s] [ 60%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/nodes__type_support.cpp.o[0m
+[25.445s] [ 61%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosapi_msgs/srv/services_for_type__type_support.cpp.o[0m
+[25.752s] [ 61%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/service_type__type_support.cpp.o[0m
+[25.932s] [ 61%] [32m[1mLinking CXX shared library librosapi_msgs__rosidl_typesupport_cpp.so[0m
+[25.999s] [ 61%] Built target rosapi_msgs__rosidl_typesupport_cpp
+[26.095s] [ 62%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_node__type_support.cpp.o[0m
+[26.342s] [ 63%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/set_param__type_support.cpp.o[0m
+[26.705s] [ 63%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_providers__type_support.cpp.o[0m
+[26.765s] [ 63%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/subscribers__type_support.cpp.o[0m
+[27.256s] [ 63%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/publishers__type_support.cpp.o[0m
+[27.405s] [ 64%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_response_details__type_support.cpp.o[0m
+[27.697s] [ 65%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topics__type_support.cpp.o[0m
+[28.088s] [ 65%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/services__type_support.cpp.o[0m
+[28.144s] [ 65%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.cpp.o[0m
+[28.584s] [ 65%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/get_time__type_support.cpp.o[0m
+[28.714s] [ 65%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_type__type_support.cpp.o[0m
+[28.959s] [ 66%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topics_for_type__type_support.cpp.o[0m
+[29.283s] [ 67%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/set_param__type_support.cpp.o[0m
+[29.414s] [ 67%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosapi_msgs/srv/detail/topic_type__type_support.cpp.o[0m
+[29.806s] [ 68%] [32m[1mLinking CXX shared library librosapi_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[29.848s] [ 68%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/subscribers__type_support.cpp.o[0m
+[29.946s] [ 68%] Built target rosapi_msgs__rosidl_typesupport_introspection_cpp
+[30.416s] [ 68%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topics_and_raw_types__type_support.cpp.o[0m
+[30.998s] [ 68%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topics_for_type__type_support.cpp.o[0m
+[31.646s] [ 69%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topic_type__type_support.cpp.o[0m
+[32.170s] [ 70%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/topics__type_support.cpp.o[0m
+[32.735s] [ 71%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/services_for_type__type_support.cpp.o[0m
+[33.301s] [ 71%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/service_request_details__type_support.cpp.o[0m
+[33.912s] [ 71%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/publishers__type_support.cpp.o[0m
+[34.484s] [ 72%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/node_details__type_support.cpp.o[0m
+[35.028s] [ 73%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosapi_msgs/srv/detail/dds_fastrtps/message_details__type_support.cpp.o[0m
+[35.633s] [ 73%] [32m[1mLinking CXX shared library librosapi_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[35.812s] [ 73%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_cpp
+[35.825s] [ 74%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[38.095s] [35m[1mScanning dependencies of target rosapi_msgs__rosidl_typesupport_fastrtps_c[0m
+[38.146s] [ 74%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/msg/detail/type_def__type_support_c.cpp.o[0m
+[38.583s] [ 74%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/has_param__type_support_c.cpp.o[0m
+[39.005s] [ 75%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/message_details__type_support_c.cpp.o[0m
+[39.422s] [ 75%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/nodes__type_support_c.cpp.o[0m
+[39.849s] [ 76%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/node_details__type_support_c.cpp.o[0m
+[40.296s] [ 76%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/publishers__type_support_c.cpp.o[0m
+[40.745s] [ 77%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_node__type_support_c.cpp.o[0m
+[41.179s] [ 77%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_providers__type_support_c.cpp.o[0m
+[41.628s] [ 77%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_request_details__type_support_c.cpp.o[0m
+[42.056s] [ 78%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_response_details__type_support_c.cpp.o[0m
+[42.501s] [ 78%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/services__type_support_c.cpp.o[0m
+[42.970s] [ 79%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/services_for_type__type_support_c.cpp.o[0m
+[43.430s] [ 79%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/service_type__type_support_c.cpp.o[0m
+[43.858s] [ 81%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/set_param__type_support_c.cpp.o[0m
+[43.858s] [ 81%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_time__type_support_c.cpp.o[0m
+[44.364s] [ 81%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/subscribers__type_support_c.cpp.o[0m
+[44.371s] [ 82%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topics__type_support_c.cpp.o[0m
+[44.838s] [ 82%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topics_and_raw_types__type_support_c.cpp.o[0m
+[44.868s] [ 82%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topics_for_type__type_support_c.cpp.o[0m
+[45.372s] [ 83%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/topic_type__type_support_c.cpp.o[0m
+[45.384s] [ 83%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_ros_version__type_support_c.cpp.o[0m
+[45.973s] [ 83%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_param_names__type_support_c.cpp.o[0m
+[46.000s] [ 84%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_param__type_support_c.cpp.o[0m
+[46.565s] [ 84%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/get_action_servers__type_support_c.cpp.o[0m
+[46.658s] [ 85%] [32mBuilding CXX object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosapi_msgs/srv/detail/delete_param__type_support_c.cpp.o[0m
+[47.232s] [ 85%] [32m[1mLinking CXX shared library librosapi_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[47.387s] [ 85%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_c
+[47.399s] [35m[1mScanning dependencies of target rosapi_msgs[0m
+[47.411s] [ 85%] Built target rosapi_msgs
+[47.423s] [35m[1mScanning dependencies of target rosapi_msgs__py[0m
+[47.434s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[52.425s] [ 85%] Built target rosapi_msgs__py
+[52.436s] [35m[1mScanning dependencies of target rosapi_msgs__python[0m
+[52.509s] [ 86%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/msg/_type_def_s.c.o[0m
+[52.513s] [ 87%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_get_action_servers_s.c.o[0m
+[52.513s] [ 87%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_delete_param_s.c.o[0m
+[52.719s] [ 87%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_has_param_s.c.o[0m
+[52.743s] [ 88%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_nodes_s.c.o[0m
+[52.745s] [ 88%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_message_details_s.c.o[0m
+[52.873s] [ 88%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_node_details_s.c.o[0m
+[52.883s] [ 89%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_publishers_s.c.o[0m
+[52.890s] [ 89%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_service_node_s.c.o[0m
+[53.020s] [ 90%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_service_providers_s.c.o[0m
+[53.069s] [ 90%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_service_request_details_s.c.o[0m
+[53.071s] [ 91%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_service_response_details_s.c.o[0m
+[53.176s] [ 91%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_services_s.c.o[0m
+[53.215s] [ 91%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_services_for_type_s.c.o[0m
+[53.222s] [ 92%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_service_type_s.c.o[0m
+[53.324s] [ 92%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_set_param_s.c.o[0m
+[53.354s] [ 93%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_subscribers_s.c.o[0m
+[53.371s] [ 93%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_topics_s.c.o[0m
+[53.462s] [ 95%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_get_time_s.c.o[0m
+[53.462s] [ 95%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_topics_and_raw_types_s.c.o[0m
+[53.508s] [ 95%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_topics_for_type_s.c.o[0m
+[53.543s] [ 96%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_topic_type_s.c.o[0m
+[53.609s] [ 96%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_get_ros_version_s.c.o[0m
+[53.661s] [ 97%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_get_param_names_s.c.o[0m
+[53.678s] [ 97%] [32mBuilding C object CMakeFiles/rosapi_msgs__python.dir/rosidl_generator_py/rosapi_msgs/srv/_get_param_s.c.o[0m
+[53.814s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rosapi_msgs/librosapi_msgs__python.so[0m
+[53.871s] [ 97%] Built target rosapi_msgs__python
+[53.882s] [35m[1mScanning dependencies of target rosapi_msgs__rosidl_typesupport_c__pyext[0m
+[53.882s] [35m[1mScanning dependencies of target rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[53.884s] [35m[1mScanning dependencies of target rosapi_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[53.915s] [ 98%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[53.919s] [ 99%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[53.929s] [100%] [32mBuilding C object CMakeFiles/rosapi_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosapi_msgs/_rosapi_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[54.287s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[54.301s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[54.337s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[54.349s] [100%] Built target rosapi_msgs__rosidl_typesupport_introspection_c__pyext
+[54.383s] [100%] Built target rosapi_msgs__rosidl_typesupport_c__pyext
+[54.407s] [100%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext
+[54.422s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosapi_msgs -- -j8 -l8
+[54.822s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosapi_msgs
+[54.831s] -- Install configuration: ""
+[54.831s] -- Execute custom install script
+[54.832s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/ament_index/resource_index/rosidl_interfaces/rosapi_msgs
+[54.846s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__functions.h
+[54.855s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__struct.h
+[54.866s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__type_support.h
+[54.876s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/rosidl_generator_c__visibility_control.h
+[54.886s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/type_def.h
+[54.897s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/delete_param.h
+[54.909s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__functions.h
+[54.918s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__struct.h
+[54.930s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__type_support.h
+[54.939s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__functions.h
+[54.949s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__struct.h
+[54.957s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__type_support.h
+[54.968s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__functions.h
+[54.979s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__struct.h
+[54.988s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__type_support.h
+[54.997s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__functions.h
+[55.008s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__struct.h
+[55.020s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__type_support.h
+[55.030s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__functions.h
+[55.039s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__struct.h
+[55.050s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__type_support.h
+[55.061s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__functions.h
+[55.070s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__struct.h
+[55.078s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__type_support.h
+[55.087s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__functions.h
+[55.099s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__struct.h
+[55.111s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__type_support.h
+[55.120s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__functions.h
+[55.129s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__struct.h
+[55.142s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__type_support.h
+[55.151s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__functions.h
+[55.160s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__struct.h
+[55.169s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__type_support.h
+[55.180s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__functions.h
+[55.190s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__struct.h
+[55.204s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__type_support.h
+[55.224s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__functions.h
+[55.239s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__struct.h
+[55.258s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__type_support.h
+[55.277s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__functions.h
+[55.293s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__struct.h
+[55.310s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__type_support.h
+[55.323s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__functions.h
+[55.336s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__struct.h
+[55.350s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__type_support.h
+[55.360s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__functions.h
+[55.369s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__struct.h
+[55.381s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__type_support.h
+[55.391s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__functions.h
+[55.400s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__struct.h
+[55.411s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__type_support.h
+[55.422s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__functions.h
+[55.435s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__struct.h
+[55.445s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__type_support.h
+[55.454s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__functions.h
+[55.465s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__struct.h
+[55.476s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__type_support.h
+[55.487s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__functions.h
+[55.498s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__struct.h
+[55.515s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__type_support.h
+[55.528s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__functions.h
+[55.537s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__struct.h
+[55.547s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__type_support.h
+[55.557s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__functions.h
+[55.567s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__struct.h
+[55.576s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__type_support.h
+[55.586s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__functions.h
+[55.601s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__struct.h
+[55.611s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__type_support.h
+[55.621s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__functions.h
+[55.632s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__struct.h
+[55.643s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__type_support.h
+[55.654s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__functions.h
+[55.665s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__struct.h
+[55.676s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.h
+[55.686s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__functions.h
+[55.696s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__struct.h
+[55.710s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__type_support.h
+[55.722s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_action_servers.h
+[55.732s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_param.h
+[55.742s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_param_names.h
+[55.753s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_ros_version.h
+[55.764s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_time.h
+[55.774s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/has_param.h
+[55.784s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/message_details.h
+[55.796s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/node_details.h
+[55.806s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/nodes.h
+[55.817s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/publishers.h
+[55.828s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_node.h
+[55.839s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_providers.h
+[55.850s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_request_details.h
+[55.860s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_response_details.h
+[55.870s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_type.h
+[55.881s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/services.h
+[55.890s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/services_for_type.h
+[55.902s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/set_param.h
+[55.913s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/subscribers.h
+[55.925s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topic_type.h
+[55.935s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics.h
+[55.945s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics_and_raw_types.h
+[55.955s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics_for_type.h
+[55.966s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/library_path.sh
+[55.977s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/library_path.dsv
+[55.989s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_fastrtps_c.h
+[56.002s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[56.014s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_fastrtps_c.h
+[56.025s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_fastrtps_c.h
+[56.035s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_fastrtps_c.h
+[56.047s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_fastrtps_c.h
+[56.057s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_fastrtps_c.h
+[56.067s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_fastrtps_c.h
+[56.077s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_fastrtps_c.h
+[56.087s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_fastrtps_c.h
+[56.097s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_fastrtps_c.h
+[56.111s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_fastrtps_c.h
+[56.122s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_fastrtps_c.h
+[56.134s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_fastrtps_c.h
+[56.144s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_fastrtps_c.h
+[56.154s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_fastrtps_c.h
+[56.168s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_fastrtps_c.h
+[56.182s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_fastrtps_c.h
+[56.189s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__rosidl_typesupport_fastrtps_c.h
+[56.198s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_fastrtps_c.h
+[56.212s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_fastrtps_c.h
+[56.224s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_fastrtps_c.h
+[56.234s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_fastrtps_c.h
+[56.244s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__rosidl_typesupport_fastrtps_c.h
+[56.255s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_fastrtps_c.h
+[56.268s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_fastrtps_c.h
+[56.281s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_c.so
+[56.296s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_fastrtps_cpp.hpp
+[56.309s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[56.320s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_fastrtps_cpp.hpp
+[56.333s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_fastrtps_cpp.hpp
+[56.345s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_fastrtps_cpp.hpp
+[56.356s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_fastrtps_cpp.hpp
+[56.367s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_fastrtps_cpp.hpp
+[56.380s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_fastrtps_cpp.hpp
+[56.391s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_fastrtps_cpp.hpp
+[56.403s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_fastrtps_cpp.hpp
+[56.415s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_fastrtps_cpp.hpp
+[56.427s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[56.438s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_fastrtps_cpp.hpp
+[56.449s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_fastrtps_cpp.hpp
+[56.460s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_fastrtps_cpp.hpp
+[56.468s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_fastrtps_cpp.hpp
+[56.477s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_fastrtps_cpp.hpp
+[56.485s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_fastrtps_cpp.hpp
+[56.495s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__rosidl_typesupport_fastrtps_cpp.hpp
+[56.504s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_fastrtps_cpp.hpp
+[56.515s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_fastrtps_cpp.hpp
+[56.524s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_fastrtps_cpp.hpp
+[56.534s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_fastrtps_cpp.hpp
+[56.544s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__rosidl_typesupport_fastrtps_cpp.hpp
+[56.552s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_fastrtps_cpp.hpp
+[56.560s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_fastrtps_cpp.hpp
+[56.568s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_cpp.so
+[56.580s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_introspection_c.h
+[56.589s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[56.597s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_introspection_c.h
+[56.607s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_introspection_c.h
+[56.616s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_introspection_c.h
+[56.626s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_introspection_c.h
+[56.636s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_introspection_c.h
+[56.645s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_introspection_c.h
+[56.653s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_introspection_c.h
+[56.662s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_introspection_c.h
+[56.670s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_introspection_c.h
+[56.679s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_introspection_c.h
+[56.687s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_introspection_c.h
+[56.695s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_introspection_c.h
+[56.707s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_introspection_c.h
+[56.716s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_introspection_c.h
+[56.725s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_introspection_c.h
+[56.734s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_introspection_c.h
+[56.744s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__rosidl_typesupport_introspection_c.h
+[56.753s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_introspection_c.h
+[56.761s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_introspection_c.h
+[56.769s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_introspection_c.h
+[56.779s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_introspection_c.h
+[56.788s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__rosidl_typesupport_introspection_c.h
+[56.798s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_introspection_c.h
+[56.808s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_introspection_c.h
+[56.818s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__builder.hpp
+[56.832s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__struct.hpp
+[56.840s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__traits.hpp
+[56.849s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/type_def.hpp
+[56.857s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/delete_param.hpp
+[56.867s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__builder.hpp
+[56.876s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__struct.hpp
+[56.884s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__traits.hpp
+[56.893s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__builder.hpp
+[56.904s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__struct.hpp
+[56.916s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__traits.hpp
+[56.926s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__builder.hpp
+[56.935s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__struct.hpp
+[56.944s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__traits.hpp
+[56.953s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__builder.hpp
+[56.962s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__struct.hpp
+[56.975s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__traits.hpp
+[56.985s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__builder.hpp
+[56.996s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__struct.hpp
+[57.006s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__traits.hpp
+[57.015s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__builder.hpp
+[57.024s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__struct.hpp
+[57.034s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__traits.hpp
+[57.045s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__builder.hpp
+[57.053s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__struct.hpp
+[57.062s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__traits.hpp
+[57.071s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__builder.hpp
+[57.081s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__struct.hpp
+[57.088s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__traits.hpp
+[57.097s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__builder.hpp
+[57.108s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__struct.hpp
+[57.121s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__traits.hpp
+[57.130s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__builder.hpp
+[57.138s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__struct.hpp
+[57.146s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__traits.hpp
+[57.156s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__builder.hpp
+[57.165s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__struct.hpp
+[57.173s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__traits.hpp
+[57.182s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__builder.hpp
+[57.191s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__struct.hpp
+[57.201s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__traits.hpp
+[57.211s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__builder.hpp
+[57.219s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__struct.hpp
+[57.228s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__traits.hpp
+[57.237s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__builder.hpp
+[57.247s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__struct.hpp
+[57.256s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__traits.hpp
+[57.264s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__builder.hpp
+[57.272s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__struct.hpp
+[57.282s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__traits.hpp
+[57.290s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__builder.hpp
+[57.298s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__struct.hpp
+[57.308s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__traits.hpp
+[57.318s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__builder.hpp
+[57.327s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__struct.hpp
+[57.336s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__traits.hpp
+[57.345s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__builder.hpp
+[57.353s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__struct.hpp
+[57.362s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__traits.hpp
+[57.371s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__builder.hpp
+[57.380s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__struct.hpp
+[57.388s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__traits.hpp
+[57.396s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__builder.hpp
+[57.409s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__struct.hpp
+[57.418s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__traits.hpp
+[57.427s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__builder.hpp
+[57.436s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__struct.hpp
+[57.447s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__traits.hpp
+[57.456s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__builder.hpp
+[57.465s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__struct.hpp
+[57.473s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__traits.hpp
+[57.482s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__builder.hpp
+[57.491s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__struct.hpp
+[57.500s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__traits.hpp
+[57.511s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__builder.hpp
+[57.519s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__struct.hpp
+[57.529s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__traits.hpp
+[57.539s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_action_servers.hpp
+[57.547s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_param.hpp
+[57.556s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_param_names.hpp
+[57.565s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_ros_version.hpp
+[57.574s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_time.hpp
+[57.583s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/has_param.hpp
+[57.591s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/message_details.hpp
+[57.600s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/node_details.hpp
+[57.614s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/nodes.hpp
+[57.623s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/publishers.hpp
+[57.632s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_node.hpp
+[57.640s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_providers.hpp
+[57.650s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_request_details.hpp
+[57.660s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_response_details.hpp
+[57.669s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_type.hpp
+[57.678s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/services.hpp
+[57.687s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/services_for_type.hpp
+[57.696s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/set_param.hpp
+[57.707s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/subscribers.hpp
+[57.718s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topic_type.hpp
+[57.729s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics.hpp
+[57.740s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics_and_raw_types.hpp
+[57.749s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics_for_type.hpp
+[57.758s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_introspection_cpp.hpp
+[57.766s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_introspection_cpp.hpp
+[57.776s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_introspection_cpp.hpp
+[57.785s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_introspection_cpp.hpp
+[57.794s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_introspection_cpp.hpp
+[57.806s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_introspection_cpp.hpp
+[57.818s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_introspection_cpp.hpp
+[57.828s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_introspection_cpp.hpp
+[57.836s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_introspection_cpp.hpp
+[57.846s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_introspection_cpp.hpp
+[57.856s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_introspection_cpp.hpp
+[57.865s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_introspection_cpp.hpp
+[57.874s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_introspection_cpp.hpp
+[57.882s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_introspection_cpp.hpp
+[57.890s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_introspection_cpp.hpp
+[57.899s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_introspection_cpp.hpp
+[57.911s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_introspection_cpp.hpp
+[57.920s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__rosidl_typesupport_introspection_cpp.hpp
+[57.929s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_introspection_cpp.hpp
+[57.939s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_introspection_cpp.hpp
+[57.949s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_introspection_cpp.hpp
+[57.957s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_introspection_cpp.hpp
+[57.965s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__rosidl_typesupport_introspection_cpp.hpp
+[57.973s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_introspection_cpp.hpp
+[57.983s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_introspection_cpp.hpp
+[57.992s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/pythonpath.sh
+[58.000s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/pythonpath.dsv
+[58.010s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/__init__.py
+[58.019s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/msg/__init__.py
+[58.030s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/msg/_type_def.py
+[58.039s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/__init__.py
+[58.048s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_delete_param.py
+[58.057s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_get_action_servers.py
+[58.067s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_get_param.py
+[58.077s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_get_param_names.py
+[58.085s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_get_ros_version.py
+[58.092s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_get_time.py
+[58.102s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_has_param.py
+[58.114s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_message_details.py
+[58.123s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_node_details.py
+[58.132s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_nodes.py
+[58.140s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_publishers.py
+[58.151s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_service_node.py
+[58.159s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_service_providers.py
+[58.168s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_service_request_details.py
+[58.177s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_service_response_details.py
+[58.186s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_service_type.py
+[58.195s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_services.py
+[58.204s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_services_for_type.py
+[58.213s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_set_param.py
+[58.222s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_subscribers.py
+[58.233s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_topic_type.py
+[58.243s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_topics.py
+[58.252s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_topics_and_raw_types.py
+[58.262s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_topics_for_type.py
+[58.272s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[58.281s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[58.290s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[58.298s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__python.so
+[58.310s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/msg/TypeDef.idl
+[58.320s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam.idl
+[58.331s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers.idl
+[58.340s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam.idl
+[58.351s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames.idl
+[58.361s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion.idl
+[58.370s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime.idl
+[58.379s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam.idl
+[58.388s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails.idl
+[58.397s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes.idl
+[58.407s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails.idl
+[58.415s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers.idl
+[58.424s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode.idl
+[58.434s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders.idl
+[58.445s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails.idl
+[58.455s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails.idl
+[58.464s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services.idl
+[58.474s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType.idl
+[58.483s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType.idl
+[58.493s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam.idl
+[58.503s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers.idl
+[58.516s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics.idl
+[58.527s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes.idl
+[58.537s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType.idl
+[58.546s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType.idl
+[58.555s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/msg/TypeDef.msg
+[58.565s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam.srv
+[58.574s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam_Request.msg
+[58.583s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam_Response.msg
+[58.592s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers.srv
+[58.601s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers_Request.msg
+[58.611s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers_Response.msg
+[58.620s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam.srv
+[58.629s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam_Request.msg
+[58.639s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam_Response.msg
+[58.650s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames.srv
+[58.660s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames_Request.msg
+[58.668s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames_Response.msg
+[58.677s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion.srv
+[58.687s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion_Request.msg
+[58.697s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion_Response.msg
+[58.707s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime.srv
+[58.716s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime_Request.msg
+[58.726s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime_Response.msg
+[58.735s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam.srv
+[58.745s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam_Request.msg
+[58.753s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam_Response.msg
+[58.764s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails.srv
+[58.773s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails_Request.msg
+[58.782s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails_Response.msg
+[58.791s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes.srv
+[58.799s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes_Request.msg
+[58.810s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes_Response.msg
+[58.818s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails.srv
+[58.827s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails_Request.msg
+[58.835s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails_Response.msg
+[58.845s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers.srv
+[58.855s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers_Request.msg
+[58.865s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers_Response.msg
+[58.874s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode.srv
+[58.883s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode_Request.msg
+[58.893s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode_Response.msg
+[58.902s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders.srv
+[58.915s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders_Request.msg
+[58.926s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders_Response.msg
+[58.936s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails.srv
+[58.945s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails_Request.msg
+[58.953s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails_Response.msg
+[58.962s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails.srv
+[58.973s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails_Request.msg
+[58.983s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails_Response.msg
+[58.991s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services.srv
+[59.000s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services_Request.msg
+[59.010s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services_Response.msg
+[59.019s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType.srv
+[59.028s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType_Request.msg
+[59.037s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType_Response.msg
+[59.046s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType.srv
+[59.056s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType_Request.msg
+[59.065s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType_Response.msg
+[59.073s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam.srv
+[59.082s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam_Request.msg
+[59.090s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam_Response.msg
+[59.100s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers.srv
+[59.112s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers_Request.msg
+[59.121s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers_Response.msg
+[59.130s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics.srv
+[59.140s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics_Request.msg
+[59.148s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics_Response.msg
+[59.157s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes.srv
+[59.165s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes_Request.msg
+[59.178s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes_Response.msg
+[59.188s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType.srv
+[59.197s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType_Request.msg
+[59.207s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType_Response.msg
+[59.217s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType.srv
+[59.229s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType_Request.msg
+[59.237s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType_Response.msg
+[59.249s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/ament_index/resource_index/package_run_dependencies/rosapi_msgs
+[59.259s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/ament_index/resource_index/parent_prefix_path/rosapi_msgs
+[59.268s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/ament_prefix_path.sh
+[59.277s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/ament_prefix_path.dsv
+[59.286s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/path.sh
+[59.294s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/path.dsv
+[59.307s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.bash
+[59.318s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.sh
+[59.327s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.zsh
+[59.336s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.dsv
+[59.347s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/package.dsv
+[59.356s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/ament_index/resource_index/packages/rosapi_msgs
+[59.366s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake-extras.cmake
+[59.375s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.384s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[59.393s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[59.402s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.412s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[59.421s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[59.432s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgsConfig.cmake
+[59.441s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgsConfig-version.cmake
+[59.450s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/package.xml
+[59.459s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_c.so
+[59.459s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_c.so" to ""
+[59.460s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_c.so
+[59.460s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_c.so" to ""
+[59.460s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_c.so
+[59.460s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_c.so" to ""
+[59.461s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_cpp.so
+[59.461s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[59.461s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_cpp.so
+[59.462s] -- Set runtime path of "/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_cpp.so" to ""
+[59.491s] Compiling '/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/__init__.py'...
+[59.495s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_generator_cExport.cmake
+[59.496s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_generator_cExport-noconfig.cmake
+[59.496s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cExport.cmake
+[59.496s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[59.496s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cExport.cmake
+[59.496s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[59.496s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_generator_cppExport.cmake
+[59.496s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[59.496s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[59.497s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cppExport.cmake
+[59.497s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[59.499s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosapi_msgs

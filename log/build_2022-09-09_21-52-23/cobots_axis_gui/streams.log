@@ -1,0 +1,23 @@
+[0.279s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8
+[0.392s] [ 12%] [34m[1mGenerating ui_cobot_7thaxis.h[0m
+[0.437s] [35m[1mScanning dependencies of target cobot_7thaxis[0m
+[0.568s] [ 25%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o[0m
+[0.579s] [ 37%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/include/cobots_axis_gui/moc_cobot_7thaxis.cpp.o[0m
+[0.879s] In file included from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h:17[m[K,
+[0.880s]                  from [01m[K/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:1[m[K:
+[0.887s] [01m[K/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/../cobots_axis_gui/ui_cobot_7thaxis.h:27:10:[m[K [01;31m[Kfatal error: [m[Kmytoolbutton.h: No such file or directory
+[0.888s]    27 | #include [01;31m[K"mytoolbutton.h"[m[K
+[0.888s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.888s] compilation terminated.
+[0.890s] make[2]: *** [CMakeFiles/cobot_7thaxis.dir/build.make:75: CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o] Error 1
+[0.890s] make[2]: *** Waiting for unfinished jobs....
+[0.968s] In file included from [01m[K/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/include/cobots_axis_gui/../../../../src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h:17[m[K,
+[0.969s]                  from [01m[K/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/include/cobots_axis_gui/moc_cobot_7thaxis.cpp:9[m[K:
+[0.969s] [01m[K/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/../cobots_axis_gui/ui_cobot_7thaxis.h:27:10:[m[K [01;31m[Kfatal error: [m[Kmytoolbutton.h: No such file or directory
+[0.971s]    27 | #include [01;31m[K"mytoolbutton.h"[m[K
+[0.972s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.972s] compilation terminated.
+[0.972s] make[2]: *** [CMakeFiles/cobot_7thaxis.dir/build.make:101: CMakeFiles/cobot_7thaxis.dir/include/cobots_axis_gui/moc_cobot_7thaxis.cpp.o] Error 1
+[0.972s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cobot_7thaxis.dir/all] Error 2
+[0.972s] make: *** [Makefile:141: all] Error 2
+[1.026s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_gui' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_gui -- -j8 -l8

@@ -1,0 +1,20 @@
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp: In member function 'virtual void rqt_plugin::Cobot7thAxis::saveSettings(qt_gui_cpp::Settings&, qt_gui_cpp::Settings&) const':
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:35:57: warning: unused parameter 'plugin_settings' [-Wunused-parameter]
+   35 |   void Cobot7thAxis::saveSettings(qt_gui_cpp::Settings& plugin_settings, qt_gui_cpp::Settings& instance_settings) const
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:35:96: warning: unused parameter 'instance_settings' [-Wunused-parameter]
+   35 |   void Cobot7thAxis::saveSettings(qt_gui_cpp::Settings& plugin_settings, qt_gui_cpp::Settings& instance_settings) const
+      |                                                                          ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp: In member function 'virtual void rqt_plugin::Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings&, const qt_gui_cpp::Settings&)':
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:40:66: warning: unused parameter 'plugin_settings' [-Wunused-parameter]
+   40 |   void Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings& plugin_settings, const qt_gui_cpp::Settings& instance_settings)
+      |                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/src/cobot_7thaxis.cpp:40:111: warning: unused parameter 'instance_settings' [-Wunused-parameter]
+   40 |   void Cobot7thAxis::restoreSettings(const qt_gui_cpp::Settings& plugin_settings, const qt_gui_cpp::Settings& instance_settings)
+      |                                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+CMake Error at cmake_install.cmake:64 (file):
+  file INSTALL cannot find
+  "/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/scripts/cobot_7thaxis":
+  No such file or directory.
+
+

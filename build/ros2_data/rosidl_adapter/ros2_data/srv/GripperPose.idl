@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_data/srv/GripperPose.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_data {
+  module srv {
+    struct GripperPose_Request {
+      double pose;
+    };
+    struct GripperPose_Response {
+      string result;
+    };
+  };
+};

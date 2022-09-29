@@ -1,0 +1,4 @@
+[ 10%] [34m[1mGenerating include/cobots_axis_gui/moc_ros_launch_manager.cpp[0m
+[35m[1mScanning dependencies of target cobot_7thaxis[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/include/cobots_axis_gui/moc_ros_launch_manager.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/cobot_7thaxis.dir/src/cobot_7thaxis.cpp.o[0m

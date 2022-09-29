@@ -1,0 +1,4 @@
+source;share/cobots_axis_driver/local_setup.bash
+source;share/cobots_axis_driver/local_setup.dsv
+source;share/cobots_axis_driver/local_setup.sh
+source;share/cobots_axis_driver/local_setup.zsh

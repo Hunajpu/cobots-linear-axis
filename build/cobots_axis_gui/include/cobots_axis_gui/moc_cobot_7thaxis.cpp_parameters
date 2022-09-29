@@ -1,0 +1,4 @@
+-DROS_PACKAGE_NAME="cobots_axis_gui"
+-o
+/home/hunajpu/dev_tt_ws/build/cobots_axis_gui/include/cobots_axis_gui/moc_cobot_7thaxis.cpp
+/home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_gui/include/cobots_axis_gui/cobot_7thaxis.h

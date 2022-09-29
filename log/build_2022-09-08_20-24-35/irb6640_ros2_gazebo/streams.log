@@ -1,0 +1,1 @@
+[0.105s] Invoking command in '/home/hunajpu/dev_tt_ws/build/irb6640_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/irb6640_ros2_gazebo -- -j8 -l8

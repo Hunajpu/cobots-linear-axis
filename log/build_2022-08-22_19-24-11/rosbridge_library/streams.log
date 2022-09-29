@@ -1,0 +1,55 @@
+[0.046s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosbridge_library -- -j8 -l8
+[0.679s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosbridge_library -- -j8 -l8
+[0.751s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosbridge_library
+[0.773s] -- Install configuration: ""
+[0.774s] -- Execute custom install script
+[0.806s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.sh
+[0.808s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/environment/pythonpath.dsv
+[0.815s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/__init__.py
+[0.826s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/__init__.py
+[0.827s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/advertise.py
+[0.829s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/advertise_service.py
+[0.830s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/call_service.py
+[0.832s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/defragmentation.py
+[0.833s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/fragmentation.py
+[0.835s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/publish.py
+[0.836s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/service_response.py
+[0.837s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/subscribe.py
+[0.837s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities/unadvertise_service.py
+[0.838s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capability.py
+[0.838s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/__init__.py
+[0.839s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/cbor_conversion.py
+[0.840s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/exceptions.py
+[0.840s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/message_conversion.py
+[0.841s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/outgoing_message.py
+[0.842s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/pngcompression.py
+[0.842s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/publishers.py
+[0.843s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/ros_loader.py
+[0.843s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/services.py
+[0.844s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/subscribers.py
+[0.844s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/subscription_modifiers.py
+[0.845s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal/topics.py
+[0.846s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/protocol.py
+[0.846s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/rosbridge_protocol.py
+[0.847s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util/__init__.py
+[0.847s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util/cbor.py
+[0.848s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/ament_index/resource_index/package_run_dependencies/rosbridge_library
+[0.849s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/ament_index/resource_index/parent_prefix_path/rosbridge_library
+[0.850s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.sh
+[0.851s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/environment/ament_prefix_path.dsv
+[0.852s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/environment/path.sh
+[0.853s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/environment/path.dsv
+[0.853s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/local_setup.bash
+[0.854s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/local_setup.sh
+[0.855s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/local_setup.zsh
+[0.855s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/local_setup.dsv
+[0.856s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/package.dsv
+[0.885s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/ament_index/resource_index/packages/rosbridge_library
+[0.889s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig.cmake
+[0.890s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/cmake/rosbridge_libraryConfig-version.cmake
+[0.890s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosbridge_library/share/rosbridge_library/package.xml
+[0.972s] Listing '/home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library'...
+[0.972s] Listing '/home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/capabilities'...
+[0.973s] Listing '/home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/internal'...
+[0.973s] Listing '/home/hunajpu/dev_tt_ws/install/rosbridge_library/lib/python3.8/site-packages/rosbridge_library/util'...
+[0.999s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosbridge_library

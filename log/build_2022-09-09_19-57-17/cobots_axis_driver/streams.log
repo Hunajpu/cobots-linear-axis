@@ -1,0 +1,31 @@
+[0.369s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_driver -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/cobots_axis_driver
+[0.441s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.574s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.171s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.410s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.411s] -- Added test 'lint_cmake' to check CMake code style
+[1.411s] -- Added test 'xmllint' to check XML markup files
+[1.411s] -- Configuring done
+[1.564s] -- Generating done
+[1.565s] -- Build files have been written to: /home/hunajpu/dev_tt_ws/build/cobots_axis_driver
+[1.565s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/cobots_7thaxis/cobots_axis_driver -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/cobots_axis_driver
+[1.567s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_driver -- -j8 -l8
+[1.816s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/cobots_axis_driver -- -j8 -l8
+[1.971s] Invoking command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/cobots_axis_driver
+[2.016s] -- Install configuration: "Debug"
+[2.016s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/ament_index/resource_index/package_run_dependencies/cobots_axis_driver
+[2.016s] -- Installing: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/ament_index/resource_index/parent_prefix_path/cobots_axis_driver
+[2.016s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/environment/ament_prefix_path.sh
+[2.016s] -- Installing: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/environment/ament_prefix_path.dsv
+[2.017s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/environment/path.sh
+[2.017s] -- Installing: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/environment/path.dsv
+[2.020s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/local_setup.bash
+[2.021s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/local_setup.sh
+[2.022s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/local_setup.zsh
+[2.022s] -- Installing: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/local_setup.dsv
+[2.023s] -- Installing: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/package.dsv
+[2.024s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/ament_index/resource_index/packages/cobots_axis_driver
+[2.025s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/cmake/cobots_axis_driverConfig.cmake
+[2.026s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/cmake/cobots_axis_driverConfig-version.cmake
+[2.026s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/cobots_axis_driver/share/cobots_axis_driver/package.xml
+[2.040s] Invoked command in '/home/hunajpu/dev_tt_ws/build/cobots_axis_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/cobots_axis_driver

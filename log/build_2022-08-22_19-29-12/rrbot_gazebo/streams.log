@@ -1,0 +1,46 @@
+[0.031s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_gazebo': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/gazebo_ros_demos/rrbot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rrbot_gazebo
+[0.156s] -- The C compiler identification is GNU 9.4.0
+[0.272s] -- The CXX compiler identification is GNU 9.4.0
+[0.273s] -- Check for working C compiler: /usr/bin/cc
+[0.526s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.528s] -- Detecting C compiler ABI info
+[0.677s] -- Detecting C compiler ABI info - done
+[0.697s] -- Detecting C compile features
+[0.697s] -- Detecting C compile features - done
+[0.702s] -- Check for working CXX compiler: /usr/bin/c++
+[0.843s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.844s] -- Detecting CXX compiler ABI info
+[1.091s] -- Detecting CXX compiler ABI info - done
+[1.103s] -- Detecting CXX compile features
+[1.104s] -- Detecting CXX compile features - done
+[1.106s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.156s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.156s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.453s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.551s] -- Configuring done
+[3.569s] -- Generating done
+[3.582s] -- Build files have been written to: /home/hunajpu/dev_tt_ws/build/rrbot_gazebo
+[3.616s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/gazebo_ros_demos/rrbot_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rrbot_gazebo
+[3.643s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_gazebo': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rrbot_gazebo -- -j8 -l8
+[4.057s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rrbot_gazebo -- -j8 -l8
+[4.324s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rrbot_gazebo': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rrbot_gazebo
+[4.411s] -- Install configuration: ""
+[4.418s] -- Execute custom install script
+[4.422s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/launch/rrbot_world.launch.py
+[4.518s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/worlds/rrbot.world
+[4.631s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/ament_index/resource_index/package_run_dependencies/rrbot_gazebo
+[4.718s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/ament_index/resource_index/parent_prefix_path/rrbot_gazebo
+[4.826s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/ament_prefix_path.sh
+[4.922s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/ament_prefix_path.dsv
+[5.040s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/path.sh
+[5.154s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/environment/path.dsv
+[5.274s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.bash
+[5.372s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.sh
+[5.471s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.zsh
+[5.577s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/local_setup.dsv
+[5.677s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.dsv
+[5.769s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/ament_index/resource_index/packages/rrbot_gazebo
+[5.864s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig.cmake
+[5.964s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig-version.cmake
+[6.065s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rrbot_gazebo/share/rrbot_gazebo/package.xml
+[6.190s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rrbot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rrbot_gazebo

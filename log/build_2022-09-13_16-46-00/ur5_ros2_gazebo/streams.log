@@ -1,0 +1,48 @@
+[0.295s] Invoking command in '/home/hunajpu/dev_tt_ws/build/ur5_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/ur5_ros2_gazebo -- -j8 -l8
+[1.154s] Invoked command in '/home/hunajpu/dev_tt_ws/build/ur5_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/ur5_ros2_gazebo -- -j8 -l8
+[1.812s] Invoking command in '/home/hunajpu/dev_tt_ws/build/ur5_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/ur5_ros2_gazebo
+[2.096s] -- Install configuration: "Debug"
+[2.139s] -- Execute custom install script
+[2.167s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/config/default_kinematics.yaml
+[2.186s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/config/initial_positions.yaml
+[2.199s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/config/joint_limits.yaml
+[2.212s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/config/physical_parameters.yaml
+[2.229s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/config/ur5_controller.yaml
+[2.236s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/config/visual_parameters.yaml
+[2.254s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/launch/ur5_simulation.launch.py
+[2.271s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/urdf/ur5.urdf.xacro
+[2.275s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/urdf/ur5_common.xacro
+[2.277s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/urdf/ur5_gazebo.xacro
+[2.290s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/urdf/ur5_macro.urdf.xacro
+[2.329s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/urdf/ur5_transmission.xacro
+[2.335s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/worlds/ur5.world
+[2.406s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/collision/base.stl
+[2.407s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/collision/forearm.stl
+[2.419s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/collision/shoulder.stl
+[2.420s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/collision/upperarm.stl
+[2.422s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/collision/wrist1.stl
+[2.423s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/collision/wrist2.stl
+[2.424s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/collision/wrist3.stl
+[2.443s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/visual/base.dae
+[2.449s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/visual/forearm.dae
+[2.452s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/visual/shoulder.dae
+[2.495s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/visual/upperarm.dae
+[2.497s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/visual/wrist1.dae
+[2.498s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/visual/wrist2.dae
+[2.499s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/meshes/visual/wrist3.dae
+[2.500s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/ur5_ros2_gazebo
+[2.515s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/ur5_ros2_gazebo
+[2.516s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/environment/ament_prefix_path.sh
+[2.529s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/environment/ament_prefix_path.dsv
+[2.532s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/environment/path.sh
+[2.561s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/environment/path.dsv
+[2.564s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/local_setup.bash
+[2.594s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/local_setup.sh
+[2.595s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/local_setup.zsh
+[2.596s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/local_setup.dsv
+[2.689s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/package.dsv
+[2.966s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ament_index/resource_index/packages/ur5_ros2_gazebo
+[2.972s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/cmake/ur5_ros2_gazeboConfig.cmake
+[2.974s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/cmake/ur5_ros2_gazeboConfig-version.cmake
+[2.984s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/ur5_ros2_gazebo/share/ur5_ros2_gazebo/package.xml
+[3.030s] Invoked command in '/home/hunajpu/dev_tt_ws/build/ur5_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/ur5_ros2_gazebo

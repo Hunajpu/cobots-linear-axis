@@ -1,0 +1,1 @@
+/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/PandaRobot/panda_ros2_gazebo/launch/panda_simulation.launch.py

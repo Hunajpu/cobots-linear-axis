@@ -1,0 +1,1 @@
+/home/hunajpu/dev_tt_ws/src/rosbridge_suite/rosbridge_test_msgs/msg/TestUInt8FixedSizeArray16.msg

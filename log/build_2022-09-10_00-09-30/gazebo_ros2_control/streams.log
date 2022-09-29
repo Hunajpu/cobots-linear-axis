@@ -1,0 +1,35 @@
+[0.185s] Invoking command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/gazebo_ros2_control -- -j8 -l8
+[0.527s] [ 50%] Built target gazebo_hardware_plugins
+[0.619s] [100%] Built target gazebo_ros2_control
+[0.819s] Invoked command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/gazebo_ros2_control -- -j8 -l8
+[1.040s] Invoking command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/gazebo_ros2_control
+[1.093s] -- Install configuration: "Debug"
+[1.093s] -- Execute custom install script
+[1.094s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[1.094s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[1.094s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[1.094s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[1.094s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[1.095s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[1.098s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[1.098s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[1.099s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[1.100s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[1.100s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[1.100s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[1.100s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[1.100s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[1.100s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[1.101s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[1.101s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[1.103s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[1.103s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[1.136s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[1.137s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[1.138s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.138s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.139s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[1.140s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[1.140s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[1.141s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[1.200s] Invoked command in '/home/hunajpu/dev_tt_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/gazebo_ros2_control

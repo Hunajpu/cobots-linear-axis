@@ -1,0 +1,13 @@
+[0.072s] Invoking command in '/home/hunajpu/dev_tt_ws/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/PandaRobot/panda_ros2_gazebo -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/panda_ros2_gazebo
+[0.152s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.247s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.375s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.399s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.827s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.836s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.847s] -- Added test 'lint_cmake' to check CMake code style
+[1.849s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.854s] -- Added test 'xmllint' to check XML markup files
+[1.861s] -- Configuring done
+[1.902s] -- Generating done
+[1.905s] -- Build files have been written to: /home/hunajpu/dev_tt_ws/build/panda_ros2_gazebo

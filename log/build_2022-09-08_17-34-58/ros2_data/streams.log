@@ -1,0 +1,163 @@
+[0.108s] Invoking command in '/home/hunajpu/dev_tt_ws/build/ros2_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/ros2_data -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/ros2_data
+[0.174s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.208s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.208s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.685s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.759s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.809s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.373s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.353s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.964s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.164s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.165s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.165s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.165s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.165s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.388s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.389s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.389s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.389s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/ros2_data/include>
+[3.389s] -- Configured cppcheck exclude dirs and/or files: 
+[3.390s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.390s] -- Configured cpplint exclude dirs and/or files: 
+[3.390s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.390s] -- Added test 'lint_cmake' to check CMake code style
+[3.390s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.390s] -- Added test 'uncrustify' to check C / C++ code style
+[3.391s] -- Configured uncrustify additional arguments: 
+[3.391s] -- Added test 'xmllint' to check XML markup files
+[3.475s] -- Configuring done
+[3.959s] -- Generating done
+[3.987s] -- Build files have been written to: /home/hunajpu/dev_tt_ws/build/ros2_data
+[4.054s] Invoked command in '/home/hunajpu/dev_tt_ws/build/ros2_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/ros2_data -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/ros2_data
+[4.056s] Invoking command in '/home/hunajpu/dev_tt_ws/build/ros2_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/ros2_data -- -j8 -l8
+[4.423s] [  0%] Building CXX object CMakeFiles/ros2-data.dir/src/ros2-data.cpp.o
+[4.427s] [  1%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/msg/detail/joint_pose__functions.c.o
+[4.430s] [  2%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/msg/detail/joint_pose_panda__functions.c.o
+[4.461s] [  4%] Built target ros2_data__cpp
+[4.464s] [  4%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/action/detail/move_j__functions.c.o
+[4.506s] [  5%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/srv/detail/gripper_pose__functions.c.o
+[4.510s] [  6%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/srv/detail/joint_pose__functions.c.o
+[4.518s] [  6%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/action/detail/move_jpanda__functions.c.o
+[4.589s] [  7%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/msg/detail/joint_pose__type_support.cpp.o
+[4.724s] [  8%] Linking CXX executable ros2-data
+[4.844s] [  9%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/msg/joint_pose__type_support.cpp.o
+[4.865s] [ 10%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/action/detail/move_xyzw__functions.c.o
+[4.876s] [ 10%] Built target ros2-data
+[4.877s] [ 11%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/action/detail/move_g__functions.c.o
+[4.927s] [ 11%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/msg/detail/joint_pose_panda__type_support.cpp.o
+[4.950s] [ 12%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/msg/detail/dds_fastrtps/joint_pose__type_support.cpp.o
+[5.007s] [ 13%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/msg/detail/dds_fastrtps/joint_pose_panda__type_support.cpp.o
+[5.126s] [ 13%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/srv/detail/dds_fastrtps/joint_pose__type_support.cpp.o
+[5.205s] [ 14%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/action/detail/move_l__functions.c.o
+[5.208s] [ 15%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/action/detail/move_r__functions.c.o
+[5.679s] [ 16%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/srv/detail/dds_fastrtps/gripper_pose__type_support.cpp.o
+[5.680s] [ 16%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/action/detail/move_xyz__functions.c.o
+[5.713s] [ 17%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/srv/detail/joint_pose__type_support.cpp.o
+[5.865s] [ 18%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/srv/detail/gripper_pose__type_support.cpp.o
+[5.916s] [ 19%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/msg/joint_pose_panda__type_support.cpp.o
+[6.060s] [ 20%] Building C object CMakeFiles/ros2_data__rosidl_generator_c.dir/rosidl_generator_c/ros2_data/action/detail/move_ypr__functions.c.o
+[6.403s] [ 21%] Linking C shared library libros2_data__rosidl_generator_c.so
+[6.516s] [ 22%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/srv/joint_pose__type_support.cpp.o
+[6.530s] [ 23%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/action/detail/dds_fastrtps/move_j__type_support.cpp.o
+[6.556s] [ 23%] Built target ros2_data__rosidl_generator_c
+[6.614s] [ 24%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/action/detail/dds_fastrtps/move_jpanda__type_support.cpp.o
+[6.740s] [ 25%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/action/detail/dds_fastrtps/move_g__type_support.cpp.o
+[7.041s] [ 26%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/action/detail/move_j__type_support.cpp.o
+[7.133s] [ 26%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/srv/gripper_pose__type_support.cpp.o
+[7.237s] [ 27%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/action/move_j__type_support.cpp.o
+[7.386s] [ 28%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/action/move_jpanda__type_support.cpp.o
+[7.601s] [ 29%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/action/move_g__type_support.cpp.o
+[8.055s] [ 30%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/action/detail/move_jpanda__type_support.cpp.o
+[8.186s] [ 31%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/action/detail/dds_fastrtps/move_xyzw__type_support.cpp.o
+[8.204s] [ 32%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/action/detail/move_g__type_support.cpp.o
+[8.277s] [ 33%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/action/move_xyzw__type_support.cpp.o
+[8.359s] [ 33%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/action/detail/dds_fastrtps/move_l__type_support.cpp.o
+[8.518s] [ 34%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/action/move_l__type_support.cpp.o
+[8.539s] [ 35%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/action/detail/dds_fastrtps/move_r__type_support.cpp.o
+[8.569s] [ 35%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/action/detail/move_xyzw__type_support.cpp.o
+[9.079s] [ 36%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/action/detail/move_l__type_support.cpp.o
+[9.268s] [ 37%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/action/detail/move_r__type_support.cpp.o
+[9.280s] [ 38%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/action/detail/dds_fastrtps/move_xyz__type_support.cpp.o
+[9.656s] [ 38%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/action/move_r__type_support.cpp.o
+[9.723s] [ 39%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/msg/joint_pose__type_support.cpp.o
+[9.794s] [ 40%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/action/detail/move_xyz__type_support.cpp.o
+[9.825s] [ 41%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/msg/joint_pose_panda__type_support.cpp.o
+[9.965s] [ 41%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/srv/joint_pose__type_support.cpp.o
+[10.023s] [ 42%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_data/action/detail/dds_fastrtps/move_ypr__type_support.cpp.o
+[10.029s] [ 43%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/srv/gripper_pose__type_support.cpp.o
+[10.033s] [ 44%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/action/move_j__type_support.cpp.o
+[10.075s] [ 45%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_data/action/detail/move_ypr__type_support.cpp.o
+[10.100s] [ 46%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/action/move_xyz__type_support.cpp.o
+[10.178s] [ 47%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/action/move_jpanda__type_support.cpp.o
+[10.223s] [ 48%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/action/move_g__type_support.cpp.o
+[10.353s] [ 49%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/action/move_xyzw__type_support.cpp.o
+[10.360s] [ 49%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/action/move_l__type_support.cpp.o
+[10.510s] [ 50%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_data/action/move_ypr__type_support.cpp.o
+[10.512s] [ 51%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/action/move_xyz__type_support.cpp.o
+[10.512s] [ 52%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/action/move_r__type_support.cpp.o
+[10.627s] [ 53%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_data/action/move_ypr__type_support.cpp.o
+[10.697s] [ 53%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/msg/detail/joint_pose__type_support.c.o
+[10.699s] [ 54%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/msg/detail/joint_pose_panda__type_support.c.o
+[10.711s] [ 55%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/srv/detail/joint_pose__type_support.c.o
+[10.749s] [ 56%] Linking CXX shared library libros2_data__rosidl_typesupport_c.so
+[10.771s] [ 57%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/srv/detail/gripper_pose__type_support.c.o
+[10.785s] [ 58%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/action/detail/move_j__type_support.c.o
+[10.800s] [ 58%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/action/detail/move_jpanda__type_support.c.o
+[10.877s] [ 60%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/action/detail/move_g__type_support.c.o
+[10.879s] [ 61%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/action/detail/move_xyzw__type_support.c.o
+[10.881s] [ 61%] Built target ros2_data__rosidl_typesupport_c
+[10.900s] [ 62%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/action/detail/move_l__type_support.c.o
+[10.915s] [ 63%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/action/detail/move_r__type_support.c.o
+[10.933s] [ 64%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/action/detail/move_xyz__type_support.c.o
+[10.942s] [ 65%] Linking CXX shared library libros2_data__rosidl_typesupport_introspection_cpp.so
+[10.989s] [ 65%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_data/action/detail/move_ypr__type_support.c.o
+[11.059s] [ 66%] Linking C shared library libros2_data__rosidl_typesupport_introspection_c.so
+[11.108s] [ 67%] Built target ros2_data__rosidl_typesupport_introspection_cpp
+[11.108s] [ 68%] Built target ros2_data__rosidl_typesupport_introspection_c
+[11.236s] [ 69%] Linking CXX shared library libros2_data__rosidl_typesupport_cpp.so
+[11.239s] [ 70%] Linking CXX shared library libros2_data__rosidl_typesupport_fastrtps_cpp.so
+[11.292s] [ 71%] Built target ros2_data__rosidl_typesupport_cpp
+[11.366s] [ 72%] Built target ros2_data__rosidl_typesupport_fastrtps_cpp
+[11.408s] [ 72%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/msg/detail/joint_pose_panda__type_support_c.cpp.o
+[11.409s] [ 73%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/srv/detail/joint_pose__type_support_c.cpp.o
+[11.410s] [ 74%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/msg/detail/joint_pose__type_support_c.cpp.o
+[11.410s] [ 75%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/action/detail/move_jpanda__type_support_c.cpp.o
+[11.411s] [ 76%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/action/detail/move_j__type_support_c.cpp.o
+[11.411s] [ 77%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/action/detail/move_xyzw__type_support_c.cpp.o
+[11.411s] [ 77%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/action/detail/move_g__type_support_c.cpp.o
+[11.412s] [ 78%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/srv/detail/gripper_pose__type_support_c.cpp.o
+[12.349s] [ 79%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/action/detail/move_l__type_support_c.cpp.o
+[12.374s] [ 80%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/action/detail/move_r__type_support_c.cpp.o
+[12.404s] [ 81%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/action/detail/move_xyz__type_support_c.cpp.o
+[12.434s] [ 82%] Building CXX object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_data/action/detail/move_ypr__type_support_c.cpp.o
+[13.093s] [ 82%] Linking CXX shared library libros2_data__rosidl_typesupport_fastrtps_c.so
+[13.217s] [ 83%] Built target ros2_data__rosidl_typesupport_fastrtps_c
+[13.243s] [ 83%] Built target ros2_data
+[13.271s] [ 84%] Built target ros2_data__py
+[13.313s] [ 84%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/msg/_joint_pose_panda_s.c.o
+[13.313s] [ 87%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/srv/_gripper_pose_s.c.o
+[13.314s] [ 87%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/action/_move_j_s.c.o
+[13.314s] [ 87%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/msg/_joint_pose_s.c.o
+[13.314s] [ 90%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/srv/_joint_pose_s.c.o
+[13.314s] [ 90%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/action/_move_g_s.c.o
+[13.314s] [ 90%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/action/_move_xyzw_s.c.o
+[13.315s] [ 90%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/action/_move_jpanda_s.c.o
+[13.575s] [ 91%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/action/_move_l_s.c.o
+[13.578s] [ 93%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/action/_move_r_s.c.o
+[13.578s] [ 93%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/action/_move_xyz_s.c.o
+[13.623s] [ 94%] Building C object CMakeFiles/ros2_data__python.dir/rosidl_generator_py/ros2_data/action/_move_ypr_s.c.o
+[13.867s] [ 95%] Linking C shared library rosidl_generator_py/ros2_data/libros2_data__python.so
+[13.931s] [ 95%] Built target ros2_data__python
+[13.960s] [ 96%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_data/_ros2_data_s.ep.rosidl_typesupport_c.c.o
+[13.962s] [ 98%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_data/_ros2_data_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[13.962s] [ 98%] Building C object CMakeFiles/ros2_data__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_data/_ros2_data_s.ep.rosidl_typesupport_introspection_c.c.o
+[14.398s] [ 99%] Linking CXX shared library rosidl_generator_py/ros2_data/ros2_data_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[14.399s] [100%] Linking C shared library rosidl_generator_py/ros2_data/ros2_data_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[14.415s] [100%] Linking C shared library rosidl_generator_py/ros2_data/ros2_data_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[14.456s] [100%] Built target ros2_data__rosidl_typesupport_introspection_c__pyext
+[14.471s] [100%] Built target ros2_data__rosidl_typesupport_c__pyext
+[14.495s] [100%] Built target ros2_data__rosidl_typesupport_fastrtps_c__pyext

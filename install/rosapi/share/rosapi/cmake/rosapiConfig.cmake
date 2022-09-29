@@ -1,0 +1,1 @@
+/home/hunajpu/dev_tt_ws/build/rosapi/ament_cmake_core/rosapiConfig.cmake

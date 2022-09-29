@@ -1,0 +1,2 @@
+Invoking command in '/home/hunajpu/dev_tt_ws/build/ros2_data': /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/ros2_data -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/ros2_data
+Invoked command in '/home/hunajpu/dev_tt_ws/build/ros2_data' returned '1': /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/ros2_data -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/ros2_data

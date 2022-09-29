@@ -1,0 +1,163 @@
+[0.098s] Invoking command in '/home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_config:/home/hunajpu/dev_tt_ws/install/rrbot_gazebo:/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:/home/hunajpu/dev_tt_ws/install/rosbridge_suite:/home/hunajpu/dev_tt_ws/install/rosbridge_server:/home/hunajpu/dev_tt_ws/install/rosbridge_msgs:/home/hunajpu/dev_tt_ws/install/rosapi:/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2
+[0.242s] -- The C compiler identification is GNU 9.4.0
+[0.371s] -- The CXX compiler identification is GNU 9.4.0
+[0.380s] -- Check for working C compiler: /usr/bin/cc
+[0.519s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.522s] -- Detecting C compiler ABI info
+[0.684s] -- Detecting C compiler ABI info - done
+[0.710s] -- Detecting C compile features
+[0.713s] -- Detecting C compile features - done
+[0.718s] -- Check for working CXX compiler: /usr/bin/c++
+[0.882s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.885s] -- Detecting CXX compiler ABI info
+[1.069s] -- Detecting CXX compiler ABI info - done
+[1.094s] -- Detecting CXX compile features
+[1.095s] -- Detecting CXX compile features - done
+[1.101s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.161s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.162s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.592s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.661s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.832s] -- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+[1.873s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[2.555s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[2.642s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.661s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.848s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.911s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.105s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.212s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[7.257s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[7.543s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.546s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.553s] -- Found Threads: TRUE  
+[8.157s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[8.419s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[10.247s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[11.019s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[13.094s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[14.164s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[15.966s] -- Found ros2_data: 0.0.0 (/home/hunajpu/dev_tt_ws/install/ros2_data/share/ros2_data/cmake)
+[16.134s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.139s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.140s] -- Configured cppcheck include dirs: 
+[16.140s] -- Configured cppcheck exclude dirs and/or files: 
+[16.143s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[16.143s] -- Configured cpplint exclude dirs and/or files: 
+[16.145s] -- Added test 'flake8' to check Python code syntax and style conventions
+[16.146s] -- Added test 'lint_cmake' to check CMake code style
+[16.147s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[16.150s] -- Added test 'uncrustify' to check C / C++ code style
+[16.150s] -- Configured uncrustify additional arguments: 
+[16.151s] -- Added test 'xmllint' to check XML markup files
+[16.161s] -- Configuring done
+[16.499s] -- Generating done
+[16.503s] -- Build files have been written to: /home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2
+[16.531s] Invoked command in '/home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_config:/home/hunajpu/dev_tt_ws/install/rrbot_gazebo:/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:/home/hunajpu/dev_tt_ws/install/rosbridge_suite:/home/hunajpu/dev_tt_ws/install/rosbridge_server:/home/hunajpu/dev_tt_ws/install/rosbridge_msgs:/home/hunajpu/dev_tt_ws/install/rosapi:/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2
+[16.533s] Invoking command in '/home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_config:/home/hunajpu/dev_tt_ws/install/rrbot_gazebo:/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:/home/hunajpu/dev_tt_ws/install/rosbridge_suite:/home/hunajpu/dev_tt_ws/install/rosbridge_server:/home/hunajpu/dev_tt_ws/install/rosbridge_msgs:/home/hunajpu/dev_tt_ws/install/rosapi:/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2 -- -j8 -l8
+[16.762s] [35m[1mScanning dependencies of target moveXYZ_action[0m
+[16.943s] [  8%] [32mBuilding CXX object CMakeFiles/moveXYZ_action.dir/scripts/moveXYZ_action.cpp.o[0m
+[24.817s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveXYZ_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveXYZ_Goal_<std::allocator<void> > >)[m[K’:
+[24.817s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveXYZ_action.cpp:79:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[24.818s]    79 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+[24.818s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[24.847s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveXYZ_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveXYZ> >)[m[K’:
+[24.848s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveXYZ_action.cpp:135:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[24.848s]   135 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup("ur3_robot");
+[24.852s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[33.000s] [ 16%] [32m[1mLinking CXX executable moveXYZ_action[0m
+[36.590s] [ 16%] Built target moveXYZ_action
+[37.112s] [35m[1mScanning dependencies of target moveYPR_action[0m
+[37.562s] [ 25%] [32mBuilding CXX object CMakeFiles/moveYPR_action.dir/scripts/moveYPR_action.cpp.o[0m
+[45.098s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveYPR_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveYPR_Goal_<std::allocator<void> > >)[m[K’:
+[45.098s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveYPR_action.cpp:79:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[45.098s]    79 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+[45.099s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[45.127s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveYPR_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveYPR> >)[m[K’:
+[45.127s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveYPR_action.cpp:135:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[45.127s]   135 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup("ur3_robot");
+[45.128s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[53.017s] [ 33%] [32m[1mLinking CXX executable moveYPR_action[0m
+[56.031s] [ 33%] Built target moveYPR_action
+[56.096s] [35m[1mScanning dependencies of target moveR_action[0m
+[56.266s] [ 41%] [32mBuilding CXX object CMakeFiles/moveR_action.dir/scripts/moveR_action.cpp.o[0m
+[63.833s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveR_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveR_Goal_<std::allocator<void> > >)[m[K’:
+[63.833s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveR_action.cpp:80:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[63.833s]    80 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+[63.833s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[63.861s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveR_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveR> >)[m[K’:
+[63.862s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveR_action.cpp:258:56:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[63.862s]   258 |         } else if (LimitCheck == true && InputJoint == [01;35m[K"Valid"[m[K) {
+[63.862s]       |                                                        [01;35m[K^~~~~~~[m[K
+[71.663s] [ 50%] [32m[1mLinking CXX executable moveR_action[0m
+[73.370s] [ 50%] Built target moveR_action
+[73.822s] [35m[1mScanning dependencies of target moveL_action[0m
+[74.153s] [ 58%] [32mBuilding CXX object CMakeFiles/moveL_action.dir/scripts/moveL_action.cpp.o[0m
+[81.720s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveL_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveL_Goal_<std::allocator<void> > >)[m[K’:
+[81.720s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveL_action.cpp:79:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[81.721s]    79 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+[81.721s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[81.743s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveL_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveL> >)[m[K’:
+[81.744s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveL_action.cpp:184:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfraction[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[81.744s]   184 |             double [01;35m[Kfraction[m[K = move_group_interface.computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory);
+[81.744s]       |                    [01;35m[K^~~~~~~~[m[K
+[81.746s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveL_action.cpp:134:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[81.746s]   134 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup("ur3_robot");
+[81.746s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[89.368s] [ 66%] [32m[1mLinking CXX executable moveL_action[0m
+[91.257s] [ 66%] Built target moveL_action
+[91.303s] [35m[1mScanning dependencies of target moveXYZW_action[0m
+[91.580s] [ 75%] [32mBuilding CXX object CMakeFiles/moveXYZW_action.dir/scripts/moveXYZW_action.cpp.o[0m
+[99.506s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveXYZW_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveXYZW_Goal_<std::allocator<void> > >)[m[K’:
+[99.507s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveXYZW_action.cpp:79:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[99.507s]    79 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+[99.507s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[99.537s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveXYZW_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveXYZW> >)[m[K’:
+[99.538s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveXYZW_action.cpp:142:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[99.538s]   142 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup("ur3_robot");
+[99.538s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[108.192s] [ 83%] [32m[1mLinking CXX executable moveXYZW_action[0m
+[109.662s] [ 83%] Built target moveXYZW_action
+[110.133s] [35m[1mScanning dependencies of target moveJ_action[0m
+[110.348s] [ 91%] [32mBuilding CXX object CMakeFiles/moveJ_action.dir/scripts/moveJ_action.cpp.o[0m
+[117.915s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveJ_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveJ_Goal_<std::allocator<void> > >)[m[K’:
+[117.916s] [01m[K/home/hunajpu/dev_tt_ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_moveit2/scripts/moveJ_action.cpp:80:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[117.916s]    80 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+[117.916s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[125.415s] [100%] [32m[1mLinking CXX executable moveJ_action[0m
+[127.506s] [100%] Built target moveJ_action
+[127.575s] Invoked command in '/home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_config:/home/hunajpu/dev_tt_ws/install/rrbot_gazebo:/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:/home/hunajpu/dev_tt_ws/install/rosbridge_suite:/home/hunajpu/dev_tt_ws/install/rosbridge_server:/home/hunajpu/dev_tt_ws/install/rosbridge_msgs:/home/hunajpu/dev_tt_ws/install/rosapi:/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2 -- -j8 -l8
+[127.899s] Invoking command in '/home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_config:/home/hunajpu/dev_tt_ws/install/rrbot_gazebo:/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:/home/hunajpu/dev_tt_ws/install/rosbridge_suite:/home/hunajpu/dev_tt_ws/install/rosbridge_server:/home/hunajpu/dev_tt_ws/install/rosbridge_msgs:/home/hunajpu/dev_tt_ws/install/rosapi:/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2
+[127.922s] -- Install configuration: ""
+[127.954s] -- Execute custom install script
+[127.955s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/config/chomp_planning.yaml
+[127.975s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/config/kinematics.yaml
+[128.005s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/config/ompl_planning.yaml
+[128.037s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/config/ur3.srdf
+[128.058s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/config/ur3_controllers.yaml
+[128.080s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/launch/ur3.launch.py
+[128.112s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/launch/ur3_interface.launch.py
+[128.143s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/launch/ur3_moveit2.rviz
+[128.166s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/launch/ur3_moveit2_empty.rviz
+[128.193s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/lib/ur3_ros2_moveit2/moveJ_action
+[128.222s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/lib/ur3_ros2_moveit2/moveXYZW_action
+[128.242s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/lib/ur3_ros2_moveit2/moveL_action
+[128.267s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/lib/ur3_ros2_moveit2/moveR_action
+[128.303s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/lib/ur3_ros2_moveit2/moveXYZ_action
+[128.345s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/lib/ur3_ros2_moveit2/moveYPR_action
+[128.375s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ament_index/resource_index/package_run_dependencies/ur3_ros2_moveit2
+[128.413s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ament_index/resource_index/parent_prefix_path/ur3_ros2_moveit2
+[128.443s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/environment/ament_prefix_path.sh
+[128.476s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/environment/ament_prefix_path.dsv
+[128.496s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/environment/path.sh
+[128.536s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/environment/path.dsv
+[128.569s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/local_setup.bash
+[128.604s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/local_setup.sh
+[128.628s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/local_setup.zsh
+[128.647s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/local_setup.dsv
+[128.666s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/package.dsv
+[128.691s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ament_index/resource_index/packages/ur3_ros2_moveit2
+[128.726s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/cmake/ur3_ros2_moveit2Config.cmake
+[128.739s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/cmake/ur3_ros2_moveit2Config-version.cmake
+[128.756s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/ur3_ros2_moveit2/share/ur3_ros2_moveit2/package.xml
+[128.779s] Invoked command in '/home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_demo_nodes:/home/hunajpu/dev_tt_ws/install/rrbot_moveit_config:/home/hunajpu/dev_tt_ws/install/rrbot_gazebo:/home/hunajpu/dev_tt_ws/install/rrbot_description:/home/hunajpu/dev_tt_ws/install/rosbridge_test_msgs:/home/hunajpu/dev_tt_ws/install/rosbridge_suite:/home/hunajpu/dev_tt_ws/install/rosbridge_server:/home/hunajpu/dev_tt_ws/install/rosbridge_msgs:/home/hunajpu/dev_tt_ws/install/rosapi:/home/hunajpu/dev_tt_ws/install/rosbridge_library:/home/hunajpu/dev_tt_ws/install/rosapi_msgs:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control_demos:/home/hunajpu/dev_tt_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/dev_tt_ws/install/ros2_data/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/ur3_ros2_moveit2

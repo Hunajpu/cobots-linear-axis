@@ -1,0 +1,16 @@
+[0.144s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosapi_msgs -- -j8 -l8
+[0.444s] [ 12%] Built target rosapi_msgs__rosidl_generator_c
+[0.463s] [ 12%] Built target rosapi_msgs__cpp
+[0.595s] [ 24%] Built target rosapi_msgs__rosidl_typesupport_c
+[0.597s] [ 37%] Built target rosapi_msgs__rosidl_typesupport_introspection_cpp
+[0.645s] [ 49%] Built target rosapi_msgs__rosidl_typesupport_introspection_c
+[0.645s] [ 61%] Built target rosapi_msgs__rosidl_typesupport_cpp
+[0.692s] [ 73%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_cpp
+[0.804s] [ 85%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_c
+[0.844s] [ 85%] Built target rosapi_msgs
+[0.890s] [ 85%] Built target rosapi_msgs__py
+[1.066s] [ 97%] Built target rosapi_msgs__python
+[1.163s] [ 99%] Built target rosapi_msgs__rosidl_typesupport_introspection_c__pyext
+[1.163s] [ 99%] Built target rosapi_msgs__rosidl_typesupport_c__pyext
+[1.181s] [100%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.312s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosapi_msgs -- -j8 -l8

@@ -1,0 +1,522 @@
+[0.350s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/rosbridge_suite/rosapi_msgs -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rosapi_msgs
+[0.575s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.716s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.717s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.648s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.716s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.873s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.906s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.622s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.836s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.186s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.186s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.331s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.331s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.331s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.715s] -- Configuring done
+[6.422s] -- Generating done
+[6.429s] -- Build files have been written to: /home/hunajpu/dev_tt_ws/build/rosapi_msgs
+[6.455s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/dev_tt_ws/src/rosbridge_suite/rosapi_msgs -DCMAKE_INSTALL_PREFIX=/home/hunajpu/dev_tt_ws/install/rosapi_msgs
+[6.458s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosapi_msgs -- -j8 -l8
+[6.800s] [  0%] Built target rosapi_msgs__cpp
+[6.975s] [ 12%] Built target rosapi_msgs__rosidl_typesupport_cpp
+[7.079s] [ 25%] Built target rosapi_msgs__rosidl_typesupport_introspection_cpp
+[7.134s] [ 37%] Built target rosapi_msgs__rosidl_generator_c
+[7.147s] [ 49%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_cpp
+[7.294s] [ 61%] Built target rosapi_msgs__rosidl_typesupport_c
+[7.400s] [ 73%] Built target rosapi_msgs__rosidl_typesupport_introspection_c
+[7.435s] [ 85%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_c
+[7.550s] [ 85%] Built target rosapi_msgs
+[7.646s] [ 85%] Built target rosapi_msgs__py
+[7.875s] [ 97%] Built target rosapi_msgs__python
+[8.023s] [ 98%] Built target rosapi_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.023s] [ 99%] Built target rosapi_msgs__rosidl_typesupport_c__pyext
+[8.037s] [100%] Built target rosapi_msgs__rosidl_typesupport_introspection_c__pyext
+[8.104s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/dev_tt_ws/build/rosapi_msgs -- -j8 -l8
+[10.055s] Invoking command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosapi_msgs
+[10.075s] -- Install configuration: ""
+[10.077s] -- Execute custom install script
+[10.078s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/ament_index/resource_index/rosidl_interfaces/rosapi_msgs
+[10.082s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__functions.h
+[10.082s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__struct.h
+[10.082s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__type_support.h
+[10.083s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.083s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/type_def.h
+[10.084s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/delete_param.h
+[10.084s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__functions.h
+[10.085s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__struct.h
+[10.087s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__type_support.h
+[10.087s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__functions.h
+[10.088s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__struct.h
+[10.088s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__type_support.h
+[10.089s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__functions.h
+[10.089s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__struct.h
+[10.090s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__type_support.h
+[10.090s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__functions.h
+[10.090s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__struct.h
+[10.090s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__type_support.h
+[10.095s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__functions.h
+[10.096s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__struct.h
+[10.096s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__type_support.h
+[10.097s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__functions.h
+[10.097s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__struct.h
+[10.099s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__type_support.h
+[10.099s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__functions.h
+[10.100s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__struct.h
+[10.100s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__type_support.h
+[10.101s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__functions.h
+[10.101s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__struct.h
+[10.102s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__type_support.h
+[10.102s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__functions.h
+[10.102s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__struct.h
+[10.103s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__type_support.h
+[10.103s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__functions.h
+[10.104s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__struct.h
+[10.104s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__type_support.h
+[10.104s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__functions.h
+[10.110s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__struct.h
+[10.112s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__type_support.h
+[10.112s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__functions.h
+[10.112s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__struct.h
+[10.112s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__type_support.h
+[10.113s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__functions.h
+[10.114s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__struct.h
+[10.114s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__type_support.h
+[10.115s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__functions.h
+[10.115s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__struct.h
+[10.115s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__type_support.h
+[10.115s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__functions.h
+[10.116s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__struct.h
+[10.116s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__type_support.h
+[10.116s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__functions.h
+[10.121s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__struct.h
+[10.122s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__type_support.h
+[10.125s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__functions.h
+[10.126s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__struct.h
+[10.126s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__type_support.h
+[10.126s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__functions.h
+[10.127s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__struct.h
+[10.128s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__type_support.h
+[10.128s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__functions.h
+[10.128s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__struct.h
+[10.129s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__type_support.h
+[10.129s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__functions.h
+[10.129s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__struct.h
+[10.129s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__type_support.h
+[10.129s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__functions.h
+[10.130s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__struct.h
+[10.130s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__type_support.h
+[10.130s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__functions.h
+[10.130s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__struct.h
+[10.130s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__type_support.h
+[10.131s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__functions.h
+[10.131s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__struct.h
+[10.131s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__type_support.h
+[10.131s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__functions.h
+[10.131s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__struct.h
+[10.131s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__type_support.h
+[10.132s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_action_servers.h
+[10.132s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_param.h
+[10.132s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_param_names.h
+[10.132s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_ros_version.h
+[10.132s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_time.h
+[10.132s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/has_param.h
+[10.133s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/message_details.h
+[10.133s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/node_details.h
+[10.133s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/nodes.h
+[10.134s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/publishers.h
+[10.134s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_node.h
+[10.135s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_providers.h
+[10.135s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_request_details.h
+[10.136s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_response_details.h
+[10.136s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_type.h
+[10.137s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/services.h
+[10.137s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/services_for_type.h
+[10.137s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/set_param.h
+[10.137s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/subscribers.h
+[10.139s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topic_type.h
+[10.140s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics.h
+[10.141s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics_and_raw_types.h
+[10.141s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics_for_type.h
+[10.141s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/library_path.sh
+[10.141s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/library_path.dsv
+[10.142s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_fastrtps_c.h
+[10.142s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.143s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_fastrtps_c.h
+[10.143s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_fastrtps_c.h
+[10.144s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_fastrtps_c.h
+[10.144s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_fastrtps_c.h
+[10.145s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_fastrtps_c.h
+[10.145s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_fastrtps_c.h
+[10.145s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_fastrtps_c.h
+[10.145s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_fastrtps_c.h
+[10.145s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_fastrtps_c.h
+[10.146s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_fastrtps_c.h
+[10.146s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_fastrtps_c.h
+[10.146s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_fastrtps_c.h
+[10.146s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_fastrtps_c.h
+[10.146s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_fastrtps_c.h
+[10.146s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_fastrtps_c.h
+[10.147s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_fastrtps_c.h
+[10.147s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__rosidl_typesupport_fastrtps_c.h
+[10.147s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_fastrtps_c.h
+[10.148s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_fastrtps_c.h
+[10.148s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_fastrtps_c.h
+[10.148s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_fastrtps_c.h
+[10.148s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__rosidl_typesupport_fastrtps_c.h
+[10.149s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_fastrtps_c.h
+[10.149s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_fastrtps_c.h
+[10.149s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_c.so
+[10.150s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_fastrtps_cpp.hpp
+[10.150s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.150s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_fastrtps_cpp.hpp
+[10.151s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_fastrtps_cpp.hpp
+[10.151s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_fastrtps_cpp.hpp
+[10.152s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_fastrtps_cpp.hpp
+[10.152s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_fastrtps_cpp.hpp
+[10.153s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_fastrtps_cpp.hpp
+[10.153s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_fastrtps_cpp.hpp
+[10.153s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_fastrtps_cpp.hpp
+[10.163s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_fastrtps_cpp.hpp
+[10.164s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[10.165s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_fastrtps_cpp.hpp
+[10.165s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_fastrtps_cpp.hpp
+[10.165s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_fastrtps_cpp.hpp
+[10.165s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_fastrtps_cpp.hpp
+[10.166s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_fastrtps_cpp.hpp
+[10.166s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_fastrtps_cpp.hpp
+[10.167s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__rosidl_typesupport_fastrtps_cpp.hpp
+[10.168s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_fastrtps_cpp.hpp
+[10.168s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_fastrtps_cpp.hpp
+[10.168s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_fastrtps_cpp.hpp
+[10.168s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_fastrtps_cpp.hpp
+[10.169s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__rosidl_typesupport_fastrtps_cpp.hpp
+[10.169s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_fastrtps_cpp.hpp
+[10.169s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_fastrtps_cpp.hpp
+[10.170s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.170s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_introspection_c.h
+[10.170s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.170s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_introspection_c.h
+[10.171s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_introspection_c.h
+[10.171s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_introspection_c.h
+[10.172s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_introspection_c.h
+[10.173s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_introspection_c.h
+[10.173s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_introspection_c.h
+[10.173s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_introspection_c.h
+[10.173s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_introspection_c.h
+[10.173s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_introspection_c.h
+[10.174s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_introspection_c.h
+[10.174s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_introspection_c.h
+[10.174s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_introspection_c.h
+[10.175s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_introspection_c.h
+[10.175s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_introspection_c.h
+[10.178s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_introspection_c.h
+[10.178s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_introspection_c.h
+[10.178s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__rosidl_typesupport_introspection_c.h
+[10.179s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_introspection_c.h
+[10.179s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_introspection_c.h
+[10.179s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_introspection_c.h
+[10.180s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_introspection_c.h
+[10.181s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__rosidl_typesupport_introspection_c.h
+[10.181s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_introspection_c.h
+[10.181s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_introspection_c.h
+[10.182s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__builder.hpp
+[10.182s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__struct.hpp
+[10.183s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__traits.hpp
+[10.183s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/type_def.hpp
+[10.184s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/delete_param.hpp
+[10.184s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__builder.hpp
+[10.185s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__struct.hpp
+[10.185s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__traits.hpp
+[10.185s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__builder.hpp
+[10.186s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__struct.hpp
+[10.187s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__traits.hpp
+[10.188s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__builder.hpp
+[10.188s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__struct.hpp
+[10.188s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__traits.hpp
+[10.193s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__builder.hpp
+[10.194s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__struct.hpp
+[10.194s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__traits.hpp
+[10.194s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__builder.hpp
+[10.195s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__struct.hpp
+[10.195s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__traits.hpp
+[10.195s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__builder.hpp
+[10.195s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__struct.hpp
+[10.195s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__traits.hpp
+[10.196s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__builder.hpp
+[10.196s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__struct.hpp
+[10.196s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__traits.hpp
+[10.196s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__builder.hpp
+[10.197s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__struct.hpp
+[10.197s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__traits.hpp
+[10.197s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__builder.hpp
+[10.197s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__struct.hpp
+[10.197s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__traits.hpp
+[10.198s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__builder.hpp
+[10.198s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__struct.hpp
+[10.198s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__traits.hpp
+[10.199s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__builder.hpp
+[10.200s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__struct.hpp
+[10.200s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__traits.hpp
+[10.200s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__builder.hpp
+[10.201s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__struct.hpp
+[10.201s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__traits.hpp
+[10.201s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__builder.hpp
+[10.202s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__struct.hpp
+[10.202s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__traits.hpp
+[10.202s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__builder.hpp
+[10.203s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__struct.hpp
+[10.203s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__traits.hpp
+[10.204s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__builder.hpp
+[10.204s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__struct.hpp
+[10.204s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__traits.hpp
+[10.204s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__builder.hpp
+[10.205s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__struct.hpp
+[10.206s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__traits.hpp
+[10.206s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__builder.hpp
+[10.207s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__struct.hpp
+[10.208s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__traits.hpp
+[10.209s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__builder.hpp
+[10.209s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__struct.hpp
+[10.209s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__traits.hpp
+[10.210s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__builder.hpp
+[10.211s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__struct.hpp
+[10.211s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__traits.hpp
+[10.212s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__builder.hpp
+[10.213s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__struct.hpp
+[10.214s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__traits.hpp
+[10.214s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__builder.hpp
+[10.214s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__struct.hpp
+[10.215s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__traits.hpp
+[10.215s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__builder.hpp
+[10.215s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__struct.hpp
+[10.216s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__traits.hpp
+[10.216s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__builder.hpp
+[10.216s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__struct.hpp
+[10.217s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__traits.hpp
+[10.217s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__builder.hpp
+[10.218s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__struct.hpp
+[10.218s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__traits.hpp
+[10.220s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_action_servers.hpp
+[10.220s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_param.hpp
+[10.220s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_param_names.hpp
+[10.221s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_ros_version.hpp
+[10.221s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/get_time.hpp
+[10.222s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/has_param.hpp
+[10.222s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/message_details.hpp
+[10.223s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/node_details.hpp
+[10.223s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/nodes.hpp
+[10.228s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/publishers.hpp
+[10.228s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_node.hpp
+[10.228s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_providers.hpp
+[10.229s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_request_details.hpp
+[10.230s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_response_details.hpp
+[10.230s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/service_type.hpp
+[10.230s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/services.hpp
+[10.231s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/services_for_type.hpp
+[10.231s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/set_param.hpp
+[10.232s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/subscribers.hpp
+[10.232s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topic_type.hpp
+[10.232s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics.hpp
+[10.232s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics_and_raw_types.hpp
+[10.233s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/topics_for_type.hpp
+[10.235s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/msg/detail/type_def__rosidl_typesupport_introspection_cpp.hpp
+[10.235s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/delete_param__rosidl_typesupport_introspection_cpp.hpp
+[10.235s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_action_servers__rosidl_typesupport_introspection_cpp.hpp
+[10.236s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param__rosidl_typesupport_introspection_cpp.hpp
+[10.236s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_param_names__rosidl_typesupport_introspection_cpp.hpp
+[10.236s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_ros_version__rosidl_typesupport_introspection_cpp.hpp
+[10.237s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/get_time__rosidl_typesupport_introspection_cpp.hpp
+[10.237s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/has_param__rosidl_typesupport_introspection_cpp.hpp
+[10.237s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/message_details__rosidl_typesupport_introspection_cpp.hpp
+[10.237s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/node_details__rosidl_typesupport_introspection_cpp.hpp
+[10.237s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/nodes__rosidl_typesupport_introspection_cpp.hpp
+[10.238s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/publishers__rosidl_typesupport_introspection_cpp.hpp
+[10.238s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_node__rosidl_typesupport_introspection_cpp.hpp
+[10.240s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_providers__rosidl_typesupport_introspection_cpp.hpp
+[10.240s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_request_details__rosidl_typesupport_introspection_cpp.hpp
+[10.241s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_response_details__rosidl_typesupport_introspection_cpp.hpp
+[10.243s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/service_type__rosidl_typesupport_introspection_cpp.hpp
+[10.245s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services__rosidl_typesupport_introspection_cpp.hpp
+[10.247s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/services_for_type__rosidl_typesupport_introspection_cpp.hpp
+[10.247s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/set_param__rosidl_typesupport_introspection_cpp.hpp
+[10.247s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/subscribers__rosidl_typesupport_introspection_cpp.hpp
+[10.249s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topic_type__rosidl_typesupport_introspection_cpp.hpp
+[10.250s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics__rosidl_typesupport_introspection_cpp.hpp
+[10.251s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_and_raw_types__rosidl_typesupport_introspection_cpp.hpp
+[10.253s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/include/rosapi_msgs/srv/detail/topics_for_type__rosidl_typesupport_introspection_cpp.hpp
+[10.254s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/pythonpath.sh
+[10.254s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/pythonpath.dsv
+[10.254s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/__init__.py
+[10.256s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/msg/__init__.py
+[10.256s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/msg/_type_def.py
+[10.256s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/__init__.py
+[10.257s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_delete_param.py
+[10.257s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_get_action_servers.py
+[10.257s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_get_param.py
+[10.257s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_get_param_names.py
+[10.258s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_get_ros_version.py
+[10.258s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_get_time.py
+[10.258s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_has_param.py
+[10.259s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_message_details.py
+[10.259s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_node_details.py
+[10.259s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_nodes.py
+[10.260s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_publishers.py
+[10.260s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_service_node.py
+[10.260s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_service_providers.py
+[10.260s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_service_request_details.py
+[10.261s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_service_response_details.py
+[10.261s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_service_type.py
+[10.261s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_services.py
+[10.262s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_services_for_type.py
+[10.262s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_set_param.py
+[10.262s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_subscribers.py
+[10.263s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_topic_type.py
+[10.263s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_topics.py
+[10.263s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_topics_and_raw_types.py
+[10.264s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/srv/_topics_for_type.py
+[10.264s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[10.264s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[10.264s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/rosapi_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[10.265s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__python.so
+[10.265s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/msg/TypeDef.idl
+[10.265s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam.idl
+[10.266s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers.idl
+[10.266s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam.idl
+[10.267s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames.idl
+[10.267s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion.idl
+[10.267s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime.idl
+[10.267s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam.idl
+[10.268s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails.idl
+[10.268s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes.idl
+[10.268s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails.idl
+[10.269s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers.idl
+[10.269s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode.idl
+[10.269s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders.idl
+[10.269s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails.idl
+[10.270s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails.idl
+[10.270s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services.idl
+[10.270s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType.idl
+[10.270s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType.idl
+[10.270s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam.idl
+[10.271s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers.idl
+[10.271s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics.idl
+[10.271s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes.idl
+[10.272s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType.idl
+[10.273s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType.idl
+[10.274s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/msg/TypeDef.msg
+[10.274s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam.srv
+[10.275s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam_Request.msg
+[10.276s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/DeleteParam_Response.msg
+[10.276s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers.srv
+[10.277s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers_Request.msg
+[10.278s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetActionServers_Response.msg
+[10.278s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam.srv
+[10.279s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam_Request.msg
+[10.280s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParam_Response.msg
+[10.281s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames.srv
+[10.281s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames_Request.msg
+[10.283s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetParamNames_Response.msg
+[10.283s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion.srv
+[10.283s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion_Request.msg
+[10.284s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetROSVersion_Response.msg
+[10.285s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime.srv
+[10.287s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime_Request.msg
+[10.287s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/GetTime_Response.msg
+[10.288s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam.srv
+[10.289s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam_Request.msg
+[10.290s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/HasParam_Response.msg
+[10.291s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails.srv
+[10.291s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails_Request.msg
+[10.292s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/MessageDetails_Response.msg
+[10.293s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes.srv
+[10.293s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes_Request.msg
+[10.293s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Nodes_Response.msg
+[10.294s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails.srv
+[10.294s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails_Request.msg
+[10.294s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/NodeDetails_Response.msg
+[10.296s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers.srv
+[10.298s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers_Request.msg
+[10.299s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Publishers_Response.msg
+[10.299s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode.srv
+[10.299s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode_Request.msg
+[10.300s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceNode_Response.msg
+[10.301s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders.srv
+[10.302s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders_Request.msg
+[10.303s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceProviders_Response.msg
+[10.303s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails.srv
+[10.303s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails_Request.msg
+[10.304s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceRequestDetails_Response.msg
+[10.304s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails.srv
+[10.304s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails_Request.msg
+[10.306s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceResponseDetails_Response.msg
+[10.306s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services.srv
+[10.307s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services_Request.msg
+[10.308s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Services_Response.msg
+[10.308s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType.srv
+[10.309s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType_Request.msg
+[10.310s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServicesForType_Response.msg
+[10.310s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType.srv
+[10.312s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType_Request.msg
+[10.312s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/ServiceType_Response.msg
+[10.313s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam.srv
+[10.313s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam_Request.msg
+[10.314s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/SetParam_Response.msg
+[10.314s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers.srv
+[10.315s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers_Request.msg
+[10.316s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Subscribers_Response.msg
+[10.316s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics.srv
+[10.318s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics_Request.msg
+[10.319s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/Topics_Response.msg
+[10.319s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes.srv
+[10.320s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes_Request.msg
+[10.321s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsAndRawTypes_Response.msg
+[10.321s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType.srv
+[10.325s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType_Request.msg
+[10.325s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicsForType_Response.msg
+[10.326s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType.srv
+[10.326s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType_Request.msg
+[10.326s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/srv/TopicType_Response.msg
+[10.327s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/ament_index/resource_index/package_run_dependencies/rosapi_msgs
+[10.327s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/ament_index/resource_index/parent_prefix_path/rosapi_msgs
+[10.328s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/ament_prefix_path.sh
+[10.328s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/ament_prefix_path.dsv
+[10.329s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/path.sh
+[10.329s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/environment/path.dsv
+[10.330s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.bash
+[10.331s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.sh
+[10.331s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.zsh
+[10.332s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/local_setup.dsv
+[10.333s] -- Symlinking: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/package.dsv
+[10.359s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/ament_index/resource_index/packages/rosapi_msgs
+[10.360s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake-extras.cmake
+[10.360s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.360s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.361s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.361s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.361s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.361s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.362s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgsConfig.cmake
+[10.362s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgsConfig-version.cmake
+[10.362s] -- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/package.xml
+[10.380s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_generator_c.so
+[10.380s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_c.so
+[10.381s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_c.so
+[10.384s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_introspection_cpp.so
+[10.385s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/librosapi_msgs__rosidl_typesupport_cpp.so
+[10.503s] Compiling '/home/hunajpu/dev_tt_ws/install/rosapi_msgs/lib/python3.8/site-packages/rosapi_msgs/__init__.py'...
+[10.523s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_generator_cExport.cmake
+[10.524s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.524s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.524s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.525s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cExport.cmake
+[10.525s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.525s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_generator_cppExport.cmake
+[10.526s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.526s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.526s] -- Up-to-date: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cppExport.cmake
+[10.527s] -- Installing: /home/hunajpu/dev_tt_ws/install/rosapi_msgs/share/rosapi_msgs/cmake/rosapi_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.698s] Invoked command in '/home/hunajpu/dev_tt_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/dev_tt_ws/build/rosapi_msgs

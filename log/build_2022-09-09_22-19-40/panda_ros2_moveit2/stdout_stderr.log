@@ -1,0 +1,40 @@
+[ 14%] Built target moveJ_action
+[ 42%] Built target moveXYZ_action
+[ 42%] Built target moveG_action
+[ 57%] Built target moveXYZW_action
+[ 71%] Built target moveYPR_action
+[ 85%] Built target moveL_action
+[100%] Built target moveR_action
+-- Install configuration: "Debug"
+-- Execute custom install script
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/chomp_planning.yaml
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/kinematics.yaml
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/ompl_planning.yaml
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/panda.srdf
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/panda_controllers.yaml
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/ros2_controllers.yaml
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/launch/panda.launch.py
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/launch/panda_interface.launch.py
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/launch/panda_moveit2.rviz
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/lib/panda_ros2_moveit2/moveJ_action
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/lib/panda_ros2_moveit2/moveG_action
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/lib/panda_ros2_moveit2/moveXYZW_action
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/lib/panda_ros2_moveit2/moveL_action
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/lib/panda_ros2_moveit2/moveR_action
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/lib/panda_ros2_moveit2/moveXYZ_action
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/lib/panda_ros2_moveit2/moveYPR_action
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/ament_index/resource_index/package_run_dependencies/panda_ros2_moveit2
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/ament_index/resource_index/parent_prefix_path/panda_ros2_moveit2
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/environment/path.sh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/environment/path.dsv
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/local_setup.bash
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/local_setup.sh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/local_setup.zsh
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/local_setup.dsv
+-- Symlinking: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/package.dsv
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/ament_index/resource_index/packages/panda_ros2_moveit2
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/cmake/panda_ros2_moveit2Config.cmake
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/cmake/panda_ros2_moveit2Config-version.cmake
+-- Up-to-date symlink: /home/hunajpu/dev_tt_ws/install/panda_ros2_moveit2/share/panda_ros2_moveit2/package.xml
