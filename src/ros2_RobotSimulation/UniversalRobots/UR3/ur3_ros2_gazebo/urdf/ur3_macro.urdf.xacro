@@ -67,6 +67,8 @@
   <xacro:include filename="$(find ur3_ros2_gazebo)/urdf/ur3_transmission.xacro" />
   <!-- Load GAZEBO/ROS2_CONTROL file: -->
   <xacro:include filename="$(find ur3_ros2_gazebo)/urdf/ur3_gazebo.xacro" />
+  <!-- Linear axis - ROS2_CONTROL: -->
+  <!-- <xacro:odrive_ros2_control prefix="" name="odrive_ros2_control"/> -->
 
   <xacro:macro name="ur3_robot" params="
     prefix

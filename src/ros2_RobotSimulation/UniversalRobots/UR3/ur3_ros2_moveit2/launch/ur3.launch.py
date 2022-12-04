@@ -131,13 +131,19 @@ def generate_launch_description():
         cmd=['ros2', 'control', 'load_start_controller', 'joint_state_controller'],
         output='screen'
     )
+    # Linear axis controller
+    # load_linear_axis_controller = ExecuteProcess(
+    #     cmd=['ros2', 'control', 'load_start_controller', 'linear_axis_controller'],
+    #     output='screen'
+    # )
+
     # ros2_control:
     ros2_controllers_path = os.path.join(
         get_package_share_directory("ur3_ros2_gazebo"),
         "config",
         "ur3_controller.yaml",
     )
-    ros2_control_node = Node(
+    ros2_control_node = Node( 
         package="controller_manager",
         executable="ros2_control_node",
         parameters=[robot_description, ros2_controllers_path],
@@ -151,6 +157,7 @@ def generate_launch_description():
     for controller in [
         "ur3_robot_controller",
         "joint_state_controller",
+        # "linear_axis_controller",
     ]:
         load_controllers += [
             ExecuteProcess(

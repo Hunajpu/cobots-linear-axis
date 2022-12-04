@@ -92,15 +92,19 @@
     <link name="base_linear_axis">
         <visual>
             <geometry>
-                <mesh filename="file://$(find ur3_ros2_gazebo)/meshes/visual/linear_axis/simplified_static_parts.stl" scale="0.001 0.001 0.001"/>
-            </geometry>
+                <mesh filename="file://$(find ur3_ros2_gazebo)
+                /meshes/visual/linear_axis/simplified_static_parts.stl" 
+                scale="0.001 0.001 0.001"/>
+            </geometr
             <material name="Aluminum">
               <color rgba="0.81 0.83 0.85 1.0"/>
             </material>
         </visual>
         <collision>
           <geometry>
-            <mesh filename="file://$(find ur3_ros2_gazebo)/meshes/visual/linear_axis/simplified_static_parts.stl" scale="0.001 0.001 0.001"/>
+            <mesh filename="file://$(find ur3_ros2_gazebo)
+            /meshes/visual/linear_axis/simplified_static_parts.stl" 
+            scale="0.001 0.001 0.001"/>
           </geometry>
         </collision>
        <inertial>
@@ -112,7 +116,9 @@
     <link name="cobot_base">
         <visual>
             <geometry>
-                <mesh filename="file://$(find ur3_ros2_gazebo)/meshes/visual/linear_axis/simplified_dynamic_parts.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="file://$(find ur3_ros2_gazebo)
+                /meshes/visual/linear_axis/simplified_dynamic_parts.stl" 
+                scale="0.001 0.001 0.001"/>
             </geometry>
             <material name="Aluminum_base">
               <color rgba="0.57 0.59 0.6 1.0"/>
@@ -120,7 +126,9 @@
         </visual>
         <collision>
           <geometry>
-            <mesh filename="file://$(find ur3_ros2_gazebo)/meshes/visual/linear_axis/simplified_dynamic_parts.stl" scale="0.001 0.001 0.001"/>
+            <mesh filename="file://$(find ur3_ros2_gazebo)
+            /meshes/visual/linear_axis/simplified_dynamic_parts.stl" 
+            scale="0.001 0.001 0.001"/>
           </geometry>
         </collision>
        <inertial>
@@ -133,9 +141,8 @@
     <parent link="world" />
     <!-- <child link = "panda_base" /> -->
     <child link = "base_linear_axis" />
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" /> <!-- <origin xyz="0.0 0.0 0.65" rpy="0.0 0.0 0.0" /> -->
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" /> 
   </joint>
-cobot_base
   <!-- Linear 7th axis joints -->
   <joint name="base_axis_joint" type="prismatic">
         <parent link="base_linear_axis"/>

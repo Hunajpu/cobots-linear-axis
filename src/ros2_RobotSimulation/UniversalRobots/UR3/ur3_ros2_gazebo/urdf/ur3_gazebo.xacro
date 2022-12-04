@@ -75,7 +75,6 @@
       <hardware>
         <plugin>gazebo_ros2_control/GazeboSystem</plugin>
       </hardware>
-      
       <!--
       <hardware>
         <xacro:if value="${use_fake_hardware}">
