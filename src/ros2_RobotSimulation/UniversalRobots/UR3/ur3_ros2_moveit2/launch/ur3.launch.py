@@ -119,18 +119,19 @@ def generate_launch_description():
         output="both",
         parameters=[robot_description],
     )
+    
 
     # ***** CONTROLLERS ***** #
     # UR3 robot controller:
-    load_ur3_robot_controller = ExecuteProcess(
-        cmd=['ros2', 'control', 'load_start_controller', 'ur3_robot_controller'],
-        output='screen'
-    )
-    # Joint STATE Controller:
-    load_joint_state_controller = ExecuteProcess(
-        cmd=['ros2', 'control', 'load_start_controller', 'joint_state_controller'],
-        output='screen'
-    )
+    # load_ur3_robot_controller = ExecuteProcess(
+    #     cmd=['ros2', 'control', 'load_start_controller', 'ur3_robot_controller'],
+    #     output='screen'
+    # )
+    # # Joint STATE Controller:
+    # load_joint_state_controller = ExecuteProcess(
+    #     cmd=['ros2', 'control', 'load_start_controller', 'joint_state_controller'],
+    #     output='screen'
+    # )
     # Linear axis controller
     # load_linear_axis_controller = ExecuteProcess(
     #     cmd=['ros2', 'control', 'load_start_controller', 'linear_axis_controller'],
@@ -152,20 +153,21 @@ def generate_launch_description():
             "stderr": "screen",
         },
     )
+    
     # Load controllers: 
-    load_controllers = []
-    for controller in [
-        "ur3_robot_controller",
-        "joint_state_controller",
-        # "linear_axis_controller",
-    ]:
-        load_controllers += [
-            ExecuteProcess(
-                cmd=["ros2 run controller_manager spawner.py {}".format(controller)],
-                shell=True,
-                output="screen",
-            )
-        ]
+    # load_controllers = []
+    # for controller in [
+    #     "ur3_robot_controller",
+    #     "joint_state_controller",
+    #     # "linear_axis_controller",
+    # ]:
+    #     load_controllers += [
+    #         ExecuteProcess(
+    #             cmd=["ros2 run controller_manager spawner.py {}".format(controller)],
+    #             shell=True,
+    #             output="screen",
+    #         )
+    #     ]
 
 
     # *********************** MoveIt!2 *********************** #   
@@ -292,6 +294,7 @@ def generate_launch_description():
             # ROS2_CONTROL:
             static_tf,
             robot_state_publisher,
+            joint_state_broadcaster_spawner,
             ros2_control_node,
             
             RegisterEventHandler(
