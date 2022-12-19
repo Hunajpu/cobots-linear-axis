@@ -116,6 +116,10 @@ namespace rqt_plugin {
     {
       argument_list[3] = "sim.launch.py";
     }
+    else if(ui_.hwRadioBtn->isChecked() && ui_.simRadioBtn_2->isChecked())
+    {
+      argument_list[3] = "hw.launch.py";
+    }
     else
     {
       validLaunchFile = false;
@@ -252,7 +256,7 @@ namespace rqt_plugin {
   {
     std::vector<std::string> running_nodes;
     running_nodes = node_->get_node_names();
-    auto it = std::find(running_nodes.begin(), running_nodes.end(), "/joint_state_controller");
+    auto it = std::find(running_nodes.begin(), running_nodes.end(), "/ur3_robot_controller");
     if(it != running_nodes.end())
     {
       ui_.connectionLed->turnOn();
