@@ -9,27 +9,31 @@
     <ros2_control name="BaseAxisControl" type="system">
     
       <hardware>
-        <!-- <plugin>odrive_hardware_interface/ODriveHardwareInterface</plugin> -->
         <xacro:if value="${use_fake_hardware}">
-          <plugin>fake_components/GenericSystem</plugin>
+          <plugin>odrive_hardware_interface/ODriveHardwareInterface</plugin>
           <param name="fake_sensor_commands">${fake_sensor_commands}</param>
           <param name="state_following_offset">0.0</param>
         </xacro:if>
+        <!-- <xacro:if value="${use_fake_hardware}">
+          <plugin>fake_components/GenericSystem</plugin>
+          <param name="fake_sensor_commands">${fake_sensor_commands}</param>
+          <param name="state_following_offset">0.0</param>
+        </xacro:if> -->
         <xacro:unless value="${use_fake_hardware}">
           <plugin>gazebo_ros2_control/GazeboSystem</plugin>
         </xacro:unless>
       </hardware>
 
-      <!-- <xacro:unless value="${use_fake_hardware}">
+      <xacro:unless value="${use_fake_hardware}">
         <sensor name="odrv0">
           <param name="serial_number">${serial_number}</param>
         </sensor>
-      <xacro:unless> -->
+      <xacro:unless>
 
       <joint name="${prefix}base_axis_joint">
-        <!-- <param name="serial_number">${serial_number}</param>
+        <param name="serial_number">${serial_number}</param>
         <param name="axis">0</param>
-        <param name="enable_watchdog">0</param> -->
+        <param name="enable_watchdog">0</param>
         <command_interface name="position">
           <param name="min">0</param>
           <param name="max">0.34</param>

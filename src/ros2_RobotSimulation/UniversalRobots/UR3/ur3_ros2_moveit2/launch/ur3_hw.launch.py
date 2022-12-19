@@ -183,7 +183,7 @@ def generate_launch_description():
     load_controllers = []
     for controller in [
         "ur3_robot_controller",
-        "joint_state_controller",
+        "joint_state_broadcaster",
     ]:
         load_controllers += [
             ExecuteProcess(

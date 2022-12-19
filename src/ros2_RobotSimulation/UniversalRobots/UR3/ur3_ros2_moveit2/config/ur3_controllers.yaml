@@ -20,3 +20,5 @@ ur3_robot_controller:
       - wrist_2_joint
       - wrist_3_joint
       - base_axis_joint
+      
+
