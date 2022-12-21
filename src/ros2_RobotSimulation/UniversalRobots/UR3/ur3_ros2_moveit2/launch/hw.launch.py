@@ -45,7 +45,8 @@ def generate_launch_description():
             get_package_share_directory("ur3_ros2_gazebo"),
             "urdf",
             "ur3.urdf.xacro",
-        )
+        ),
+        mappings={'use_fake_hardware': 'true'}
     )
     robot_description = {"robot_description": robot_description_config.toxml()}
 
